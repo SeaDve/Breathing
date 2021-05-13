@@ -1,7 +1,6 @@
 data/io.github.seadve.Breathing.desktop.in
 data/io.github.seadve.Breathing.appdata.xml.in
 data/io.github.seadve.Breathing.gschema.xml
-src/window.ui
+data/ui/window.ui
+data/ui/shortcuts.ui
 src/main.py
-src/window.py
-

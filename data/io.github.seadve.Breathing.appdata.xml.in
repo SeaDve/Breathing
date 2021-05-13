@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021 Dave Patrick <davecruz48@gmail.com> -->
 <component type="desktop">
   <id>io.github.seadve.Breathing.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
+  <name>Breathing</name>
+  <summary>Exercise your breathing</summary>
   <description>
+    <p>Relax, focus, and become stress-free.</p>
+    <p>Breathing is a very simple application that guides your breathing pattern. This pattern is recommended by experts that will help ease your anxiety. It also provides a calming sound to make it much easier to relax.</p>
+    <p>The main features of Breathing includes the following:</p>
+    <ul>
+      <li>🌬️ Guide your breathing.</li>
+      <li>💆 Play a relaxing tone.</li>
+      <li>🌑 Change to a dark-mode with ease.</li>
+      <li>📱 Easy-to-use user interface.</li>
+      <li>⌨️ User-friendly keyboard shortcuts.</li>
+    </ul>
   </description>
+
+  <url type="homepage">https://github.com/SeaDve/Breathing</url>
+  <url type="bugtracker">https://github.com/SeaDve/Breathing/issues</url>
+  <url type="translate">https://hosted.weblate.org/projects/kooha/breathing/</url>
+  <url type="donation">https://liberapay.com/SeaDve/</url>
+  <!-- Translators: please do NOT translate this -->
+  <developer_name>Dave Patrick</developer_name>
+  <content_rating type="oars-1.1"/>
+
+  <launchable type="desktop-id">io.github.seadve.Breathing.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SeaDve/Breathing/master/screenshots/Breathing-screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SeaDve/Breathing/master/screenshots/Breathing-screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.1.0" date="2021-05-14">
+      <description>
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
 </component>

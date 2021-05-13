@@ -29,9 +29,9 @@ pattern is recommended by experts that will help ease your anxiety. It also prov
 a calming sound to make it much easier to relax.
 
 The main features of Breathing includes the following:
-* 🎵 Guide your breathing.
-* 🎸 Play a relaxing tone.
-* 🌐 Change to a dark-mode with ease.
+* 🌬️ Guide your breathing.
+* 💆 Play a relaxing tone.
+* 🌑 Change to a dark-mode with ease.
 * 📱 Easy-to-use user interface.
 * ⌨️ User-friendly keyboard shortcuts.
 

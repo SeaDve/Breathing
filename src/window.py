@@ -26,8 +26,8 @@ from breathing.timer import Timer
 
 
 # Add app icons
-# Fix appdata and desktop file
 # Implement translations
+# use dark mode in gschema
 
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
