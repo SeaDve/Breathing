@@ -85,20 +85,20 @@ class Timer:
         self.time = 0
 
     def _refresh_time(self):
-        if self.iterations > 10 or self.cancelled:
+        if self.iterations > 100 or self.cancelled:
             self.stack.set_visible_child_name("go")
             self.win.set_button_play_mode(False)
             self.win.clean_circles()
             self.time = 0
             return False
 
-        if 1 <= self.time <= 2:
+        if 1 <= self.time <= 20:
             self.win.enlarge_circles()
             self.stack.set_visible_child_name("inhale")
-        elif 4 <= self.time <= 10:
+        elif 40 <= self.time <= 100:
             self.win.smallify_circles()
             self.stack.set_visible_child_name("exhale")
-        elif self.time == 11:
+        elif self.time == 110:
             self.win.clean_circles()
             self.time = 0
             self.iterations += 1
@@ -106,7 +106,7 @@ class Timer:
         return True
 
     def start(self):
-        GLib.timeout_add_seconds(1, self._refresh_time, priority=GLib.PRIORITY_LOW)
+        GLib.timeout_add(100, self._refresh_time, priority=GLib.PRIORITY_LOW)
         self.win.set_button_play_mode(True)
         self.cancelled = False
         self.iterations = 0
