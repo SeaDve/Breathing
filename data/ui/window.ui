@@ -14,6 +14,16 @@
                   </object>
                 </child>
                 <child>
+                  <object class="GtkMenuButton">
+                    <property name="icon-name">open-menu-symbolic</property>
+                    <property name="menu-model">menu</property>
+                    <property name="has-frame">False</property>
+                    <style>
+                      <class name="circular"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
                   <object class="GtkButton">
                     <property name="icon-name">light-mode-symbolic</property>
                     <property name="has-frame">False</property>
