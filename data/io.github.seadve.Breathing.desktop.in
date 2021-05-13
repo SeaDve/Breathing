@@ -7,4 +7,4 @@ Type=Application
 Categories=GTK;GNOME;Utility;
 StartupNotify=true
 # Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-Keywords=Utilitiy;Breath;Exercise;
+Keywords=Utility;Breath;Exercise;

@@ -28,10 +28,6 @@ from breathing.timer import Timer
 # Publish to flathub and implement autopublish and update readme
 
 
-# Add app icons
-# Implement translations
-
-
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
 class BreathingWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'BreathingWindow'
