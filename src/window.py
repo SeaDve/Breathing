@@ -20,8 +20,10 @@ from gi.repository import Adw, Gtk, Gio
 from breathing.timer import Timer
 
 # TODO
+# rewrite to vala
 # Add shortcuts for start and stop breathing
 # Add feature to play sounds
+# Update translation files
 # Publish to flathub and implement autopublish and update readme
 
 
