@@ -18,6 +18,10 @@ headerbar.flat {
   font-weight: bold;
 }
 
+.main-screen image {
+  color: @theme_selected_bg_color;
+}
+
 .playing {
   color: @theme_fg_color;
 }
@@ -40,9 +44,4 @@ headerbar.flat {
 .smallify {
   transition: 6s ease-in-out;
   -gtk-icon-size: 48px;
-}
-
-.dark-mode {
-  transition: 1s ease-in-out;
-  -gtk-icon-size: 100em;
 }
