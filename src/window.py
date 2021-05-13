@@ -28,7 +28,6 @@ from breathing.timer import Timer
 # Add app icons
 # Fix appdata and desktop file
 # Implement translations
-# Implement readme and ci
 
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
