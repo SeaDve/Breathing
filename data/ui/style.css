@@ -1,0 +1,5 @@
+headerbar.flat {
+  background-image: none;
+  border: none;
+  background-color: @theme_bg_color;
+}

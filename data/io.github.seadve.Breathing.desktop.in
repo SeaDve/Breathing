@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=breathing
+Exec=breathing
+Icon=io.github.seadve.Breathing
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
