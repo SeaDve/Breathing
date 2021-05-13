@@ -18,7 +18,7 @@
   </a>
 </p>
 
-<p align="center">
+<p align="center" width="472">
   <img src="screenshots/Breathing-preview.png" alt="Preview"/>
 </p>
 
