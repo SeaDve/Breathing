@@ -1,5 +1,48 @@
 headerbar.flat {
   background-image: none;
   border: none;
-  background-color: @theme_bg_color;
+  background-color: transparent;
+}
+
+.main-button {
+  min-width: 48px;
+  min-height: 48px;
+  transition: 200ms ease-in-out;
+  font-weight: bold;
+}
+
+.main-screen {
+  min-width: 400px;
+  min-height: 350px;
+  transition: 200ms ease-in-out;
+  font-weight: bold;
+}
+
+.playing {
+  color: @theme_fg_color;
+}
+
+.enlarge1 {
+  transition: 2.3s ease-in-out;
+  -gtk-icon-size: 120px;
+}
+
+.enlarge2 {
+  transition: 2.6s ease-in-out;
+  -gtk-icon-size: 240px;
+}
+
+.enlarge3 {
+  transition: 2.9s ease-in-out;
+  -gtk-icon-size: 360px;
+}
+
+.smallify {
+  transition: 6s ease-in-out;
+  -gtk-icon-size: 48px;
+}
+
+.dark-mode {
+  transition: 1s ease-in-out;
+  -gtk-icon-size: 100em;
 }

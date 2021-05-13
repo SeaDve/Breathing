@@ -1,55 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.38.2 -->
 <interface>
-  <requires lib="gtk+" version="3.24"/>
-  <requires lib="libhandy" version="0.0"/>
-  <template class="BreathingWindow" parent="HdyApplicationWindow">
-    <property name="can-focus">False</property>
-    <property name="default-width">600</property>
-    <property name="default-height">300</property>
+  <requires lib="gtk" version="4.0"/>
+  <template class="BreathingWindow" parent="AdwApplicationWindow">
     <child>
-      <object class="HdyWindowHandle">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
+      <object class="GtkWindowHandle">
         <child>
-          <object class="GtkBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="orientation">vertical</property>
-            <child>
+          <object class="GtkOverlay">
+            <child type="overlay">
               <object class="GtkHeaderBar">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="show-close-button">True</property>
+                <property name="valign">start</property>
+                <child type="title">
+                  <object class="GtkLabel">
+                  </object>
+                </child>
                 <child>
-                  <object class="GtkMenuButton" id="menu_button">
-                    <property name="visible">True</property>
-                    <property name="can-focus">True</property>
-                    <property name="valign">center</property>
+                  <object class="GtkButton">
+                    <property name="icon-name">light-mode-symbolic</property>
+                    <property name="has-frame">False</property>
+                    <signal name="clicked" handler="on_dark_mode_button_clicked" swapped="no"/>
                     <style>
-                      <class name="titlebutton"/>
+                      <class name="circular"/>
                     </style>
-                    <child>
-                      <object class="GtkImage">
-                         <property name="visible">True</property>
-                         <property name="icon-name">open-menu-symbolic</property>
-                       </object>
-                     </child>
-                   </object>
-                 </child>
+                  </object>
+                </child>
                 <style>
                   <class name="flat"/>
                 </style>
               </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="position">0</property>
-              </packing>
+            </child>
+            <child>
+              <object class="GtkOverlay">
+                <property name="valign">center</property>
+                <property name="vexpand">True</property>
+                <style>
+                  <class name="main-screen"/>
+                </style>
+                <child type="overlay">
+                  <object class="GtkImage" id="circle1">
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <property name="icon-name">circle-symbolic</property>
+                  </object>
+                </child>
+                <child type="overlay">
+                  <object class="GtkImage" id="circle2">
+                    <property name="valign">center</property>
+                    <property name="icon-name">circle-symbolic</property>
+                  </object>
+                </child>
+                <child type="overlay">
+                  <object class="GtkImage" id="circle3">
+                    <property name="valign">center</property>
+                    <property name="icon-name">circle-symbolic</property>
+                  </object>
+                </child>
+                <child type="overlay">
+                  <object class="GtkButton" id="main_button">
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <signal name="clicked" handler="on_main_button_clicked" swapped="no"/>
+                    <style>
+                      <class name="circular"/>
+                      <class name="main-button"/>
+                      <class name="suggested-action"/>
+                    </style>
+                    <child>
+                      <object class="GtkStack" id="button_stack">
+                        <property name="transition-type">crossfade</property>
+                        <child>
+                          <object class="GtkStackPage">
+                            <property name="name">go</property>
+                            <property name="child">
+                              <object class="GtkLabel">
+                                <property name="label" translatable="yes">Go</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkStackPage">
+                            <property name="name">inhale</property>
+                            <property name="child">
+                              <object class="GtkLabel">
+                                <property name="label" translatable="yes">In</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkStackPage">
+                            <property name="name">exhale</property>
+                            <property name="child">
+                              <object class="GtkLabel">
+                                <property name="label" translatable="yes">Out</property>
+                              </object>
+                            </property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
             </child>
           </object>
         </child>
       </object>
     </child>
   </template>
+  <menu id="menu">
+    <section>
+      <item>
+        <attribute name="action">app.show-shortcuts</attribute>
+        <attribute name="label" translatable="yes">Keyboard Shortcuts</attribute>
+      </item>
+      <item>
+        <attribute name="action">app.show-about</attribute>
+        <attribute name="label" translatable="yes">About Breathing</attribute>
+      </item>
+    </section>
+  </menu>
 </interface>

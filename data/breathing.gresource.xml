@@ -2,6 +2,10 @@
 <gresources>
   <gresource prefix="/io/github/seadve/Breathing">
     <file preprocess="xml-stripblanks">ui/window.ui</file>
+    <file preprocess="xml-stripblanks">icons/scalable/status/circle-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/status/circle-solid-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/status/dark-mode-symbolic.svg</file>
+    <file preprocess="xml-stripblanks">icons/scalable/status/light-mode-symbolic.svg</file>
     <file>ui/style.css</file>
   </gresource>
 </gresources>
