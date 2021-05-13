@@ -23,6 +23,7 @@ from breathing.timer import Timer
 # rewrite to vala
 # Add shortcuts for start and stop breathing
 # Add feature to play sounds
+# Update screenshots
 # Update translation files
 # Publish to flathub and implement autopublish and update readme
 
