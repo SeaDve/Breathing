@@ -15,7 +15,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Gtk, Adw, GLib
+from gi.repository import Adw, Gtk
+
+from breathing.timer import Timer
+
+# TODO
+# Add shortcuts for start and stop breathing
+# Add feature to play sounds
+# Publish to flathub and implement autopublish and update readme
+
+
+# Add app icons
+# Fix appdata and desktop file
+# Implement translations
+# Implement readme and ci
 
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
@@ -70,46 +83,10 @@ class BreathingWindow(Adw.ApplicationWindow):
     def on_dark_mode_button_clicked(self, button):
         if button.get_icon_name() == "light-mode-symbolic":
             button.set_icon_name("dark-mode-symbolic")
-            self.dark_mode_circle.get_style_context().add_class("dark-mode")
+            dark_theme = True
         else:
             button.set_icon_name("light-mode-symbolic")
-            self.dark_mode_circle.get_style_context().remove_class("dark-mode")
-
-        # TODO implement dark mode
-
-
-class Timer:
-    def __init__(self, stack, win):
-        self.stack = stack
-        self.win = win
-        self.time = 0
-
-    def _refresh_time(self):
-        if self.iterations > 100 or self.cancelled:
-            self.stack.set_visible_child_name("go")
-            self.win.set_button_play_mode(False)
-            self.win.clean_circles()
-            self.time = 0
-            return False
-
-        if 1 <= self.time <= 20:
-            self.win.enlarge_circles()
-            self.stack.set_visible_child_name("inhale")
-        elif 40 <= self.time <= 100:
-            self.win.smallify_circles()
-            self.stack.set_visible_child_name("exhale")
-        elif self.time == 110:
-            self.win.clean_circles()
-            self.time = 0
-            self.iterations += 1
-        self.time += 1
-        return True
-
-    def start(self):
-        GLib.timeout_add(100, self._refresh_time, priority=GLib.PRIORITY_LOW)
-        self.win.set_button_play_mode(True)
-        self.cancelled = False
-        self.iterations = 0
-
-    def cancel(self):
-        self.cancelled = True
+            self.get_settings()
+            dark_theme = False
+        settings = self.get_settings()
+        settings.set_property("gtk-application-prefer-dark-theme", dark_theme)

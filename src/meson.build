@@ -21,6 +21,7 @@ breathing_sources = [
   '__init__.py',
   'main.py',
   'window.py',
+  'timer.py',
 ]
 
 install_data(breathing_sources, install_dir: moduledir)

@@ -51,7 +51,49 @@ class Application(Gtk.Application):
             display, css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
         )
 
+        self.setup_actions()
+
         Adw.init()
+
+    def setup_actions(self):
+        simple_actions = [
+            ("show-shortcuts", self.show_shortcuts_window, ("<Ctrl>question",)),
+            ("show-about", self.show_about_dialog, None),
+            ("quit", lambda *_: self.quit(), ("<Ctrl>q",)),
+        ]
+
+        for action, callback, accel in simple_actions:
+            simple_action = Gio.SimpleAction.new(action, None)
+            simple_action.connect("activate", callback)
+            self.add_action(simple_action)
+            if accel:
+                self.set_accels_for_action(f"app.{action}", accel)
+
+    def show_shortcuts_window(self, action, param):
+        builder = Gtk.Builder()
+        builder.add_from_resource('/io/github/seadve/Breathing/ui/shortcuts.ui')
+        window = builder.get_object('shortcuts')
+        window.set_transient_for(self.get_active_window())
+        window.present()
+
+    def show_about_dialog(self, action, param):
+        about = Gtk.AboutDialog()
+        about.set_transient_for(self.get_active_window())
+        about.set_modal(True)
+        about.set_version(self.version)
+        about.set_program_name("Breathing")
+        about.set_logo_icon_name("io.github.seadve.Breathing")
+        about.set_authors(["Dave Patrick"])
+        about.set_comments(_("Exercise your breathing"))
+        about.set_wrap_license(True)
+        about.set_license_type(Gtk.License.GPL_3_0)
+        about.set_copyright(_("Copyright 2021 Dave Patrick"))
+        # Translators: Replace "translator-credits" with your names, one name per line
+        about.set_translator_credits(_("translator-credits"))
+        about.set_website_label(_("GitHub"))
+        about.set_website("https://github.com/SeaDve/Breathing")
+        about.show()
+
 
 def main(version):
     app = Application(version)
