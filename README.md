@@ -18,8 +18,8 @@
   </a>
 </p>
 
-<p align="center" width="472">
-  <img src="screenshots/Breathing-preview.png" alt="Preview"/>
+<p align="center">
+  <img src="screenshots/Breathing-preview.png" width="650" alt="Preview"/>
 </p>
 
 Relax, focus, and become stress-free. 
