@@ -51,6 +51,7 @@ class Application(Gtk.Application):
             display, css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
         )
 
+        Gio.Settings.new('io.github.seadve.Breathing')
         self.setup_actions()
 
         Adw.init()

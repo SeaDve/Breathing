@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Adw, Gtk
+from gi.repository import Adw, Gtk, Gio
 
 from breathing.timer import Timer
 
@@ -27,7 +27,6 @@ from breathing.timer import Timer
 
 # Add app icons
 # Implement translations
-# use dark mode in gschema
 
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
@@ -39,11 +38,18 @@ class BreathingWindow(Adw.ApplicationWindow):
     circle1 = Gtk.Template.Child()
     circle2 = Gtk.Template.Child()
     circle3 = Gtk.Template.Child()
+    dark_mode_button = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         self.timer = Timer(self.button_stack, self)
+        self.settings = Gio.Settings("io.github.seadve.Breathing")
+        self.settings.bind(
+            "dark-mode", self.get_settings(),
+            "gtk-application-prefer-dark-theme", Gio.SettingsBindFlags.DEFAULT
+        )
+        self.setup_darkmode()
 
     def enlarge_circles(self):
         self.circle1.get_style_context().add_class("enlarge1")
@@ -71,6 +77,13 @@ class BreathingWindow(Adw.ApplicationWindow):
             self.main_button.get_style_context().add_class("suggested-action")
             self.main_button.get_style_context().remove_class("playing")
 
+    def setup_darkmode(self):
+        dark_mode = self.settings.get_boolean("dark-mode")
+        if dark_mode:
+            self.dark_mode_button.set_icon_name("dark-mode-symbolic")
+        else:
+            self.dark_mode_button.set_icon_name("light-mode-symbolic")
+
     @Gtk.Template.Callback()
     def on_main_button_clicked(self, button):
         if self.timer.time == 0:
@@ -80,12 +93,9 @@ class BreathingWindow(Adw.ApplicationWindow):
 
     @Gtk.Template.Callback()
     def on_dark_mode_button_clicked(self, button):
-        if button.get_icon_name() == "light-mode-symbolic":
+        dark_theme = button.get_icon_name() == "light-mode-symbolic"
+        if dark_theme:
             button.set_icon_name("dark-mode-symbolic")
-            dark_theme = True
         else:
             button.set_icon_name("light-mode-symbolic")
-            self.get_settings()
-            dark_theme = False
-        settings = self.get_settings()
-        settings.set_property("gtk-application-prefer-dark-theme", dark_theme)
+        self.settings.set_boolean("dark-mode", dark_theme)

@@ -24,8 +24,7 @@
                   </object>
                 </child>
                 <child>
-                  <object class="GtkButton">
-                    <property name="icon-name">light-mode-symbolic</property>
+                  <object class="GtkButton" id="dark_mode_button">
                     <property name="has-frame">False</property>
                     <signal name="clicked" handler="on_dark_mode_button_clicked" swapped="no"/>
                     <style>
