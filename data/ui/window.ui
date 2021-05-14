@@ -26,7 +26,7 @@
                 <child>
                   <object class="GtkButton" id="dark_mode_button">
                     <property name="has-frame">False</property>
-                    <signal name="clicked" handler="on_dark_mode_button_clicked" swapped="no"/>
+                    <property name="action-name">app.toggle-dark-mode</property>
                     <style>
                       <class name="circular"/>
                     </style>
@@ -67,7 +67,7 @@
                   <object class="GtkButton" id="main_button">
                     <property name="halign">center</property>
                     <property name="valign">center</property>
-                    <signal name="clicked" handler="on_main_button_clicked" swapped="no"/>
+                    <property name="action-name">app.toggle-breathing</property>
                     <style>
                       <class name="circular"/>
                       <class name="main-button"/>

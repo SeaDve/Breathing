@@ -36,19 +36,19 @@
         <child>
           <object class="GtkShortcutsGroup">
             <property name="visible">True</property>
-            <property name="title" translatable="yes">Controls</property>
+            <property name="title" translatable="yes">Main Controls</property>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="visible">True</property>
-                <property name="accelerator">&lt;ctrl&gt;r</property>
-                <property name="title" translatable="yes">Start breathing</property>
+                <property name="accelerator">&lt;ctrl&gt;s</property>
+                <property name="title" translatable="yes">Toggle breathing</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="visible">True</property>
-                <property name="accelerator">&lt;ctrl&gt;c</property>
-                <property name="title" translatable="yes">Cancel breathing</property>
+                <property name="accelerator">&lt;ctrl&gt;d</property>
+                <property name="title" translatable="yes">Toggle dark mode</property>
               </object>
             </child>
           </object>

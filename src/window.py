@@ -20,8 +20,6 @@ from gi.repository import Adw, Gtk, Gio
 from breathing.timer import Timer
 
 # TODO
-# rewrite to vala
-# Add shortcuts for start and stop breathing
 # Add feature to play sounds
 # Update screenshots
 # Update translation files
@@ -83,18 +81,16 @@ class BreathingWindow(Adw.ApplicationWindow):
         else:
             self.dark_mode_button.set_icon_name("light-mode-symbolic")
 
-    @Gtk.Template.Callback()
-    def on_main_button_clicked(self, button):
+    def toggle_dark_mode(self):
+        dark_theme = self.dark_mode_button.get_icon_name() == "light-mode-symbolic"
+        if dark_theme:
+            self.dark_mode_button.set_icon_name("dark-mode-symbolic")
+        else:
+            self.dark_mode_button.set_icon_name("light-mode-symbolic")
+        self.settings.set_boolean("dark-mode", dark_theme)
+
+    def toggle_breathing(self):
         if self.timer.time == 0:
             self.timer.start()
         else:
             self.timer.cancel()
-
-    @Gtk.Template.Callback()
-    def on_dark_mode_button_clicked(self, button):
-        dark_theme = button.get_icon_name() == "light-mode-symbolic"
-        if dark_theme:
-            button.set_icon_name("dark-mode-symbolic")
-        else:
-            button.set_icon_name("light-mode-symbolic")
-        self.settings.set_boolean("dark-mode", dark_theme)

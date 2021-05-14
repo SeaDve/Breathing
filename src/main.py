@@ -58,6 +58,8 @@ class Application(Gtk.Application):
 
     def setup_actions(self):
         simple_actions = [
+            ("toggle-dark-mode", self.window_toggle_dark_mode, ("<Ctrl>d",)),
+            ("toggle-breathing", self.window_toggle_breathing, ("<Ctrl>s",)),
             ("show-shortcuts", self.show_shortcuts_window, ("<Ctrl>question",)),
             ("show-about", self.show_about_dialog, None),
             ("quit", lambda *_: self.quit(), ("<Ctrl>q",)),
@@ -69,6 +71,12 @@ class Application(Gtk.Application):
             self.add_action(simple_action)
             if accel:
                 self.set_accels_for_action(f"app.{action}", accel)
+
+    def window_toggle_dark_mode(self, action, param):
+        self.get_active_window().toggle_dark_mode()
+
+    def window_toggle_breathing(self, action, param):
+        self.get_active_window().toggle_breathing()
 
     def show_shortcuts_window(self, action, param):
         builder = Gtk.Builder()
