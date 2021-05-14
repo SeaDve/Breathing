@@ -5,6 +5,10 @@
 
 <p align="center"><strong>Exercise your breathing</strong></p>
 
+<p align="center">
+  <a href="https://flathub.org/apps/details/io.github.seadve.Breathing"><img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png"/></a>
+</p>
+
 <br>
 <p align="center">
   <a href="https://liberapay.com/SeaDve/">
