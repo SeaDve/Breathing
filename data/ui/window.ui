@@ -10,7 +10,10 @@
               <object class="GtkHeaderBar">
                 <property name="valign">start</property>
                 <child type="title">
-                  <object class="GtkLabel">
+                  <object class="GtkLabel" id="time_label">
+                    <style>
+                      <class name="title"/>
+                    </style>
                   </object>
                 </child>
                 <child>

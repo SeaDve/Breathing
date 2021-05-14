@@ -25,10 +25,11 @@ class Timer:
         self.time = 0
 
     def _refresh_time(self):
-        if self.iterations > 100 or self.cancelled:
+        if self.iterations >= 10 or self.cancelled:
             self.stack.set_visible_child_name("go")
             self.win.set_button_play_mode(False)
             self.win.clean_circles()
+            self._clear_label()
             self.time = 0
             return False
 
@@ -43,13 +44,23 @@ class Timer:
             self.time = 0
             self.iterations += 1
         self.time += 1
+        self._update_label(self.time_remaining)
+        self.time_remaining -= 1
         return True
+
+    def _update_label(self, total_time):
+        if total_time >= 0:
+            self.win.time_label.set_text("%02d∶%02d" % divmod(total_time//10, 60))
+
+    def _clear_label(self):
+        self.win.time_label.set_text("")
 
     def start(self):
         GLib.timeout_add(100, self._refresh_time, priority=GLib.PRIORITY_LOW)
         self.win.set_button_play_mode(True)
         self.cancelled = False
         self.iterations = 0
+        self.time_remaining = 1100
 
     def cancel(self):
         self.cancelled = True

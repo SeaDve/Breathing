@@ -36,6 +36,7 @@ class BreathingWindow(Adw.ApplicationWindow):
     circle2 = Gtk.Template.Child()
     circle3 = Gtk.Template.Child()
     dark_mode_button = Gtk.Template.Child()
+    time_label = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
