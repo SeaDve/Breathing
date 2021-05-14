@@ -19,12 +19,6 @@ from gi.repository import Adw, Gtk, Gio
 
 from breathing.timer import Timer
 
-# TODO
-# Add feature to play sounds
-# Update screenshots
-# Update translation files
-# Publish to flathub and implement autopublish and update readme
-
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
 class BreathingWindow(Adw.ApplicationWindow):
