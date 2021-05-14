@@ -24,7 +24,7 @@ msgstr "Breathing"
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr "Utilità;Respiro;Esercizio;"
+msgstr "Utility;Breath;Exercise;Utilità;Respiro;Esercizio;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:96
 msgid "Exercise your breathing"
