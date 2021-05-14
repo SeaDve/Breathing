@@ -50,7 +50,7 @@ class Timer:
 
     def _update_label(self, total_time):
         if total_time >= 0:
-            self.win.time_label.set_text("%02d∶%02d" % divmod(total_time//10, 60))
+            self.win.time_label.set_text("%02d∶%02d" % divmod(total_time // 10, 60))
 
     def _clear_label(self):
         self.win.time_label.set_text("")
