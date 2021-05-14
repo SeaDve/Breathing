@@ -1,0 +1,135 @@
+# ITALIAN TRANSLATION FOR BREATHING.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the breathing package.
+# ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: breathing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-14 10:41+0800\n"
+"PO-Revision-Date: 2021-05-14 14:00+0100\n"
+"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian <LL@li.org>\n"
+"Language: It\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.appdata.xml.in:7
+msgid "Breathing"
+msgstr "Breathing"
+
+#. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/io.github.seadve.Breathing.desktop.in:11
+msgid "Utility;Breath;Exercise;"
+msgstr "Utilità;Respiro;Esercizio;"
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:96
+msgid "Exercise your breathing"
+msgstr "Esercita la respirazione"
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:10
+msgid "Relax, focus, and become stress-free."
+msgstr "Rilassati, concentrati e liberati dallo stress."
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:11
+msgid ""
+"Breathing is a very simple application that guides your breathing pattern. "
+"This pattern is recommended by experts that will help ease your anxiety. It "
+"also provides a calming sound to make it much easier to relax."
+msgstr ""
+"Breathing è un'applicazione molto semplice che guida il tuo percorso di respirazione."
+"Questo percorso è consigliato da esperti che ti aiuterà ad alleviare la tua ansia."
+"Inoltre fornisce anche un suono rilassante per rendere più facile rilassarsi."
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:12
+msgid "The main features of Breathing includes the following:"
+msgstr "Le caratteristiche principali della respirazione includono le seguenti:"
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:14
+msgid "🌬️ Guide your breathing."
+msgstr "🌬️ Guida il tuo respiro."
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:15
+msgid "🌑 Change to a dark-mode with ease."
+msgstr "🌑 Passa alla modalità scura con facilità."
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:16
+msgid "📱 Easy-to-use user interface."
+msgstr "📱 Interfaccia utente facile da usare."
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:17
+msgid "⌨️ User-friendly keyboard shortcuts."
+msgstr "⌨️ Scorciatoie da tastiera intuitive."
+
+#. Translators: please do NOT translate this
+#: data/io.github.seadve.Breathing.appdata.xml.in:26
+msgid "Dave Patrick"
+msgstr "Dave Patrick"
+
+#: data/io.github.seadve.Breathing.appdata.xml.in:43
+msgid "Initial release."
+msgstr "Versione iniziale."
+
+#: data/ui/window.ui:87
+msgid "Go"
+msgstr "Inizia"
+
+#: data/ui/window.ui:97
+msgid "In"
+msgstr "Inspira"
+
+#: data/ui/window.ui:107
+msgid "Out"
+msgstr "Espira"
+
+#: data/ui/window.ui:127
+msgid "Keyboard Shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: data/ui/window.ui:131
+msgid "About Breathing"
+msgstr "Informazioni su Breathing"
+
+#: data/ui/shortcuts.ui:12
+msgid "General"
+msgstr "Generale"
+
+#: data/ui/shortcuts.ui:17
+msgid "Open menu"
+msgstr "Apri menu"
+
+#: data/ui/shortcuts.ui:24
+msgid "Show keyboard shortcuts"
+msgstr "Mostra scorciatoie da tastiera"
+
+#: data/ui/shortcuts.ui:31
+msgid "Quit"
+msgstr "Esci"
+
+#: data/ui/shortcuts.ui:39
+msgid "Main Controls"
+msgstr "Controlli principali"
+
+#: data/ui/shortcuts.ui:44
+msgid "Toggle breathing"
+msgstr "Attiva/disattiva breathing"
+
+#: data/ui/shortcuts.ui:51
+msgid "Toggle dark mode"
+msgstr "Attiva/disattiva la modalità scura"
+
+#: src/main.py:99
+msgid "Copyright 2021 Dave Patrick"
+msgstr "Copyright 2021 Dave Patrick"
+
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/main.py:101
+msgid "translator-credits"
+msgstr "Albano Battistella <albano_battistella@hotmail.com>"
+
+#: src/main.py:102
+msgid "GitHub"
+msgstr "GitHub"
