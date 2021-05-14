@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-13 12:47+0000\n"
+"PO-Revision-Date: 2021-05-14 12:23+0000\n"
 "Last-Translator: Dave Patrick <davecruz48@gmail.com>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/kooha/breathing/"
 "fil/>\n"
@@ -115,15 +115,15 @@ msgstr "Isara"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
-msgstr ""
+msgstr "Panghunahing Mga Opsyon"
 
 #: data/ui/shortcuts.ui:44
 msgid "Toggle breathing"
-msgstr ""
+msgstr "I-toggle ang paghinga"
 
 #: data/ui/shortcuts.ui:51
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "I-toggle ang dark mode"
 
 #: src/main.py:99
 msgid "Copyright 2021 Dave Patrick"

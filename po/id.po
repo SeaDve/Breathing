@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-14 02:48+0000\n"
+"PO-Revision-Date: 2021-05-14 12:23+0000\n"
 "Last-Translator: liimee <alt3753.7@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/kooha/"
 "breathing/id/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "Breathing adalah aplikasi yang sangat sederhana yang mengarahkan pola "
 "bernafas Anda. Pola ini direkomendasikan oleh para ahli yang juga dapat "
 "meredakan kecemasan Anda. Aplikasi ini juga menyediakan suara yang "
-"menenangkan untuk membuat Anda lebih mudah untuk bersantai."
+"menenangkan untuk membuat Anda lebih mudah tenang."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
@@ -114,7 +114,7 @@ msgstr "Keluar"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
-msgstr ""
+msgstr "Kendali Utama"
 
 #: data/ui/shortcuts.ui:44
 msgid "Toggle breathing"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:51
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "Toggle mode gelap"
 
 #: src/main.py:99
 msgid "Copyright 2021 Dave Patrick"
