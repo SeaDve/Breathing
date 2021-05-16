@@ -2,19 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021.
-#
+# Dave Patrick <davecruz48@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-14 14:00+0100\n"
-"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
-"Language-Team: Italian <LL@li.org>\n"
-"Language: It\n"
+"PO-Revision-Date: 2021-05-16 01:37+0000\n"
+"Last-Translator: Dave Patrick <davecruz48@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/kooha/breathing/"
+"it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -62,7 +65,7 @@ msgstr "📱 Interfaccia utente facile da usare."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ Scorciatoie da tastiera intuitive."
+msgstr "⌨️ Scorciatoie da tastiera facili da usare."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
@@ -99,7 +102,7 @@ msgstr "Generale"
 
 #: data/ui/shortcuts.ui:17
 msgid "Open menu"
-msgstr "Apri menu"
+msgstr "Apri il menù"
 
 #: data/ui/shortcuts.ui:24
 msgid "Show keyboard shortcuts"
