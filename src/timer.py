@@ -60,7 +60,7 @@ class Timer:
         self.win.set_button_play_mode(True)
         self.cancelled = False
         self.iterations = 0
-        self.time_remaining = 1100
+        self.time_remaining = 1105
 
     def cancel(self):
         self.cancelled = True

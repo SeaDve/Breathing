@@ -11,7 +11,7 @@ headerbar.flat {
   font-weight: bold;
 }
 
-window {
+overlay {
   min-width: 340px;
   min-height: 350px;
 }
