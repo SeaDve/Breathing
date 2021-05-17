@@ -6,9 +6,31 @@
       <object class="GtkWindowHandle">
         <child>
           <object class="GtkOverlay">
+            <property name="valign">fill</property>
+            <child type="overlay">
+              <object class="GtkImage" id="circle1">
+                <property name="valign">center</property>
+                <property name="icon-name">circle-symbolic</property>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkImage" id="circle2">
+                <property name="valign">center</property>
+                <property name="icon-name">circle-symbolic</property>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkImage" id="circle3">
+                <property name="valign">center</property>
+                <property name="icon-name">circle-symbolic</property>
+              </object>
+            </child>
             <child type="overlay">
               <object class="GtkHeaderBar">
                 <property name="valign">start</property>
+                <style>
+                  <class name="flat"/>
+                </style>
                 <child type="title">
                   <object class="GtkLabel" id="time_label">
                     <style>
@@ -35,80 +57,49 @@
                     </style>
                   </object>
                 </child>
-                <style>
-                  <class name="flat"/>
-                </style>
               </object>
             </child>
-            <child>
-              <object class="GtkOverlay">
+            <child type="overlay">
+              <object class="GtkButton" id="main_button">
+                <property name="halign">center</property>
                 <property name="valign">center</property>
-                <property name="vexpand">True</property>
+                <property name="action-name">app.toggle-breathing</property>
                 <style>
-                  <class name="main-screen"/>
+                  <class name="circular"/>
+                  <class name="main-button"/>
+                  <class name="suggested-action"/>
                 </style>
-                <child type="overlay">
-                  <object class="GtkImage" id="circle1">
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="icon-name">circle-symbolic</property>
-                  </object>
-                </child>
-                <child type="overlay">
-                  <object class="GtkImage" id="circle2">
-                    <property name="valign">center</property>
-                    <property name="icon-name">circle-symbolic</property>
-                  </object>
-                </child>
-                <child type="overlay">
-                  <object class="GtkImage" id="circle3">
-                    <property name="valign">center</property>
-                    <property name="icon-name">circle-symbolic</property>
-                  </object>
-                </child>
-                <child type="overlay">
-                  <object class="GtkButton" id="main_button">
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="action-name">app.toggle-breathing</property>
-                    <style>
-                      <class name="circular"/>
-                      <class name="main-button"/>
-                      <class name="suggested-action"/>
-                    </style>
+                <child>
+                  <object class="GtkStack" id="button_stack">
+                    <property name="transition-type">crossfade</property>
                     <child>
-                      <object class="GtkStack" id="button_stack">
-                        <property name="transition-type">crossfade</property>
-                        <child>
-                          <object class="GtkStackPage">
-                            <property name="name">go</property>
-                            <property name="child">
-                              <object class="GtkLabel">
-                                <property name="label" translatable="yes">Go</property>
-                              </object>
-                            </property>
+                      <object class="GtkStackPage">
+                        <property name="name">go</property>
+                        <property name="child">
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">Go</property>
                           </object>
-                        </child>
-                        <child>
-                          <object class="GtkStackPage">
-                            <property name="name">inhale</property>
-                            <property name="child">
-                              <object class="GtkLabel">
-                                <property name="label" translatable="yes">In</property>
-                              </object>
-                            </property>
+                        </property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkStackPage">
+                        <property name="name">inhale</property>
+                        <property name="child">
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">In</property>
                           </object>
-                        </child>
-                        <child>
-                          <object class="GtkStackPage">
-                            <property name="name">exhale</property>
-                            <property name="child">
-                              <object class="GtkLabel">
-                                <property name="label" translatable="yes">Out</property>
-                              </object>
-                            </property>
+                        </property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkStackPage">
+                        <property name="name">exhale</property>
+                        <property name="child">
+                          <object class="GtkLabel">
+                            <property name="label" translatable="yes">Out</property>
                           </object>
-                        </child>
+                        </property>
                       </object>
                     </child>
                   </object>

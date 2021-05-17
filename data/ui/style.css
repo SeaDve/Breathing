@@ -11,14 +11,12 @@ headerbar.flat {
   font-weight: bold;
 }
 
-.main-screen {
-  min-width: 400px;
+window {
+  min-width: 340px;
   min-height: 350px;
-  transition: 200ms ease-in-out;
-  font-weight: bold;
 }
 
-.main-screen image {
+overlay > image {
   color: @theme_selected_bg_color;
 }
 
@@ -28,17 +26,17 @@ headerbar.flat {
 
 .enlarge1 {
   transition: 2.3s ease-in-out;
-  -gtk-icon-size: 120px;
+  -gtk-icon-size: 110px;
 }
 
 .enlarge2 {
   transition: 2.6s ease-in-out;
-  -gtk-icon-size: 240px;
+  -gtk-icon-size: 220px;
 }
 
 .enlarge3 {
   transition: 2.9s ease-in-out;
-  -gtk-icon-size: 360px;
+  -gtk-icon-size: 340px;
 }
 
 .smallify {
