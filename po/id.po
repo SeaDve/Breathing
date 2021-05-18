@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-14 12:23+0000\n"
+"PO-Revision-Date: 2021-05-18 10:33+0000\n"
 "Last-Translator: liimee <alt3753.7@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/kooha/"
 "breathing/id/>\n"
@@ -130,8 +130,9 @@ msgstr "Hak Cipta 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:101
+#, fuzzy
 msgid "translator-credits"
-msgstr ""
+msgstr "kredit-penerjemah"
 
 #: src/main.py:102
 msgid "GitHub"
