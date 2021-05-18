@@ -51,14 +51,13 @@ class Application(Gtk.Application):
             display, css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
         )
 
-        Gio.Settings.new('io.github.seadve.Breathing')
+        self.settings = Gio.Settings.new('io.github.seadve.Breathing')
         self.setup_actions()
 
         Adw.init()
 
     def setup_actions(self):
         simple_actions = [
-            ("toggle-dark-mode", self.window_toggle_dark_mode, ("<Ctrl>d",)),
             ("toggle-breathing", self.window_toggle_breathing, ("<Ctrl>s",)),
             ("show-shortcuts", self.show_shortcuts_window, ("<Ctrl>question",)),
             ("show-about", self.show_about_dialog, None),
@@ -72,8 +71,12 @@ class Application(Gtk.Application):
             if accel:
                 self.set_accels_for_action(f"app.{action}", accel)
 
+        settings_action = self.settings.create_action('dark-mode')
+        self.add_action(settings_action)
+        self.set_accels_for_action(f"app.dark-mode", ("<Ctrl>d",))
+
     def window_toggle_dark_mode(self, action, param):
-        self.get_active_window().toggle_dark_mode()
+        self.settings.set_boolean("dark-mode", False)
 
     def window_toggle_breathing(self, action, param):
         self.get_active_window().toggle_breathing()

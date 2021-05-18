@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import Adw, Gtk, Gio
+from gi.repository import Adw, Gtk, Gio, GObject
 
 from breathing.timer import Timer
 
@@ -32,6 +32,8 @@ class BreathingWindow(Adw.ApplicationWindow):
     dark_mode_button = Gtk.Template.Child()
     time_label = Gtk.Template.Child()
 
+    dark_mode = GObject.Property(type=bool, default=False, flags=GObject.ParamFlags.READWRITE)
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
@@ -41,7 +43,14 @@ class BreathingWindow(Adw.ApplicationWindow):
             "dark-mode", self.get_settings(),
             "gtk-application-prefer-dark-theme", Gio.SettingsBindFlags.DEFAULT
         )
-        self.setup_darkmode()
+        self.settings.bind(
+            "dark-mode", self,
+            "dark-mode", Gio.SettingsBindFlags.DEFAULT
+        )
+
+    @Gtk.Template.Callback()
+    def get_dark_mode_icon(self, window, dark_mode):
+        return "dark-mode-symbolic" if dark_mode else "light-mode-symbolic"
 
     def enlarge_circles(self):
         self.circle1.get_style_context().add_class("enlarge1")
@@ -68,21 +77,6 @@ class BreathingWindow(Adw.ApplicationWindow):
         else:
             self.main_button.get_style_context().add_class("suggested-action")
             self.main_button.get_style_context().remove_class("playing")
-
-    def setup_darkmode(self):
-        dark_mode = self.settings.get_boolean("dark-mode")
-        if dark_mode:
-            self.dark_mode_button.set_icon_name("dark-mode-symbolic")
-        else:
-            self.dark_mode_button.set_icon_name("light-mode-symbolic")
-
-    def toggle_dark_mode(self):
-        dark_theme = self.dark_mode_button.get_icon_name() == "light-mode-symbolic"
-        if dark_theme:
-            self.dark_mode_button.set_icon_name("dark-mode-symbolic")
-        else:
-            self.dark_mode_button.set_icon_name("light-mode-symbolic")
-        self.settings.set_boolean("dark-mode", dark_theme)
 
     def toggle_breathing(self):
         if self.timer.time == 0:
