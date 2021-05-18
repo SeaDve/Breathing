@@ -51,14 +51,14 @@
                 </child>
                 <child>
                   <object class="GtkButton" id="dark_mode_button">
+                    <property name="action-name">app.dark-mode</property>
+                    <property name="has-frame">False</property>
+                    <property name="tooltip-text" translatable="yes">Toggle Dark Mode</property>
                     <binding name="icon-name">
                       <closure type="gchararray" function="get_dark_mode_icon">
                         <lookup name="dark-mode">BreathingWindow</lookup>
                       </closure>
                     </binding>
-                    <property name="action-name">app.dark-mode</property>
-                    <property name="has-frame">False</property>
-                    <property name="tooltip-text" translatable="yes">Toggle Dark Mode</property>
                     <style>
                       <class name="circular"/>
                     </style>
