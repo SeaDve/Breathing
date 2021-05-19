@@ -39,13 +39,10 @@ class BreathingWindow(Adw.ApplicationWindow):
 
         self.timer = Timer(self.button_stack, self)
         self.settings = Gio.Settings("io.github.seadve.Breathing")
+        self.get_settings().bind_property("gtk-application-prefer-dark-theme", self, "dark-mode")
         self.settings.bind(
             "dark-mode", self.get_settings(),
             "gtk-application-prefer-dark-theme", Gio.SettingsBindFlags.DEFAULT
-        )
-        self.settings.bind(
-            "dark-mode", self,
-            "dark-mode", Gio.SettingsBindFlags.DEFAULT
         )
 
     @Gtk.Template.Callback()
