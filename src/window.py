@@ -49,24 +49,6 @@ class BreathingWindow(Adw.ApplicationWindow):
     def get_dark_mode_icon(self, window, dark_mode):
         return "dark-mode-symbolic" if dark_mode else "light-mode-symbolic"
 
-    def _enlarge_circles(self):
-        self.circle1.get_style_context().add_class("enlarge1")
-        self.circle2.get_style_context().add_class("enlarge2")
-        self.circle3.get_style_context().add_class("enlarge3")
-
-    def _smallify_circles(self):
-        self.circle1.get_style_context().add_class("smallify")
-        self.circle2.get_style_context().add_class("smallify")
-        self.circle3.get_style_context().add_class("smallify")
-
-    def _clean_circles(self):
-        self.circle1.get_style_context().remove_class("smallify")
-        self.circle2.get_style_context().remove_class("smallify")
-        self.circle3.get_style_context().remove_class("smallify")
-        self.circle1.get_style_context().remove_class("enlarge1")
-        self.circle2.get_style_context().remove_class("enlarge2")
-        self.circle3.get_style_context().remove_class("enlarge3")
-
     def connect_signals(self):
         self.timer.connect('inhale', self.on_inhale)
         self.timer.connect('exhale', self.on_exhale)
@@ -93,6 +75,24 @@ class BreathingWindow(Adw.ApplicationWindow):
     def on_time_changed(self, timer, time_remaining):
         time_remaining = timer.time_remaining
         self.time_label.set_text("%02d∶%02d" % divmod(time_remaining // 10, 60))
+
+    def _enlarge_circles(self):
+        self.circle1.get_style_context().add_class("enlarge1")
+        self.circle2.get_style_context().add_class("enlarge2")
+        self.circle3.get_style_context().add_class("enlarge3")
+
+    def _smallify_circles(self):
+        self.circle1.get_style_context().add_class("smallify")
+        self.circle2.get_style_context().add_class("smallify")
+        self.circle3.get_style_context().add_class("smallify")
+
+    def _clean_circles(self):
+        self.circle1.get_style_context().remove_class("smallify")
+        self.circle2.get_style_context().remove_class("smallify")
+        self.circle3.get_style_context().remove_class("smallify")
+        self.circle1.get_style_context().remove_class("enlarge1")
+        self.circle2.get_style_context().remove_class("enlarge2")
+        self.circle3.get_style_context().remove_class("enlarge3")
 
     def set_button_play_mode(self, is_play):
         if is_play:

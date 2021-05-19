@@ -31,6 +31,7 @@ class Timer(GObject.GObject):
 
     def __init__(self):
         super().__init__()
+        self.time = 0
 
     def _refresh_time(self):
         if self.iterations >= 10 or self.stopped:
@@ -53,7 +54,6 @@ class Timer(GObject.GObject):
         GLib.timeout_add(100, self._refresh_time, priority=GLib.PRIORITY_LOW)
         self.time_remaining = 1105
         self.iterations = 0
-        self.time = 0
         self.stopped = False
 
     def stop(self):
