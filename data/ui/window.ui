@@ -33,6 +33,7 @@
                 </style>
                 <child type="title">
                   <object class="GtkLabel" id="time_label">
+                    <property name="label">00∶00</property>
                     <style>
                       <class name="title"/>
                     </style>

@@ -15,52 +15,47 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from gi.repository import GLib
+from gi.repository import GLib, GObject
 
 
-class Timer:
-    def __init__(self, stack, win):
-        self.stack = stack
-        self.win = win
-        self.time = 0
+class Timer(GObject.GObject):
+
+    __gsignals__ = {
+        'inhale': (GObject.SIGNAL_RUN_LAST, None, ()),
+        'exhale': (GObject.SIGNAL_RUN_LAST, None, ()),
+        'next-iter': (GObject.SIGNAL_RUN_LAST, None, ()),
+        'stopped': (GObject.SIGNAL_RUN_LAST, None, ()),
+    }
+
+    time_remaining = GObject.Property(type=int, flags=GObject.ParamFlags.READWRITE)
+
+    def __init__(self):
+        super().__init__()
 
     def _refresh_time(self):
-        if self.iterations >= 10 or self.cancelled:
-            self.stack.set_visible_child_name("go")
-            self.win.set_button_play_mode(False)
-            self.win.clean_circles()
-            self._clear_label()
+        if self.iterations >= 10 or self.stopped:
+            self.emit('stopped')
             self.time = 0
             return False
-
         if 1 <= self.time <= 20:
-            self.win.enlarge_circles()
-            self.stack.set_visible_child_name("inhale")
+            self.emit('inhale')
         elif 40 <= self.time <= 100:
-            self.win.smallify_circles()
-            self.stack.set_visible_child_name("exhale")
+            self.emit('exhale')
         elif self.time == 110:
-            self.win.clean_circles()
+            self.emit('next-iter')
             self.time = 0
             self.iterations += 1
         self.time += 1
-        self._update_label(self.time_remaining)
         self.time_remaining -= 1
         return True
 
-    def _update_label(self, total_time):
-        if total_time >= 0:
-            self.win.time_label.set_text("%02d∶%02d" % divmod(total_time // 10, 60))
-
-    def _clear_label(self):
-        self.win.time_label.set_text("")
-
     def start(self):
         GLib.timeout_add(100, self._refresh_time, priority=GLib.PRIORITY_LOW)
-        self.win.set_button_play_mode(True)
-        self.cancelled = False
-        self.iterations = 0
         self.time_remaining = 1105
+        self.iterations = 0
+        self.time = 0
+        self.stopped = False
 
-    def cancel(self):
-        self.cancelled = True
+    def stop(self):
+        self.time_remaining = 0
+        self.stopped = True
