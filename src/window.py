@@ -77,30 +77,30 @@ class BreathingWindow(Adw.ApplicationWindow):
         self.time_label.set_text("%02d∶%02d" % divmod(time_remaining // 10, 60))
 
     def _enlarge_circles(self):
-        self.circle1.get_style_context().add_class("enlarge1")
-        self.circle2.get_style_context().add_class("enlarge2")
-        self.circle3.get_style_context().add_class("enlarge3")
+        self.circle1.add_css_class("enlarge1")
+        self.circle2.add_css_class("enlarge2")
+        self.circle3.add_css_class("enlarge3")
 
     def _smallify_circles(self):
-        self.circle1.get_style_context().add_class("smallify")
-        self.circle2.get_style_context().add_class("smallify")
-        self.circle3.get_style_context().add_class("smallify")
+        self.circle1.add_css_class("smallify")
+        self.circle2.add_css_class("smallify")
+        self.circle3.add_css_class("smallify")
 
     def _clean_circles(self):
-        self.circle1.get_style_context().remove_class("smallify")
-        self.circle2.get_style_context().remove_class("smallify")
-        self.circle3.get_style_context().remove_class("smallify")
-        self.circle1.get_style_context().remove_class("enlarge1")
-        self.circle2.get_style_context().remove_class("enlarge2")
-        self.circle3.get_style_context().remove_class("enlarge3")
+        self.circle1.remove_css_class("smallify")
+        self.circle2.remove_css_class("smallify")
+        self.circle3.remove_css_class("smallify")
+        self.circle1.remove_css_class("enlarge1")
+        self.circle2.remove_css_class("enlarge2")
+        self.circle3.remove_css_class("enlarge3")
 
     def set_button_play_mode(self, is_play):
         if is_play:
-            self.main_button.get_style_context().remove_class("suggested-action")
-            self.main_button.get_style_context().add_class("playing")
+            self.main_button.remove_css_class("suggested-action")
+            self.main_button.add_css_class("playing")
         else:
-            self.main_button.get_style_context().add_class("suggested-action")
-            self.main_button.get_style_context().remove_class("playing")
+            self.main_button.add_css_class("suggested-action")
+            self.main_button.remove_css_class("playing")
 
     def toggle_breathing(self):
         if self.timer.time == 0:
