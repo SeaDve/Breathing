@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-16 01:37+0000\n"
+"PO-Revision-Date: 2021-05-24 16:32+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/kooha/breathing/"
 "eu/>\n"
@@ -110,7 +110,7 @@ msgstr "Erakutsi teklatu-lasterbideak"
 
 #: data/ui/shortcuts.ui:31
 msgid "Quit"
-msgstr "Irten"
+msgstr "Utzi"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
@@ -126,12 +126,12 @@ msgstr "Modu iluna aktibatu"
 
 #: src/main.py:99
 msgid "Copyright 2021 Dave Patrick"
-msgstr "Copyright 2021 Dave Patrick"
+msgstr "Copyright © 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:101
 msgid "translator-credits"
-msgstr "Sergio Varela"
+msgstr "Sergio Varela (https://hosted.weblate.org/user/IngrownMink4/)"
 
 #: src/main.py:102
 msgid "GitHub"
