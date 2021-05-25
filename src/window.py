@@ -31,7 +31,7 @@ class BreathingWindow(Adw.ApplicationWindow):
     circle3 = Gtk.Template.Child()
     time_label = Gtk.Template.Child()
 
-    dark_mode = GObject.Property(type=bool, default=False, flags=GObject.ParamFlags.READWRITE)
+    dark_mode = GObject.Property(type=bool, default=False)
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

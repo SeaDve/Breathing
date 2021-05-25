@@ -27,7 +27,7 @@ class Timer(GObject.GObject):
         'stopped': (GObject.SIGNAL_RUN_LAST, None, ()),
     }
 
-    time_remaining = GObject.Property(type=int, flags=GObject.ParamFlags.READWRITE)
+    time_remaining = GObject.Property(type=int)
 
     def __init__(self):
         super().__init__()
