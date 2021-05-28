@@ -7,31 +7,35 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-05-28 12:33+0000\n"
+"Last-Translator: Vitor Sabino Cardoso da SIlva <vitorcsilva180396@gmail.com>"
+"\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"kooha/breathing/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Utilidade;Respirar;Exercitar;Acalmar;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:96
 msgid "Exercise your breathing"
-msgstr ""
+msgstr "Exercite sua respiração"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "Relaxe, concentre-se e livre-se do estresse."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -39,93 +43,97 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Breathing é um aplicativo muito simples que orienta seu padrão de "
+"respiração. Esse padrão é recomendado por especialistas que ajudarão a "
+"aliviar sua ansiedade. Ele também fornece um som calmante para facilitar o "
+"relaxamento."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "As principais características do Breathing incluem o seguinte:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Guie sua respiração."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Mude para o modo escuro com facilidade."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Interface de usuário fácil de usar."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Atalhos de teclado amigáveis."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:43
 msgid "Initial release."
-msgstr ""
+msgstr "Lançamento inicial."
 
 #: data/ui/window.ui:87
 msgid "Go"
-msgstr ""
+msgstr "Iniciar"
 
 #: data/ui/window.ui:97
 msgid "In"
-msgstr ""
+msgstr "Dentro"
 
 #: data/ui/window.ui:107
 msgid "Out"
-msgstr ""
+msgstr "Fora"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Atalhos do Teclado"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "Sobre o Breathing"
 
 #: data/ui/shortcuts.ui:12
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: data/ui/shortcuts.ui:17
 msgid "Open menu"
-msgstr ""
+msgstr "Abrir menu"
 
 #: data/ui/shortcuts.ui:24
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Mostrar atalhos do teclado"
 
 #: data/ui/shortcuts.ui:31
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
-msgstr ""
+msgstr "Controles Principais"
 
 #: data/ui/shortcuts.ui:44
 msgid "Toggle breathing"
-msgstr ""
+msgstr "Alternar respiração"
 
 #: data/ui/shortcuts.ui:51
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "Ativar modo escuro"
 
 #: src/main.py:99
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "Copyright 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:101
 msgid "translator-credits"
-msgstr ""
+msgstr "Vitor Cardoso"
 
 #: src/main.py:102
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
