@@ -57,4 +57,5 @@ jobs:
       with:
         bundle: "Breathing-dev.flatpak"
         manifest-path: "io.github.seadve.Breathing.json"
+        cache-key: flatpak-builder-${{ github.sha }}
         run-tests: "true"
