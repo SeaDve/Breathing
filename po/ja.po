@@ -2,18 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # tinaxd <systemd.tinaxd@gmail.com>, 2021.
+# tinaxd <tinaxd@protonmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-06 16:32+0000\n"
+"Last-Translator: tinaxd <tinaxd@protonmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/kooha/breathing/"
+"ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -63,7 +67,7 @@ msgstr ""
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:43
 msgid "Initial release."
@@ -83,7 +87,7 @@ msgstr ""
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
@@ -91,19 +95,19 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:12
 msgid "General"
-msgstr ""
+msgstr "全般"
 
 #: data/ui/shortcuts.ui:17
 msgid "Open menu"
-msgstr ""
+msgstr "メニューを開く"
 
 #: data/ui/shortcuts.ui:24
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "ショートカット一覧を表示する"
 
 #: data/ui/shortcuts.ui:31
 msgid "Quit"
-msgstr ""
+msgstr "終了する"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
