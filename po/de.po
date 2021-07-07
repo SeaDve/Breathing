@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-05-24 16:32+0000\n"
+"PO-Revision-Date: 2021-07-07 11:20+0000\n"
 "Last-Translator: Heinrich Heinzer <heinrich.heinzer@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/kooha/breathing/"
 "de/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
