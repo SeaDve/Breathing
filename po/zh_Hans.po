@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # TheInterestingSoul <wangpy01@outlook.com>, 2021.
+# Zhou Nan <zhounan@nfschina.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-14 10:41+0800\n"
-"PO-Revision-Date: 2021-07-07 11:20+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-07-21 06:32+0000\n"
+"Last-Translator: Zhou Nan <zhounan@nfschina.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "kooha/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -16,25 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "实用;呼吸;训练;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:96
 msgid "Exercise your breathing"
-msgstr ""
+msgstr "练习你的呼吸"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "放松，集中注意力，慢慢释放压力。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -42,93 +43,96 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Breathing 是一个非常简单的应用程序，它可以指导您的呼吸模式。 专家推荐的这个模式将有助于缓解您的焦虑。 "
+"而且它还提供了一个安静的音乐，让您更容易放松。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Breathing 的主要特点包括："
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ 引导你的呼吸。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 轻松切换到暗模式。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 易于使用的用户界面。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ 用户友好的键盘快捷键。"
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:43
+#, fuzzy
 msgid "Initial release."
-msgstr ""
+msgstr "开始放松。"
 
 #: data/ui/window.ui:87
 msgid "Go"
-msgstr ""
+msgstr "开始"
 
 #: data/ui/window.ui:97
 msgid "In"
-msgstr ""
+msgstr "进入"
 
 #: data/ui/window.ui:107
 msgid "Out"
-msgstr ""
+msgstr "退出"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "快捷键"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "关于Breathing"
 
 #: data/ui/shortcuts.ui:12
 msgid "General"
-msgstr ""
+msgstr "通用"
 
 #: data/ui/shortcuts.ui:17
 msgid "Open menu"
-msgstr ""
+msgstr "打开菜单"
 
 #: data/ui/shortcuts.ui:24
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "显示键盘快捷键"
 
 #: data/ui/shortcuts.ui:31
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: data/ui/shortcuts.ui:39
 msgid "Main Controls"
-msgstr ""
+msgstr "主要控制"
 
 #: data/ui/shortcuts.ui:44
 msgid "Toggle breathing"
-msgstr ""
+msgstr "切换呼吸模式"
 
 #: data/ui/shortcuts.ui:51
 msgid "Toggle dark mode"
-msgstr ""
+msgstr "黑暗模式开关"
 
 #: src/main.py:99
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "版权所有: Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:101
 msgid "translator-credits"
-msgstr ""
+msgstr "Zhou Nan <zhounan@nfschina.com>"
 
 #: src/main.py:102
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
