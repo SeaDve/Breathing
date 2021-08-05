@@ -43,22 +43,24 @@ class Application(Gtk.Application):
         Adw.init()
 
     def setup_actions(self):
-        simple_actions = [
-            ("toggle-breathing", self.window_toggle_breathing, ("<Ctrl>s",)),
-            ("show-about", self.show_about_dialog, None),
-            ("quit", lambda *_: self.quit(), ("<Ctrl>q",)),
-        ]
+        simple_action = Gio.SimpleAction.new("toggle-breathing", None)
+        simple_action.connect("activate", self.window_toggle_breathing)
+        self.add_action(simple_action)
 
-        for action, callback, accel in simple_actions:
-            simple_action = Gio.SimpleAction.new(action, None)
-            simple_action.connect("activate", callback)
-            self.add_action(simple_action)
-            if accel:
-                self.set_accels_for_action(f"app.{action}", accel)
+        simple_action = Gio.SimpleAction.new("show-about", None)
+        simple_action.connect("activate", self.show_about_dialog)
+        self.add_action(simple_action)
+
+        simple_action = Gio.SimpleAction.new("quit", None)
+        simple_action.connect("activate", lambda *_: self.quit())
+        self.add_action(simple_action)
 
         settings_action = self.settings.create_action('dark-mode')
         self.add_action(settings_action)
+
+        self.set_accels_for_action(f"app.toggle-breathing", ("<Ctrl>s",))
         self.set_accels_for_action(f"app.dark-mode", ("<Ctrl>d",))
+        self.set_accels_for_action(f"app.quit", ("<Ctrl>q",))
 
     def window_toggle_dark_mode(self, action, param):
         self.settings.set_boolean("dark-mode", False)
