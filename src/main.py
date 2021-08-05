@@ -45,7 +45,6 @@ class Application(Gtk.Application):
     def setup_actions(self):
         simple_actions = [
             ("toggle-breathing", self.window_toggle_breathing, ("<Ctrl>s",)),
-            ("show-shortcuts", self.show_shortcuts_window, ("<Ctrl>question",)),
             ("show-about", self.show_about_dialog, None),
             ("quit", lambda *_: self.quit(), ("<Ctrl>q",)),
         ]
@@ -66,13 +65,6 @@ class Application(Gtk.Application):
 
     def window_toggle_breathing(self, action, param):
         self.get_active_window().toggle_breathing()
-
-    def show_shortcuts_window(self, action, param):
-        builder = Gtk.Builder()
-        builder.add_from_resource('/io/github/seadve/Breathing/ui/shortcuts.ui')
-        window = builder.get_object('shortcuts')
-        window.set_transient_for(self.get_active_window())
-        window.present()
 
     def show_about_dialog(self, action, param):
         about = Gtk.AboutDialog()

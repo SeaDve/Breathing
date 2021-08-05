@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/github/seadve/Breathing">
-    <file preprocess="xml-stripblanks">ui/window.ui</file>
-    <file preprocess="xml-stripblanks">ui/shortcuts.ui</file>
-    <file preprocess="xml-stripblanks">icons/scalable/status/circle-symbolic.svg</file>
-    <file preprocess="xml-stripblanks">icons/scalable/status/circle-solid-symbolic.svg</file>
-    <file preprocess="xml-stripblanks">icons/scalable/status/dark-mode-symbolic.svg</file>
-    <file preprocess="xml-stripblanks">icons/scalable/status/light-mode-symbolic.svg</file>
-    <file>ui/style.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/window.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">ui/shortcuts.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/status/circle-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/status/circle-solid-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/status/dark-mode-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">icons/scalable/status/light-mode-symbolic.svg</file>
+    <file compressed="true">ui/style.css</file>
   </gresource>
 </gresources>
