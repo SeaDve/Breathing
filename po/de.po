@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 10:41+0800\n"
+"POT-Creation-Date: 2021-08-05 13:53+0800\n"
 "PO-Revision-Date: 2021-07-07 11:20+0000\n"
 "Last-Translator: Heinrich Heinzer <heinrich.heinzer@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -28,7 +28,7 @@ msgstr "Atmen"
 msgid "Utility;Breath;Exercise;"
 msgstr "Dienstprogramm;Atem;Übung;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:96
+#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
 msgid "Exercise your breathing"
 msgstr "Trainiere deine Atmung"
 
@@ -71,67 +71,82 @@ msgstr "⌨️ Benutzerfreundliche Tastaturkürzel."
 msgid "Dave Patrick"
 msgstr "Dave Patrick"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:43
-msgid "Initial release."
-msgstr "Erstveröffentlichung."
+#: data/ui/window.ui:47
+msgid "Main Menu"
+msgstr ""
 
-#: data/ui/window.ui:87
+#: data/ui/window.ui:57 data/ui/shortcuts.ui:43
+msgid "Toggle Dark Mode"
+msgstr ""
+
+#: data/ui/window.ui:88
 msgid "Go"
 msgstr "Los"
 
-#: data/ui/window.ui:97
+#: data/ui/window.ui:98
 msgid "In"
 msgstr "Ein"
 
-#: data/ui/window.ui:107
+#: data/ui/window.ui:108
 msgid "Out"
 msgstr "Aus"
 
-#: data/ui/window.ui:127
+#: data/ui/window.ui:126
 msgid "Keyboard Shortcuts"
 msgstr "Tastatürkürzel"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:130
 msgid "About Breathing"
 msgstr "Über das Atmen"
 
-#: data/ui/shortcuts.ui:12
+#: data/ui/shortcuts.ui:10
 msgid "General"
 msgstr "Allgemeines"
 
-#: data/ui/shortcuts.ui:17
-msgid "Open menu"
-msgstr "Menü öffnen"
+#: data/ui/shortcuts.ui:14
+msgid "Open Menu"
+msgstr ""
 
-#: data/ui/shortcuts.ui:24
-msgid "Show keyboard shortcuts"
-msgstr "Tastaturkürzel anzeigen"
+#: data/ui/shortcuts.ui:20
+msgid "Show Keyboard Shortcuts"
+msgstr ""
 
-#: data/ui/shortcuts.ui:31
+#: data/ui/shortcuts.ui:26
 msgid "Quit"
 msgstr "Schließen"
 
-#: data/ui/shortcuts.ui:39
+#: data/ui/shortcuts.ui:33
 msgid "Main Controls"
 msgstr "Hauptbedienelemente"
 
-#: data/ui/shortcuts.ui:44
-msgid "Toggle breathing"
-msgstr "Atmen umschalten"
+#: data/ui/shortcuts.ui:37
+msgid "Toggle Breathing"
+msgstr ""
 
-#: data/ui/shortcuts.ui:51
-msgid "Toggle dark mode"
-msgstr "Dunkelmodus umschalten"
-
-#: src/main.py:99
+#: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
 msgstr "Copyright 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:101
+#: src/main.py:84
 msgid "translator-credits"
 msgstr "Übersetzer Credits"
 
-#: src/main.py:102
+#: src/main.py:85
 msgid "GitHub"
 msgstr "GitHub"
+
+#~ msgid "Initial release."
+#~ msgstr "Erstveröffentlichung."
+
+#~ msgid "Open menu"
+#~ msgstr "Menü öffnen"
+
+#~ msgid "Show keyboard shortcuts"
+#~ msgstr "Tastaturkürzel anzeigen"
+
+#~ msgid "Toggle breathing"
+#~ msgstr "Atmen umschalten"
+
+#~ msgid "Toggle dark mode"
+#~ msgstr "Dunkelmodus umschalten"
