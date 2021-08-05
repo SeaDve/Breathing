@@ -23,7 +23,7 @@ overlay > image {
 .playing {
   color: @theme_fg_color;
   background-color: @theme_bg_color;
-  box-shadow: 0 0 6px;
+  box-shadow: 0 0 6px 0 @theme_fg_color;
 }
 
 .enlarge1 {
