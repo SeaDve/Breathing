@@ -58,9 +58,9 @@ class Application(Gtk.Application):
         settings_action = self.settings.create_action('dark-mode')
         self.add_action(settings_action)
 
-        self.set_accels_for_action(f"app.toggle-breathing", ("<Ctrl>s",))
-        self.set_accels_for_action(f"app.dark-mode", ("<Ctrl>d",))
-        self.set_accels_for_action(f"app.quit", ("<Ctrl>q",))
+        self.set_accels_for_action("app.toggle-breathing", ("<Ctrl>s",))
+        self.set_accels_for_action("app.dark-mode", ("<Ctrl>d",))
+        self.set_accels_for_action("app.quit", ("<Ctrl>q",))
 
     def window_toggle_dark_mode(self, action, param):
         self.settings.set_boolean("dark-mode", False)
