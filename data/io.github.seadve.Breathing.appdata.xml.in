@@ -38,6 +38,28 @@
   </screenshots>
 
   <releases>
+    <release version="0.1.1" date="2021-08-05">
+      <description>
+        <p>This is a simple release with behind the scenes fixes.</p>
+        <ul>
+          <li>Better support for smaller form factor</li>
+          <li>Better timing</li>
+          <li>Small optimizations</li>
+          <li>Updated Dutch translations</li>
+          <li>Updated French translations</li>
+          <li>Updated Indonesian translations</li>
+          <li>Updated Portuguese (Brazil) translations</li>
+          <li>Updated German translations</li>
+          <li>Updated Turkish translations</li>
+          <li>Updated Indonesian translations</li>
+          <li>Updated Basque translations</li>
+          <li>Updated Italian translations</li>
+          <li>Updated Spanish translations</li>
+          <li>Updated Norwegian Bokmål translations</li>
+          <li>Update Chinese (Simplified translations)</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2021-05-14">
       <description>
         <p>Initial release.</p>
