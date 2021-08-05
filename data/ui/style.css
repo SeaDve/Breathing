@@ -17,11 +17,13 @@ overlay {
 }
 
 overlay > image {
-  color: @theme_selected_bg_color;
+  color: @accent_bg_color;
 }
 
 .playing {
   color: @theme_fg_color;
+  background-color: @theme_bg_color;
+  box-shadow: 0 0 6px;
 }
 
 .enlarge1 {
