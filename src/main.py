@@ -6,12 +6,12 @@ import sys
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Gio, Gdk, GLib, Adw
+from gi.repository import Gtk, Gio, GLib, Adw
 
 from breathing.window import BreathingWindow
 
 
-class Application(Gtk.Application):
+class Application(Adw.Application):
     def __init__(self, version):
         super().__init__(application_id='io.github.seadve.Breathing',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
@@ -19,7 +19,6 @@ class Application(Gtk.Application):
         self.version = version
 
         GLib.set_application_name("Breathing")
-        GLib.set_prgname('io.github.seadve.Breathing')
 
     def do_activate(self):
         win = self.props.active_window
@@ -28,19 +27,10 @@ class Application(Gtk.Application):
         win.present()
 
     def do_startup(self):
-        Gtk.Application.do_startup(self)
-
-        css_provider = Gtk.CssProvider()
-        css_provider.load_from_resource('/io/github/seadve/Breathing/ui/style.css')
-        display = Gdk.Display.get_default()
-        Gtk.StyleContext.add_provider_for_display(
-            display, css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
-        )
+        Adw.Application.do_startup(self)
 
         self.settings = Gio.Settings.new('io.github.seadve.Breathing')
         self.setup_actions()
-
-        Adw.init()
 
     def setup_actions(self):
         simple_action = Gio.SimpleAction.new("toggle-breathing", None)
