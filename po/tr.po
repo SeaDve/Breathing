@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-07-07 11:20+0000\n"
+"PO-Revision-Date: 2021-08-06 04:02+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/kooha/breathing/"
 "tr/>\n"
@@ -74,11 +74,11 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "Ana Menü"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Koyu Modu Aç/Kapat"
 
 #: data/ui/window.ui:88
 msgid "Go"
@@ -106,11 +106,11 @@ msgstr "Genel"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Menüyü Aç"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Klavye Kısayollarını Göster"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
@@ -122,7 +122,7 @@ msgstr "Ana Denetimler"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Nefesi Aç/Kapat"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"

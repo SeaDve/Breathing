@@ -7,31 +7,34 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-06 04:02+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/kooha/breathing/"
+"fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Hengitys"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Utility;Breath;Exercise;hengitysharjoitus;hengitys;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
 msgid "Exercise your breathing"
-msgstr ""
+msgstr "Harjoittele hengitystä"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "Rentoudu, keskity ja vapaudu stressistä."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -39,93 +42,95 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Hengitys on yksinkertainen sovellus hengitysharjoituksiin. Tämä harjoitus on "
+"asiantuntijoiden suosittelema tapa vähentää ahdistusta."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Hengityksen keskeisimmät ominaisuudet sisältävät:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Hengitysharjoituksen."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Vaihda tummaan tilaan vaivatta."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Helppokäyttöinen käyttöliittymä."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Käyttöä helpottavat pikanäppäimet."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "Päävalikko"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Tumma tila päälle/pois"
 
 #: data/ui/window.ui:88
 msgid "Go"
-msgstr ""
+msgstr "Aloita"
 
 #: data/ui/window.ui:98
 msgid "In"
-msgstr ""
+msgstr "Sisään"
 
 #: data/ui/window.ui:108
 msgid "Out"
-msgstr ""
+msgstr "Ulos"
 
 #: data/ui/window.ui:126
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Pikanäppäimet"
 
 #: data/ui/window.ui:130
 msgid "About Breathing"
-msgstr ""
+msgstr "Tietoja - Hengitys"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr ""
+msgstr "Yleiset"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Avaa valikko"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Näytä pikanäppäimet"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "Lopeta"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Ohjaimet"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Hengitys päälle/pois"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "Tekijänoikeus 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr ""
+msgstr "Jiri Grönroos"
 
 #: src/main.py:85
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
