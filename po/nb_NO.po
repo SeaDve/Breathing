@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-07-07 11:20+0000\n"
+"PO-Revision-Date: 2021-08-08 12:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/kooha/"
 "breathing/nb_NO/>\n"
@@ -76,11 +76,11 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "Hovedmeny"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Veksle mørkt modus"
 
 #: data/ui/window.ui:88
 msgid "Go"
@@ -108,11 +108,11 @@ msgstr "Generelt"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Åpne menyen"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Vis tastatursnarveier"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
@@ -124,7 +124,7 @@ msgstr "Hovedkontroller"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Veksle pusting"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"

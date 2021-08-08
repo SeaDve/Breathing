@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # tinaxd <systemd.tinaxd@gmail.com>, 2021.
 # tinaxd <tinaxd@protonmail.com>, 2021.
+# 小山田純 <oyamada.junjun@outlook.jp>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-07-07 11:20+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-08-08 12:47+0000\n"
+"Last-Translator: 小山田純 <oyamada.junjun@outlook.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/kooha/breathing/"
 "ja/>\n"
 "Language: ja\n"
@@ -58,11 +59,11 @@ msgstr ""
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 使いやすいインターフェイス"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ ユーザーフレンドリーなキーボードショートカット"
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
@@ -71,7 +72,7 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "メインメニュー"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -99,11 +100,11 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr "全般"
+msgstr "一般"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "メニューを開く"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -111,7 +112,7 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "終了する"
+msgstr "終了"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -123,16 +124,16 @@ msgstr ""
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "Copyright 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr ""
+msgstr "小山田 純"
 
 #: src/main.py:85
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #~ msgid "Open menu"
 #~ msgstr "メニューを開く"
