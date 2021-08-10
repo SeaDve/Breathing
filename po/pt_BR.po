@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Vitor Sabino Cardoso da SIlva <vitorcsilva180396@gmail.com>, 2021.
+# Dave Patrick <davecruz48@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-07-07 11:20+0000\n"
-"Last-Translator: Vitor Sabino Cardoso da SIlva <vitorcsilva180396@gmail."
-"com>\n"
+"PO-Revision-Date: 2021-08-10 11:33+0000\n"
+"Last-Translator: Dave Patrick <davecruz48@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "kooha/breathing/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -75,7 +75,7 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu Principal"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -107,7 +107,7 @@ msgstr "Geral"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Abrir Menu"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -132,7 +132,7 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr "Vitor Cardoso"
+msgstr "Vitor Cardoso /nTiago Lucas Flach"
 
 #: src/main.py:85
 msgid "GitHub"

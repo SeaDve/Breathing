@@ -4,13 +4,14 @@
 # ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021.
 # Dave Patrick <davecruz48@gmail.com>, 2021.
 # albanobattistella <albano_battistella@hotmail.com>, 2021.
+# Nicolas Mariniello <seldon1000@tutanota.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-06 04:02+0000\n"
-"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
+"PO-Revision-Date: 2021-08-10 11:33+0000\n"
+"Last-Translator: Nicolas Mariniello <seldon1000@tutanota.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/kooha/breathing/"
 "it/>\n"
 "Language: it\n"
@@ -135,8 +136,8 @@ msgstr "Copyright 2021 Dave Patrick"
 #: src/main.py:84
 msgid "translator-credits"
 msgstr ""
-"Albano Battistella\n"
-"Nicolas Mariniello"
+"Nicolas Mariniello\n"
+"Albano Battistella"
 
 #: src/main.py:85
 msgid "GitHub"

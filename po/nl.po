@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-06 04:02+0000\n"
+"PO-Revision-Date: 2021-08-10 11:33+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/kooha/breathing/nl/"
 ">\n"
@@ -60,7 +60,7 @@ msgstr "🌑 Donker thema (optioneel);"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Eenvoudige vormgeving;"
+msgstr "📱 Eenvoudige vormgeving."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."

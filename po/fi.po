@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-06 04:02+0000\n"
+"PO-Revision-Date: 2021-08-10 11:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/kooha/breathing/"
 "fi/>\n"
@@ -63,7 +63,7 @@ msgstr "📱 Helppokäyttöinen käyttöliittymä."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ Käyttöä helpottavat pikanäppäimet."
+msgstr "⌨️ Hyödylliset pikanäppäimet."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
