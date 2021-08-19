@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Luna Jernberg <droidbittin@gmail.com>, 2021.
+# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-18 12:55+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2021-08-19 13:33+0000\n"
+"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/kooha/breathing/"
 "sv/>\n"
 "Language: sv\n"
@@ -127,7 +128,7 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr "Luna Jernberg"
+msgstr ""
 
 #: src/main.py:85
 msgid "GitHub"
