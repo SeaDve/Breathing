@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-14 10:55+0000\n"
+"PO-Revision-Date: 2021-08-24 22:32+0000\n"
 "Last-Translator: Nico <d3sox@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/kooha/breathing/"
 "de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -61,7 +61,7 @@ msgstr "🌑 Wechseln Sie mühelos in einen Nachtmodus."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Benutzerfreundliche Benutzeroberfläche."
+msgstr "📱 Benutzerfreundliche Oberfläche."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
