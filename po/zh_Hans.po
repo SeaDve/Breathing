@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # TheInterestingSoul <wangpy01@outlook.com>, 2021.
 # Zhou Nan <zhounan@nfschina.com>, 2021.
+# Zhongrui Cao <zhongrui.cao@suse.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-07-21 06:32+0000\n"
-"Last-Translator: Zhou Nan <zhounan@nfschina.com>\n"
+"PO-Revision-Date: 2021-08-31 05:54+0000\n"
+"Last-Translator: Zhongrui Cao <zhongrui.cao@suse.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "kooha/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -73,7 +74,7 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "主菜单"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -105,7 +106,7 @@ msgstr "通用"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "打开菜单"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -130,7 +131,9 @@ msgstr "版权所有: Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr "Zhou Nan <zhounan@nfschina.com>"
+msgstr ""
+"Zhou Nan &lt;zhounan@nfschina.com&gt;\n"
+"Zhongrui Cao &lt;zhongrui.cao@suse.com&gt;"
 
 #: src/main.py:85
 msgid "GitHub"
