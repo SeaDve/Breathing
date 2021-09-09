@@ -7,27 +7,30 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-09-09 09:35+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/kooha/breathing/"
+"oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Respirar"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Utilitari;respirar;respiracion;exercici;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
 msgid "Exercise your breathing"
-msgstr ""
+msgstr "Exerçatz vòstra respiracion"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
@@ -54,52 +57,52 @@ msgstr ""
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Interfàcia de bon utilizar."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Acorchis clavièr simples."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr ""
+msgstr "Menú principal"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Alternar lo mòde escur"
 
 #: data/ui/window.ui:88
 msgid "Go"
-msgstr ""
+msgstr "Anem-i"
 
 #: data/ui/window.ui:98
 msgid "In"
-msgstr ""
+msgstr "Inspiratz"
 
 #: data/ui/window.ui:108
 msgid "Out"
-msgstr ""
+msgstr "Expiratz"
 
 #: data/ui/window.ui:126
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Acorchis de clavièr"
 
 #: data/ui/window.ui:130
 msgid "About Breathing"
-msgstr ""
+msgstr "A prepaus de Respirar"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Dobrir lo menú"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
