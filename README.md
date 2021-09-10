@@ -3,7 +3,7 @@
   Breathing
 </h1>
 
-<p align="center"><strong>Exercise your breathing</strong></p>
+<p align="center"><strong>Relax and meditate</strong></p>
 
 <p align="center">
   <a href="https://flathub.org/apps/details/io.github.seadve.Breathing">

@@ -30,7 +30,7 @@ msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;Paghinga;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
-msgid "Exercise your breathing"
+msgid "Relax and meditate"
 msgstr "Iehersisyo ang paghinga"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10

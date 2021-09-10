@@ -29,7 +29,7 @@ msgid "Utility;Breath;Exercise;"
 msgstr "Erabilgarritasuna; Arnasketa; Ariketa;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
-msgid "Exercise your breathing"
+msgid "Relax and meditate"
 msgstr "Arnasketa lantzea"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10

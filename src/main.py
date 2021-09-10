@@ -66,7 +66,7 @@ class Application(Adw.Application):
         about.set_program_name("Breathing")
         about.set_logo_icon_name("io.github.seadve.Breathing")
         about.set_authors(["Dave Patrick"])
-        about.set_comments(_("Exercise your breathing"))
+        about.set_comments(_("Relax and meditate"))
         about.set_wrap_license(True)
         about.set_license_type(Gtk.License.GPL_3_0)
         about.set_copyright(_("Copyright 2021 Dave Patrick"))
