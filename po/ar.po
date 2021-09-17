@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-09-15 06:34+0000\n"
+"PO-Revision-Date: 2021-09-17 09:37+0000\n"
 "Last-Translator: Muhammad Yasser <iamrokt@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/kooha/breathing/"
 "ar/>\n"
@@ -72,7 +72,7 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:47
 msgid "Main Menu"
-msgstr "القائمة الرئيسة"
+msgstr "القائمة الرئيسية"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -104,7 +104,7 @@ msgstr "عام"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "افتح القائمة"
+msgstr "فتح القائمة"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "الخروج"
+msgstr "خروج"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -124,12 +124,12 @@ msgstr ""
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
-msgstr "الحقوق  لصالح  Dave Patrick لعام 2021"
+msgstr "الحقوق Dave Patrick 2021"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr "Mehdi Essalehi, Muhammad Yasser"
+msgstr "Mehdi Essalehi,Muhammad Yasser"
 
 #: src/main.py:85
 msgid "GitHub"
