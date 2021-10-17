@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Luna Jernberg <droidbittin@gmail.com>, 2021.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
+# Kristoffer Grundström <swedishsailfishosuser@tutanota.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-08-19 13:33+0000\n"
-"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"PO-Revision-Date: 2021-10-17 22:34+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/kooha/breathing/"
 "sv/>\n"
 "Language: sv\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -43,6 +44,10 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Breathing är en väldigt enkel applikation som guidar din andningsmönster. "
+"Det här mönstret rekommenderas av experter som hjälper dig att lätta på din "
+"ångest. Det ger också ett lugnande ljud för att göra det mycket enklare att "
+"slappna av."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
@@ -128,7 +133,7 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr ""
+msgstr "Kristoffer Grundström"
 
 #: src/main.py:85
 msgid "GitHub"
