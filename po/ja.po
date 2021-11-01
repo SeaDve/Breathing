@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-10-29 08:40+0000\n"
+"PO-Revision-Date: 2021-11-01 13:36+0000\n"
 "Last-Translator: Kaz Sibuya <sibuyakazokuu@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/kooha/breathing/"
 "ja/>\n"
@@ -34,11 +34,11 @@ msgstr "Utility;Breath;Exercise;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
 msgid "Relax and meditate"
-msgstr ""
+msgstr "リラックスと瞑想"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "リラックスして、集中し、ストレスから開放されましょう。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -46,18 +46,20 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Breathingはとてもシンプルなアプリケーションで、あなたに呼吸のパターンを教えます。この呼吸パターンは専門家が推奨するもので、あなたの不安を和らげる"
+"でしょう。また、リラックスしやすくできるサウンドも用意されています。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Breathingの特徴は以下の通りです："
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ あなたの呼吸をガイド。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 ダークモードへの切り替え"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
@@ -78,19 +80,19 @@ msgstr "メニュー"
 
 #: data/ui/window.ui:57 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "ダークモードの切り替え"
 
 #: data/ui/window.ui:88
 msgid "Go"
-msgstr ""
+msgstr "開始"
 
 #: data/ui/window.ui:98
 msgid "In"
-msgstr ""
+msgstr "吸って"
 
 #: data/ui/window.ui:108
 msgid "Out"
-msgstr ""
+msgstr "吐いて"
 
 #: data/ui/window.ui:126
 msgid "Keyboard Shortcuts"
@@ -98,7 +100,7 @@ msgstr "キーボードショートカット"
 
 #: data/ui/window.ui:130
 msgid "About Breathing"
-msgstr ""
+msgstr "Breathingについて"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
@@ -110,7 +112,7 @@ msgstr "メニューを開く"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカットを表示"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
@@ -118,11 +120,11 @@ msgstr "終了"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "通常のコントロール"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "開始と終了"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
@@ -135,7 +137,7 @@ msgstr ""
 "小山田 純,\n"
 "Ryo Nakano\n"
 "\n"
-"Sibuya Kaz"
+"Kaz Sibuya"
 
 #: src/main.py:85
 msgid "GitHub"
