@@ -17,19 +17,31 @@ class BreathingWindow(Adw.ApplicationWindow):
     circle3 = Gtk.Template.Child()
     time_label = Gtk.Template.Child()
 
-    dark_mode = GObject.Property(type=bool, default=False)
+    _dark_mode = True
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         self.timer = Timer()
+
         self.settings = Gio.Settings("io.github.seadve.Breathing")
-        self.get_settings().bind_property("gtk-application-prefer-dark-theme", self, "dark-mode")
-        self.settings.bind(
-            "dark-mode", self.get_settings(),
-            "gtk-application-prefer-dark-theme", Gio.SettingsBindFlags.DEFAULT
-        )
+        self.settings.bind("dark-mode", self, "dark-mode", Gio.SettingsBindFlags.DEFAULT)
+
         self.connect_signals()
+
+    @GObject.Property(type=bool, default=_dark_mode)
+    def dark_mode(self):
+        return self._dark_mode
+
+    @dark_mode.setter  # type: ignore
+    def dark_mode(self, dark_mode):
+        self._dark_mode = dark_mode
+
+        adw_style_manager = Adw.StyleManager.get_default()
+        if dark_mode:
+            adw_style_manager.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
+        else:
+            adw_style_manager.set_color_scheme(Adw.ColorScheme.FORCE_LIGHT)
 
     @Gtk.Template.Callback()
     def get_dark_mode_icon(self, window, dark_mode):
