@@ -1,31 +1,16 @@
 use adw::subclass::prelude::*;
-use gtk::{gio, glib, prelude::*, subclass::prelude::*};
+use gtk::{gio, glib, prelude::*, subclass::prelude::*, CompositeTemplate};
 
-use crate::{
-    config::{APP_ID, PROFILE},
-    Application,
-};
+use crate::{config::PROFILE, Application};
 
 mod imp {
     use super::*;
 
-    use gtk::CompositeTemplate;
-
-    #[derive(Debug, CompositeTemplate)]
+    #[derive(Debug, Default, CompositeTemplate)]
     #[template(resource = "/io/github/seadve/Breathing/ui/window.ui")]
     pub struct Window {
         #[template_child]
         pub headerbar: TemplateChild<gtk::HeaderBar>,
-        pub settings: gio::Settings,
-    }
-
-    impl Default for Window {
-        fn default() -> Self {
-            Self {
-                headerbar: TemplateChild::default(),
-                settings: gio::Settings::new(APP_ID),
-            }
-        }
     }
 
     #[glib::object_subclass]
@@ -87,26 +72,24 @@ impl Window {
     }
 
     fn save_window_size(&self) -> Result<(), glib::BoolError> {
-        let self_ = imp::Window::from_instance(self);
+        let settings = Application::default().settings();
 
         let (width, height) = self.default_size();
 
-        self_.settings.set_int("window-width", width)?;
-        self_.settings.set_int("window-height", height)?;
+        settings.set_int("window-width", width)?;
+        settings.set_int("window-height", height)?;
 
-        self_
-            .settings
-            .set_boolean("is-maximized", self.is_maximized())?;
+        settings.set_boolean("is-maximized", self.is_maximized())?;
 
         Ok(())
     }
 
     fn load_window_size(&self) {
-        let self_ = imp::Window::from_instance(self);
+        let settings = Application::default().settings();
 
-        let width = self_.settings.int("window-width");
-        let height = self_.settings.int("window-height");
-        let is_maximized = self_.settings.boolean("is-maximized");
+        let width = settings.int("window-width");
+        let height = settings.int("window-height");
+        let is_maximized = settings.boolean("is-maximized");
 
         self.set_default_size(width, height);
 

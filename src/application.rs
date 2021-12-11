@@ -17,9 +17,10 @@ mod imp {
     use glib::WeakRef;
     use once_cell::sync::OnceCell;
 
-    #[derive(Debug, Default)]
+    #[derive(Debug)]
     pub struct Application {
         pub window: OnceCell<WeakRef<Window>>,
+        pub settings: gio::Settings,
     }
 
     #[glib::object_subclass]
@@ -27,6 +28,13 @@ mod imp {
         const NAME: &'static str = "BtgApplication";
         type Type = super::Application;
         type ParentType = adw::Application;
+
+        fn new() -> Self {
+            Self {
+                window: OnceCell::new(),
+                settings: gio::Settings::new(APP_ID),
+            }
+        }
     }
 
     impl ObjectImpl for Application {}
@@ -79,6 +87,11 @@ impl Application {
         .expect("Application initialization failed...")
     }
 
+    pub fn settings(&self) -> gio::Settings {
+        let imp = imp::Application::from_instance(self);
+        imp.settings.clone()
+    }
+
     fn main_window(&self) -> Window {
         let imp = imp::Application::from_instance(self);
         imp.window.get().unwrap().upgrade().unwrap()
@@ -110,8 +123,7 @@ impl Application {
     fn show_about_dialog(&self) {
         let dialog = gtk::AboutDialogBuilder::new()
             .logo_icon_name(APP_ID)
-            // Insert your license of choice here
-            // .license_type(gtk::License::MitX11)
+            .license_type(gtk::License::Gpl30)
             // Insert your website here
             // .website("https://gitlab.gnome.org/bilelmoussaoui/breathing/")
             .version(VERSION)
@@ -131,5 +143,11 @@ impl Application {
         log::info!("Datadir: {}", PKGDATADIR);
 
         ApplicationExtManual::run(self);
+    }
+}
+
+impl Default for Application {
+    fn default() -> Self {
+        gio::Application::default().unwrap().downcast().unwrap()
     }
 }

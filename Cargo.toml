@@ -2,7 +2,8 @@
 name = "breathing"
 version = "0.1.0"
 authors = ["Dave Patrick <davecruz48@gmail.com>"]
-edition = "2018"
+license = "GPL-3.0-or-later"
+edition = "2021"
 
 [dependencies]
 log = "0.4.14"
