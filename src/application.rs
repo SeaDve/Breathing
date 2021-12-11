@@ -1,13 +1,16 @@
-use gettextrs::gettext;
-
 use adw::subclass::prelude::*;
-use glib::clone;
-use gtk::prelude::*;
-use gtk::subclass::prelude::*;
-use gtk::{gio, glib};
+use gettextrs::gettext;
+use gtk::{
+    gio,
+    glib::{self, clone},
+    prelude::*,
+    subclass::prelude::*,
+};
 
-use crate::config::{APP_ID, PKGDATADIR, PROFILE, VERSION};
-use crate::window::ExampleApplicationWindow;
+use crate::{
+    config::{APP_ID, PKGDATADIR, PROFILE, VERSION},
+    window::Window,
+};
 
 mod imp {
     use super::*;
@@ -15,20 +18,20 @@ mod imp {
     use once_cell::sync::OnceCell;
 
     #[derive(Debug, Default)]
-    pub struct ExampleApplication {
-        pub window: OnceCell<WeakRef<ExampleApplicationWindow>>,
+    pub struct Application {
+        pub window: OnceCell<WeakRef<Window>>,
     }
 
     #[glib::object_subclass]
-    impl ObjectSubclass for ExampleApplication {
-        const NAME: &'static str = "ExampleApplication";
-        type Type = super::ExampleApplication;
+    impl ObjectSubclass for Application {
+        const NAME: &'static str = "BtgApplication";
+        type Type = super::Application;
         type ParentType = adw::Application;
     }
 
-    impl ObjectImpl for ExampleApplication {}
+    impl ObjectImpl for Application {}
 
-    impl ApplicationImpl for ExampleApplication {
+    impl ApplicationImpl for Application {
         fn activate(&self, app: &Self::Type) {
             if let Some(window) = self.window.get() {
                 let window = window.upgrade().unwrap();
@@ -37,7 +40,7 @@ mod imp {
                 return;
             }
 
-            let window = ExampleApplicationWindow::new(app);
+            let window = Window::new(app);
             self.window
                 .set(window.downgrade())
                 .expect("Window already set.");
@@ -56,17 +59,17 @@ mod imp {
         }
     }
 
-    impl GtkApplicationImpl for ExampleApplication {}
-    impl AdwApplicationImpl for ExampleApplication {}
+    impl GtkApplicationImpl for Application {}
+    impl AdwApplicationImpl for Application {}
 }
 
 glib::wrapper! {
-    pub struct ExampleApplication(ObjectSubclass<imp::ExampleApplication>)
+    pub struct Application(ObjectSubclass<imp::Application>)
         @extends gio::Application, gtk::Application, adw::Application,
         @implements gio::ActionMap, gio::ActionGroup;
 }
 
-impl ExampleApplication {
+impl Application {
     pub fn new() -> Self {
         glib::Object::new(&[
             ("application-id", &Some(APP_ID)),
@@ -76,8 +79,8 @@ impl ExampleApplication {
         .expect("Application initialization failed...")
     }
 
-    fn main_window(&self) -> ExampleApplicationWindow {
-        let imp = imp::ExampleApplication::from_instance(self);
+    fn main_window(&self) -> Window {
+        let imp = imp::Application::from_instance(self);
         imp.window.get().unwrap().upgrade().unwrap()
     }
 

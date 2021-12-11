@@ -16,7 +16,7 @@
       </item>
     </section>
   </menu>
-  <template class="ExampleApplicationWindow" parent="AdwApplicationWindow">
+  <template class="BtgWindow" parent="AdwApplicationWindow">
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>

@@ -1,10 +1,10 @@
 use adw::subclass::prelude::*;
-use gtk::prelude::*;
-use gtk::subclass::prelude::*;
-use gtk::{gio, glib};
+use gtk::{gio, glib, prelude::*, subclass::prelude::*};
 
-use crate::application::ExampleApplication;
-use crate::config::{APP_ID, PROFILE};
+use crate::{
+    config::{APP_ID, PROFILE},
+    Application,
+};
 
 mod imp {
     use super::*;
@@ -13,13 +13,13 @@ mod imp {
 
     #[derive(Debug, CompositeTemplate)]
     #[template(resource = "/io/github/seadve/Breathing/ui/window.ui")]
-    pub struct ExampleApplicationWindow {
+    pub struct Window {
         #[template_child]
         pub headerbar: TemplateChild<gtk::HeaderBar>,
         pub settings: gio::Settings,
     }
 
-    impl Default for ExampleApplicationWindow {
+    impl Default for Window {
         fn default() -> Self {
             Self {
                 headerbar: TemplateChild::default(),
@@ -29,9 +29,9 @@ mod imp {
     }
 
     #[glib::object_subclass]
-    impl ObjectSubclass for ExampleApplicationWindow {
-        const NAME: &'static str = "ExampleApplicationWindow";
-        type Type = super::ExampleApplicationWindow;
+    impl ObjectSubclass for Window {
+        const NAME: &'static str = "BtgWindow";
+        type Type = super::Window;
         type ParentType = adw::ApplicationWindow;
 
         fn class_init(klass: &mut Self::Class) {
@@ -44,7 +44,7 @@ mod imp {
         }
     }
 
-    impl ObjectImpl for ExampleApplicationWindow {
+    impl ObjectImpl for Window {
         fn constructed(&self, obj: &Self::Type) {
             self.parent_constructed(obj);
 
@@ -58,8 +58,8 @@ mod imp {
         }
     }
 
-    impl WidgetImpl for ExampleApplicationWindow {}
-    impl WindowImpl for ExampleApplicationWindow {
+    impl WidgetImpl for Window {}
+    impl WindowImpl for Window {
         // Save window state on delete event
         fn close_request(&self, window: &Self::Type) -> gtk::Inhibit {
             if let Err(err) = window.save_window_size() {
@@ -71,24 +71,23 @@ mod imp {
         }
     }
 
-    impl ApplicationWindowImpl for ExampleApplicationWindow {}
-    impl AdwApplicationWindowImpl for ExampleApplicationWindow {}
+    impl ApplicationWindowImpl for Window {}
+    impl AdwApplicationWindowImpl for Window {}
 }
 
 glib::wrapper! {
-    pub struct ExampleApplicationWindow(ObjectSubclass<imp::ExampleApplicationWindow>)
+    pub struct Window(ObjectSubclass<imp::Window>)
         @extends gtk::Widget, gtk::Window, gtk::ApplicationWindow, adw::ApplicationWindow,
         @implements gio::ActionMap, gio::ActionGroup;
 }
 
-impl ExampleApplicationWindow {
-    pub fn new(app: &ExampleApplication) -> Self {
-        glib::Object::new(&[("application", app)])
-            .expect("Failed to create ExampleApplicationWindow")
+impl Window {
+    pub fn new(app: &Application) -> Self {
+        glib::Object::new(&[("application", app)]).expect("Failed to create Window")
     }
 
     fn save_window_size(&self) -> Result<(), glib::BoolError> {
-        let self_ = imp::ExampleApplicationWindow::from_instance(self);
+        let self_ = imp::Window::from_instance(self);
 
         let (width, height) = self.default_size();
 
@@ -103,7 +102,7 @@ impl ExampleApplicationWindow {
     }
 
     fn load_window_size(&self) {
-        let self_ = imp::ExampleApplicationWindow::from_instance(self);
+        let self_ = imp::Window::from_instance(self);
 
         let width = self_.settings.int("window-width");
         let height = self_.settings.int("window-height");
