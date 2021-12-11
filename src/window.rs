@@ -1,7 +1,15 @@
 use adw::subclass::prelude::*;
-use gtk::{gio, glib, prelude::*, subclass::prelude::*, CompositeTemplate};
+use gtk::{
+    gio,
+    glib::{self, clone},
+    prelude::*,
+    subclass::prelude::*,
+    CompositeTemplate,
+};
 
-use crate::{config::PROFILE, Application};
+use std::time::Duration;
+
+use crate::{config::PROFILE, visualizer::Visualizer, Application};
 
 mod imp {
     use super::*;
@@ -10,7 +18,7 @@ mod imp {
     #[template(resource = "/io/github/seadve/Breathing/ui/window.ui")]
     pub struct Window {
         #[template_child]
-        pub headerbar: TemplateChild<gtk::HeaderBar>,
+        pub visualizer: TemplateChild<Visualizer>,
     }
 
     #[glib::object_subclass]
@@ -21,9 +29,26 @@ mod imp {
 
         fn class_init(klass: &mut Self::Class) {
             Self::bind_template(klass);
+
+            klass.install_action("window.expand", None, move |obj, _, _| {
+                let ctx = glib::MainContext::default();
+                ctx.spawn_local(clone!(@weak obj => async move {
+                    let imp = imp::Window::from_instance(&obj);
+                    imp.visualizer.expand(Duration::from_secs(2)).await;
+                    log::info!("Expand done");
+                }));
+            });
+
+            klass.install_action("window.shrink", None, move |obj, _, _| {
+                let ctx = glib::MainContext::default();
+                ctx.spawn_local(clone!(@weak obj => async move {
+                    let imp = imp::Window::from_instance(&obj);
+                    imp.visualizer.shrink(Duration::from_secs(2)).await;
+                    log::info!("Shrink done");
+                }));
+            });
         }
 
-        // You must call `Widget`'s `init_template()` within `instance_init()`.
         fn instance_init(obj: &glib::subclass::InitializingObject<Self>) {
             obj.init_template();
         }
@@ -33,25 +58,21 @@ mod imp {
         fn constructed(&self, obj: &Self::Type) {
             self.parent_constructed(obj);
 
-            // Devel Profile
             if PROFILE == "Devel" {
                 obj.add_css_class("devel");
             }
 
-            // Load latest window state
             obj.load_window_size();
         }
     }
 
     impl WidgetImpl for Window {}
     impl WindowImpl for Window {
-        // Save window state on delete event
         fn close_request(&self, window: &Self::Type) -> gtk::Inhibit {
             if let Err(err) = window.save_window_size() {
                 log::warn!("Failed to save window state, {}", &err);
             }
 
-            // Pass close request on to the parent
             self.parent_close_request(window)
         }
     }

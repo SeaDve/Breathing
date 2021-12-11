@@ -19,7 +19,9 @@
 #![warn(clippy::doc_markdown)]
 
 mod application;
+mod circle;
 mod config;
+mod visualizer;
 mod window;
 
 use gettextrs::{gettext, LocaleCategory};

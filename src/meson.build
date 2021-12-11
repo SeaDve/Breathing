@@ -20,9 +20,11 @@ run_command(
 
 rust_sources = files(
   'application.rs',
+  'circle.rs',
   'config.rs',
   'main.rs',
   'window.rs',
+  'visualizer.rs',
 )
 
 sources = [rust_sources, cargo_sources]

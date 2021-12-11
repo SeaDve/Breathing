@@ -21,7 +21,7 @@
       <object class="GtkBox">
         <property name="orientation">vertical</property>
         <child>
-          <object class="GtkHeaderBar" id="headerbar">
+          <object class="GtkHeaderBar">
             <child type="end">
               <object class="GtkMenuButton" id="appmenu_button">
                 <property name="icon-name">open-menu-symbolic</property>
@@ -31,11 +31,8 @@
           </object>
         </child>
         <child>
-          <object class="GtkLabel" id="label">
-            <property name="label" translatable="yes">Hello world!</property>
-            <style>
-              <class name="title-header"/>
-            </style>
+          <object class="BtgVisualizer" id="visualizer">
+            <property name="max-size">100</property>
           </object>
         </child>
       </object>
