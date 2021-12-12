@@ -1,27 +1,43 @@
 use adw::prelude::*;
-use gtk::{
-    glib::{self, clone},
-    subclass::prelude::*,
-    CompositeTemplate,
-};
+use gtk::{glib, subclass::prelude::*};
 
-use std::{
-    cell::{Cell, RefCell},
-    time::Duration,
-};
-
-use crate::circle::Circle;
+use std::cell::Cell;
 
 mod imp {
     use super::*;
 
-    #[derive(Debug, Default, CompositeTemplate)]
-    #[template(resource = "/io/github/seadve/Breathing/ui/visualizer.ui")]
-    pub struct Visualizer {
-        #[template_child]
-        pub circle: TemplateChild<Circle>,
+    pub type VisualizerInstance = super::Visualizer;
 
-        pub max_size: Cell<u32>,
+    #[repr(C)]
+    pub struct VisualizerClass {
+        pub parent_class: gtk::ffi::GtkWidgetClass,
+        pub set_size: fn(&VisualizerInstance, size: u32),
+    }
+
+    unsafe impl ClassStruct for VisualizerClass {
+        type Type = Visualizer;
+    }
+
+    #[derive(Debug, Default)]
+    pub struct Visualizer {
+        pub size: Cell<u32>,
+    }
+
+    fn set_size_default_trampoline(this: &VisualizerInstance, size: u32) {
+        Visualizer::from_instance(this).set_size(this, size)
+    }
+
+    pub(super) fn visualizer_set_size(this: &VisualizerInstance, size: u32) {
+        let klass = this.class();
+        (klass.as_ref().set_size)(this, size)
+    }
+
+    impl Visualizer {
+        fn set_size(&self, obj: &VisualizerInstance, size: u32) {
+            let imp = imp::Visualizer::from_instance(obj.as_ref());
+            imp.size.set(size);
+            obj.notify("size");
+        }
     }
 
     #[glib::object_subclass]
@@ -29,13 +45,10 @@ mod imp {
         const NAME: &'static str = "BtgVisualizer";
         type Type = super::Visualizer;
         type ParentType = gtk::Widget;
+        type Class = VisualizerClass;
 
         fn class_init(klass: &mut Self::Class) {
-            Self::bind_template(klass);
-        }
-
-        fn instance_init(obj: &glib::subclass::InitializingObject<Self>) {
-            obj.init_template();
+            klass.set_size = set_size_default_trampoline;
         }
     }
 
@@ -44,9 +57,9 @@ mod imp {
             use once_cell::sync::Lazy;
             static PROPERTIES: Lazy<Vec<glib::ParamSpec>> = Lazy::new(|| {
                 vec![glib::ParamSpec::new_uint(
-                    "max-size",
-                    "Max size",
-                    "Max size of Visualizer",
+                    "size",
+                    "Size",
+                    "Current size",
                     u32::MIN,
                     u32::MAX,
                     0,
@@ -64,9 +77,9 @@ mod imp {
             pspec: &glib::ParamSpec,
         ) {
             match pspec.name() {
-                "max-size" => {
-                    let max_size = value.get().unwrap();
-                    obj.set_max_size(max_size);
+                "size" => {
+                    let size = value.get().unwrap();
+                    obj.set_size(size);
                 }
                 _ => unimplemented!(),
             }
@@ -74,14 +87,8 @@ mod imp {
 
         fn property(&self, obj: &Self::Type, _id: usize, pspec: &glib::ParamSpec) -> glib::Value {
             match pspec.name() {
-                "max-size" => obj.max_size().to_value(),
+                "size" => VisualizerExt::size(obj).to_value(),
                 _ => unimplemented!(),
-            }
-        }
-
-        fn dispose(&self, obj: &Self::Type) {
-            while let Some(child) = obj.first_child() {
-                child.unparent();
             }
         }
     }
@@ -99,66 +106,71 @@ impl Visualizer {
         glib::Object::new(&[]).expect("Failed to create Visualizer")
     }
 
-    pub fn set_max_size(&self, max_size: u32) {
-        let imp = imp::Visualizer::from_instance(self);
-        imp.max_size.set(max_size);
-        self.notify("max-size");
+    // FIXME Implement this as an interface
+    pub fn inhale(&self) {}
+
+    pub fn exhale(&self) {}
+}
+
+impl Default for Visualizer {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
+pub trait VisualizerExt {
+    fn set_size(&self, size: u32);
+    fn size(&self) -> u32;
+}
+
+impl<O: IsA<Visualizer>> VisualizerExt for O {
+    fn set_size(&self, size: u32) {
+        imp::visualizer_set_size(self.upcast_ref::<Visualizer>(), size)
     }
 
-    pub fn max_size(&self) -> u32 {
-        let imp = imp::Visualizer::from_instance(self);
-        imp.max_size.get()
+    fn size(&self) -> u32 {
+        let imp = imp::Visualizer::from_instance(self.as_ref());
+        imp.size.get()
+    }
+}
+
+pub trait VisualizerImpl: ObjectImpl + 'static {
+    fn set_size(&self, obj: &Visualizer, size: u32) {
+        self.parent_set_size(obj, size)
+    }
+}
+
+pub trait VisualizerImplExt: ObjectSubclass {
+    fn parent_set_size(&self, obj: &Visualizer, size: u32);
+}
+
+impl<T: VisualizerImpl> VisualizerImplExt for T {
+    fn parent_set_size(&self, obj: &Visualizer, size: u32) {
+        unsafe {
+            let data = Self::type_data();
+            let parent_class = &*(data.as_ref().parent_class() as *mut imp::VisualizerClass);
+            (parent_class.set_size)(obj, size)
+        }
+    }
+}
+
+unsafe impl<T: VisualizerImpl> IsSubclassable<T> for Visualizer {
+    fn class_init(class: &mut glib::Class<Self>) {
+        <glib::Object as IsSubclassable<T>>::class_init(class.upcast_ref_mut());
+
+        let klass = class.as_mut();
+        klass.set_size = set_size_trampoline::<T>;
     }
 
-    pub async fn expand(&self, duration: Duration) {
-        let is_reverse = false;
-        self.animate_inner(is_reverse, duration).await;
+    fn instance_init(instance: &mut glib::subclass::InitializingObject<T>) {
+        <glib::Object as IsSubclassable<T>>::instance_init(instance);
     }
+}
 
-    pub async fn shrink(&self, duration: Duration) {
-        let is_reverse = true;
-        self.animate_inner(is_reverse, duration).await;
-    }
-
-    async fn animate_inner(&self, is_reverse: bool, duration: Duration) {
-        let (sender, receiver) = futures_channel::oneshot::channel();
-        let sender = RefCell::new(Some(sender));
-
-        let animation = self.default_animation();
-        animation.set_reverse(is_reverse);
-        animation.set_duration(duration.as_millis() as u32);
-
-        animation.connect_done(move |_| {
-            sender.take().unwrap().send(()).unwrap();
-        });
-
-        animation.play();
-
-        receiver.await.unwrap();
-    }
-
-    fn animation_target(&self, value: f64) {
-        log::info!("Target reached with value `{}`", value);
-
-        let imp = imp::Visualizer::from_instance(self);
-        imp.circle.set_size(value as u32);
-    }
-
-    fn default_animation(&self) -> adw::TimedAnimation {
-        let imp = imp::Visualizer::from_instance(self);
-
-        let callback = adw::CallbackAnimationTarget::new(Some(Box::new(
-            clone!(@weak self as obj => move |value| {
-                obj.animation_target(value);
-            }),
-        )));
-
-        adw::TimedAnimation::builder()
-            .widget(&imp.circle.get())
-            .value_from(0.0)
-            .value_to(self.max_size() as f64)
-            .easing(adw::Easing::EaseInOutCubic)
-            .target(&callback)
-            .build()
-    }
+fn set_size_trampoline<T>(this: &Visualizer, size: u32)
+where
+    T: ObjectSubclass + VisualizerImpl,
+{
+    let imp = T::from_instance(this.dynamic_cast_ref::<T::Type>().unwrap());
+    imp.set_size(this, size)
 }

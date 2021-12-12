@@ -126,3 +126,11 @@ impl Circle {
         snapshot.pop();
     }
 }
+
+impl Default for Circle {
+    fn default() -> Self {
+        let obj = Self::new();
+        obj.set_size(100);
+        obj
+    }
+}

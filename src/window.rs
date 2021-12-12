@@ -9,6 +9,7 @@ use gtk::{
 
 use std::time::Duration;
 
+use crate::circle_visualizer::CircleVisualizer;
 use crate::{config::PROFILE, visualizer::Visualizer, Application};
 
 mod imp {
@@ -18,7 +19,7 @@ mod imp {
     #[template(resource = "/io/github/seadve/Breathing/ui/window.ui")]
     pub struct Window {
         #[template_child]
-        pub visualizer: TemplateChild<Visualizer>,
+        pub visualizer: TemplateChild<CircleVisualizer>,
     }
 
     #[glib::object_subclass]
