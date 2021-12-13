@@ -14,3 +14,4 @@ gtk = { version = "0.3.1", package = "gtk4" }
 adw = { package = "libadwaita", version = "0.1.0-beta-1" }
 anyhow = "1.0.51"
 futures-channel = "0.3.18"
+async-trait = "0.1.52"

@@ -31,8 +31,7 @@
           </object>
         </child>
         <child>
-          <object class="BtgVisualizer" id="visualizer">
-            <property name="max-size">100</property>
+          <object class="BtgCircleVisualizer" id="visualizer">
           </object>
         </child>
       </object>

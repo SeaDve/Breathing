@@ -18,7 +18,6 @@
 #![warn(clippy::if_not_else)]
 #![warn(clippy::doc_markdown)]
 
-mod animator;
 mod application;
 mod circle;
 mod circle_visualizer;

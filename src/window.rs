@@ -31,21 +31,21 @@ mod imp {
         fn class_init(klass: &mut Self::Class) {
             Self::bind_template(klass);
 
-            klass.install_action("window.expand", None, move |obj, _, _| {
+            klass.install_action("window.inhale", None, move |obj, _, _| {
                 let ctx = glib::MainContext::default();
                 ctx.spawn_local(clone!(@weak obj => async move {
                     let imp = imp::Window::from_instance(&obj);
-                    imp.visualizer.expand(Duration::from_secs(2)).await;
-                    log::info!("Expand done");
+                    imp.visualizer.inhale(Duration::from_secs(2)).await;
+                    log::info!("Inhale done");
                 }));
             });
 
-            klass.install_action("window.shrink", None, move |obj, _, _| {
+            klass.install_action("window.exhale", None, move |obj, _, _| {
                 let ctx = glib::MainContext::default();
                 ctx.spawn_local(clone!(@weak obj => async move {
                     let imp = imp::Window::from_instance(&obj);
-                    imp.visualizer.shrink(Duration::from_secs(2)).await;
-                    log::info!("Shrink done");
+                    imp.visualizer.exhale(Duration::from_secs(6)).await;
+                    log::info!("Exhale done");
                 }));
             });
         }

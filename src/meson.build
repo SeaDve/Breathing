@@ -21,6 +21,7 @@ run_command(
 rust_sources = files(
   'application.rs',
   'circle.rs',
+  'circle_visualizer.rs',
   'config.rs',
   'main.rs',
   'window.rs',
