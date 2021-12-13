@@ -5,4 +5,5 @@
 
 .circle {
   opacity: 0.5;
+  color: @accent_color;
 }

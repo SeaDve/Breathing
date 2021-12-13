@@ -102,10 +102,10 @@ impl Visualizer for CircleVisualizer {
     async fn inhale(&self, duration: Duration) {
         let imp = imp::CircleVisualizer::from_instance(self);
 
-        let handle_3 = self.do_animation(&imp.circle_3.get(), false, 1.5, duration * 1.5 as u32);
-        glib::timeout_future(Duration::from_millis(100)).await;
-        let handle_2 = self.do_animation(&imp.circle_2.get(), false, 1.0, duration * 1.0 as u32);
-        glib::timeout_future(Duration::from_millis(50)).await;
+        let handle_3 = self.do_animation(&imp.circle_3.get(), false, 1.5, duration);
+        glib::timeout_future(Duration::from_millis(150)).await;
+        let handle_2 = self.do_animation(&imp.circle_2.get(), false, 1.0, duration);
+        glib::timeout_future(Duration::from_millis(75)).await;
         let handle_1 = self.do_animation(&imp.circle_1.get(), false, 0.5, duration);
 
         handle_1.await;
@@ -117,10 +117,10 @@ impl Visualizer for CircleVisualizer {
         let imp = imp::CircleVisualizer::from_instance(self);
 
         let handle_1 = self.do_animation(&imp.circle_1.get(), true, 0.5, duration);
-        glib::timeout_future(Duration::from_millis(50)).await;
-        let handle_2 = self.do_animation(&imp.circle_2.get(), true, 1.0, duration * 1.0 as u32);
-        glib::timeout_future(Duration::from_millis(100)).await;
-        let handle_3 = self.do_animation(&imp.circle_3.get(), true, 1.5, duration * 1.5 as u32);
+        glib::timeout_future(Duration::from_millis(75)).await;
+        let handle_2 = self.do_animation(&imp.circle_2.get(), true, 1.0, duration);
+        glib::timeout_future(Duration::from_millis(150)).await;
+        let handle_3 = self.do_animation(&imp.circle_3.get(), true, 1.5, duration);
 
         handle_1.await;
         handle_2.await;
