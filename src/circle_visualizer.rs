@@ -87,13 +87,16 @@ impl CircleVisualizer {
         let (sender, receiver) = futures_channel::oneshot::channel();
         let sender = RefCell::new(Some(sender));
 
-        animation.connect_done(move |_| {
+        let handler_id = animation.connect_done(move |_| {
             sender.take().unwrap().send(()).unwrap();
         });
 
         animation.play();
 
-        async move { receiver.await.unwrap() }
+        async move {
+            receiver.await.unwrap();
+            animation.disconnect(handler_id);
+        }
     }
 }
 
