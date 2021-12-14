@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <template class="BtgCircleVisualizer" parent="GtkWidget">
+    <property name="vexpand">True</property>
+    <property name="overflow">hidden</property>
     <property name="layout-manager">
       <object class="GtkBinLayout"/>
     </property>
@@ -8,8 +10,6 @@
       <object class="GtkOverlay">
         <child>
           <object class="BtgCircle" id="circle_1">
-            <property name="width-request">200</property>
-            <property name="height-request">200</property>
             <style>
               <class name="circle"/>
             </style>
@@ -17,8 +17,6 @@
         </child>
         <child type="overlay">
           <object class="BtgCircle" id="circle_2">
-            <property name="width-request">200</property>
-            <property name="height-request">200</property>
             <style>
               <class name="circle"/>
             </style>
@@ -26,8 +24,6 @@
         </child>
         <child type="overlay">
           <object class="BtgCircle" id="circle_3">
-            <property name="width-request">200</property>
-            <property name="height-request">200</property>
             <style>
               <class name="circle"/>
             </style>

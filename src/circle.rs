@@ -62,21 +62,6 @@ mod imp {
         fn snapshot(&self, obj: &Self::Type, snapshot: &gtk::Snapshot) {
             obj.on_snapshot(snapshot);
         }
-
-        fn measure(
-            &self,
-            obj: &Self::Type,
-            orientation: gtk::Orientation,
-            _for_size: i32,
-        ) -> (i32, i32, i32, i32) {
-            let widget_size = if orientation == gtk::Orientation::Horizontal {
-                obj.width()
-            } else {
-                obj.height()
-            };
-
-            (widget_size, widget_size, -1, -1)
-        }
     }
 }
 
@@ -96,7 +81,6 @@ impl Circle {
         self.notify("size");
 
         self.queue_draw();
-        self.queue_resize();
     }
 
     pub fn size(&self) -> u32 {
@@ -124,13 +108,5 @@ impl Circle {
         snapshot.push_rounded_clip(&circle);
         snapshot.append_color(&color, &bounds);
         snapshot.pop();
-    }
-}
-
-impl Default for Circle {
-    fn default() -> Self {
-        let obj = Self::new();
-        obj.set_size(100);
-        obj
     }
 }
