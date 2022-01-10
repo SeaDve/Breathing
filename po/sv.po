@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# Luna Jernberg <droidbittin@gmail.com>, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
 # Kristoffer Grundström <swedishsailfishosuser@tutanota.com>, 2021.
 msgid ""
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2021-10-17 22:34+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2022-01-10 13:54+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/kooha/breathing/"
 "sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -124,7 +124,7 @@ msgstr "Huvudkontroller"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Växla andning"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
@@ -133,7 +133,9 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:84
 msgid "translator-credits"
-msgstr "Kristoffer Grundström"
+msgstr ""
+"Kristoffer Grundström\n"
+"Luna Jernberg"
 
 #: src/main.py:85
 msgid "GitHub"
