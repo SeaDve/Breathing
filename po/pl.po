@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Adam Hulewicz <dontbesoso@gmail.com>, 2021.
 # Radosław Korotkiewicz <Ezioleq@wp.pl>, 2022.
+# Carlod <carlod@disroot.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 13:53+0800\n"
-"PO-Revision-Date: 2022-01-09 01:54+0000\n"
-"Last-Translator: Radosław Korotkiewicz <Ezioleq@wp.pl>\n"
+"PO-Revision-Date: 2022-01-25 20:56+0000\n"
+"Last-Translator: Carlod <carlod@disroot.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/kooha/breathing/"
 "pl/>\n"
 "Language: pl\n"
@@ -18,25 +19,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Oddychanie"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Narzędzia;Oddech;Ćwiczenie;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
 msgid "Relax and meditate"
-msgstr ""
+msgstr "Zrelaksuj się i medytuj"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "Zrelaksuj się, skup się i pozbądź się stresu."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -44,26 +45,30 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Oddychanie to bardzo prosta aplikacja, która uczy cię wzorcu oddychania. Te "
+"wzorzec jest rekomendowany przez ekspertów, który pomoże załagodzić twój "
+"niepokój. Aplikacja posiada również uspokajający dźwięk, aby ułatwić "
+"zrelaksowanie się."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Główne funkcje aplikacji Oddychanie to:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Nauka oddychania."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Prosta zmiana ciemnego motywu."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Interfejs prosty w użyciu."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Przydatne skróty klawiszowe."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
@@ -116,11 +121,11 @@ msgstr "Zakończ"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Główne ustawienia"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Włącz oddychanie"
 
 #: src/main.py:82
 msgid "Copyright 2021 Dave Patrick"
