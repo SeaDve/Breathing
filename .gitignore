@@ -3,3 +3,5 @@
 .mypy_cache
 build-dir/
 builddir/
+.flatpak
+.vscode
