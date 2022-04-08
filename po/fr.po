@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 13:53+0800\n"
+"POT-Creation-Date: 2022-04-08 09:24+0800\n"
 "PO-Revision-Date: 2021-12-17 07:52+0000\n"
 "Last-Translator: Maxime Leroy <lisacintosh@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -29,7 +29,7 @@ msgstr "Respirer"
 msgid "Utility;Breath;Exercise;"
 msgstr "Utilitaire;Respirer;Respiration;Exercice;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
+#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
 msgstr "Exercez votre respiration"
 
@@ -73,31 +73,31 @@ msgstr "⌨️ Raccourcis clavier conviviaux."
 msgid "Dave Patrick"
 msgstr "Dave Patrick"
 
-#: data/ui/window.ui:47
+#: data/ui/window.ui:48
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: data/ui/window.ui:57 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "Activer mode sombre"
 
-#: data/ui/window.ui:88
+#: data/ui/window.ui:89
 msgid "Go"
 msgstr "Allons-y"
 
-#: data/ui/window.ui:98
+#: data/ui/window.ui:99
 msgid "In"
 msgstr "Inspirez"
 
-#: data/ui/window.ui:108
+#: data/ui/window.ui:109
 msgid "Out"
 msgstr "Expirez"
 
-#: data/ui/window.ui:126
+#: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
-#: data/ui/window.ui:130
+#: data/ui/window.ui:131
 msgid "About Breathing"
 msgstr "À propos de Respirer"
 
@@ -125,16 +125,16 @@ msgstr "Commandes principales"
 msgid "Toggle Breathing"
 msgstr "Activer la respiration"
 
-#: src/main.py:82
+#: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
 msgstr "Copyright 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:84
+#: src/main.py:74
 msgid "translator-credits"
 msgstr "J. Lavoie"
 
-#: src/main.py:85
+#: src/main.py:75
 msgid "GitHub"
 msgstr "GitHub"
 

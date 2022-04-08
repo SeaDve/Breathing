@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 13:53+0800\n"
+"POT-Creation-Date: 2022-04-08 09:24+0800\n"
 "PO-Revision-Date: 2021-11-19 03:52+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -32,7 +32,7 @@ msgstr "Breathing"
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
+#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
 msgstr "リラックスと瞑想"
 
@@ -46,8 +46,9 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
-"Breathingはとてもシンプルなアプリケーションで、あなたに呼吸のパターンを教えます。この呼吸パターンは専門家が推奨するもので、あなたの不安を和らげる"
-"でしょう。また、リラックスしやすくできるサウンドも用意されています。"
+"Breathingはとてもシンプルなアプリケーションで、あなたに呼吸のパターンを教えま"
+"す。この呼吸パターンは専門家が推奨するもので、あなたの不安を和らげるでしょ"
+"う。また、リラックスしやすくできるサウンドも用意されています。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
@@ -74,31 +75,31 @@ msgstr "⌨️ ユーザーフレンドリーなキーボードショートカ�
 msgid "Dave Patrick"
 msgstr "Dave Patrick"
 
-#: data/ui/window.ui:47
+#: data/ui/window.ui:48
 msgid "Main Menu"
 msgstr "メニュー"
 
-#: data/ui/window.ui:57 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "ダークモードの切り替え"
 
-#: data/ui/window.ui:88
+#: data/ui/window.ui:89
 msgid "Go"
 msgstr "開始"
 
-#: data/ui/window.ui:98
+#: data/ui/window.ui:99
 msgid "In"
 msgstr "吸って"
 
-#: data/ui/window.ui:108
+#: data/ui/window.ui:109
 msgid "Out"
 msgstr "吐いて"
 
-#: data/ui/window.ui:126
+#: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
-#: data/ui/window.ui:130
+#: data/ui/window.ui:131
 msgid "About Breathing"
 msgstr "Breathingについて"
 
@@ -126,19 +127,19 @@ msgstr "メインコントロール"
 msgid "Toggle Breathing"
 msgstr "開始と終了"
 
-#: src/main.py:82
+#: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
 msgstr "Copyright 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:84
+#: src/main.py:74
 msgid "translator-credits"
 msgstr ""
 "小山田 純,\n"
 "Ryo Nakano,\n"
 "Kaz Sibuya"
 
-#: src/main.py:85
+#: src/main.py:75
 msgid "GitHub"
 msgstr "GitHub"
 

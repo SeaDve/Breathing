@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 13:53+0800\n"
+"POT-Creation-Date: 2022-04-08 09:24+0800\n"
 "PO-Revision-Date: 2021-12-06 21:50+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -29,7 +29,7 @@ msgstr "Breathing"
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;כלי;עזר;נשימה;אימון;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:79
+#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
 msgstr "הירגעות ומדיטציה"
 
@@ -72,31 +72,31 @@ msgstr "⌨️ קיצורי מקשים ידידותיים למשתמש."
 msgid "Dave Patrick"
 msgstr "דייב פטריק"
 
-#: data/ui/window.ui:47
+#: data/ui/window.ui:48
 msgid "Main Menu"
 msgstr "התפריט הראשי"
 
-#: data/ui/window.ui:57 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "מצב לילה"
 
-#: data/ui/window.ui:88
+#: data/ui/window.ui:89
 msgid "Go"
 msgstr "מעבר"
 
-#: data/ui/window.ui:98
+#: data/ui/window.ui:99
 msgid "In"
 msgstr "לנשום"
 
-#: data/ui/window.ui:108
+#: data/ui/window.ui:109
 msgid "Out"
 msgstr "לנשוף"
 
-#: data/ui/window.ui:126
+#: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
 msgstr "קיצורי מקשים"
 
-#: data/ui/window.ui:130
+#: data/ui/window.ui:131
 msgid "About Breathing"
 msgstr "על אודות Breathing"
 
@@ -124,15 +124,15 @@ msgstr "קיצורי מקשים ראשיים"
 msgid "Toggle Breathing"
 msgstr "הפעלת/כיבוי Breathing"
 
-#: src/main.py:82
+#: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
 msgstr "כל הזכויות שמורות מ־2021 לדייב פטריק (Dave Patrick)"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:84
+#: src/main.py:74
 msgid "translator-credits"
 msgstr "עומר א״ש <omeritzicschwartz@gmail.com>"
 
-#: src/main.py:85
+#: src/main.py:75
 msgid "GitHub"
 msgstr "GitHub"
