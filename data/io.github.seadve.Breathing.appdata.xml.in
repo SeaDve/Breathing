@@ -38,6 +38,15 @@
   </screenshots>
 
   <releases>
+    <release version="0.1.2" date="2022-04-08">
+      <description>
+        <p>This is a simple release with behind the scenes fixes.</p>
+        <ul>
+          <li>Port to libadwaita</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.1" date="2021-08-05">
       <description>
         <p>This is a simple release with behind the scenes fixes.</p>
