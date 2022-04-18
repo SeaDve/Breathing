@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # J. Lavoie <j.lavoie@net-c.ca>, 2021.
 # Maxime Leroy <lisacintosh@gmail.com>, 2021.
+# matb <perso@mathieu-bousquet.fr>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2021-12-17 07:52+0000\n"
-"Last-Translator: Maxime Leroy <lisacintosh@gmail.com>\n"
+"PO-Revision-Date: 2022-04-18 11:08+0000\n"
+"Last-Translator: matb <perso@mathieu-bousquet.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/kooha/breathing/"
 "fr/>\n"
 "Language: fr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -127,12 +128,12 @@ msgstr "Activer la respiration"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr "Copyright 2021 Dave Patrick"
+msgstr "Droits d'auteur 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "J. Lavoie"
+msgstr "J. Lavoie, M. Bousquet"
 
 #: src/main.py:75
 msgid "GitHub"
