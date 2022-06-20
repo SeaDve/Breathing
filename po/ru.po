@@ -4,13 +4,14 @@
 # Noel Fritz <toro_75@yahoo.com>, 2021.
 # Artem <Localizer_in_Russian@protonmail.com>, 2021.
 # VBB <librusekus35790@gmail.com>, 2022.
+# Daudix UFO <ddaudix@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-05-22 22:17+0000\n"
-"Last-Translator: VBB <librusekus35790@gmail.com>\n"
+"PO-Revision-Date: 2022-06-20 00:14+0000\n"
+"Last-Translator: Daudix UFO <ddaudix@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/kooha/breathing/"
 "ru/>\n"
 "Language: ru\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -29,7 +30,7 @@ msgstr "Дыхание"
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Утилита;Дышать;Упражнение;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
@@ -37,7 +38,7 @@ msgstr "Расслабьтесь и медитируйте"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "Расслабьтесь, сосредоточьтесь и избавьтесь от стресса."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -45,27 +46,30 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Дыхание — это очень простое приложение, которое поможет вам дышать по схеме "
+"дыхания, Эта схема, рекомендованная экспертами, поможет облегчить ваше "
+"беспокойство. Оно также обеспечивает успокаивающий звук, чтобы было намного "
+"легче расслабиться."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Основные функции Дыхания включают следующее:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Помогает вам дышать."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 С легкостью включайте темный режим."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "Лёгкий в использовании интерфейс"
+msgstr "📱 Лёгкий в использовании интерфейс."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
-#, fuzzy
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "Лёгкие сочетания клавиш"
+msgstr "⌨️ Удобные сочетания клавиш."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
@@ -97,9 +101,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Сочетания клавиш"
 
 #: data/ui/window.ui:131
-#, fuzzy
 msgid "About Breathing"
-msgstr "О приложении"
+msgstr "О Дыхании"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
@@ -110,21 +113,20 @@ msgid "Open Menu"
 msgstr "Открыть меню"
 
 #: data/ui/shortcuts.ui:20
-#, fuzzy
 msgid "Show Keyboard Shortcuts"
-msgstr "Показать сочетания клавиш"
+msgstr "Показать комбинации клавиш"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "Выход"
+msgstr "Выйти"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Основные элементы управления"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Переключить дыхание"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
@@ -133,7 +135,7 @@ msgstr "Авторское право 2021 Дейв Патрик"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Kovalev Artem"
+msgstr "Ковалев Артем, Давид Лапшин"
 
 #: src/main.py:75
 msgid "GitHub"
