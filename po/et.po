@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-08-03 19:15+0000\n"
+"PO-Revision-Date: 2022-08-07 01:15+0000\n"
 "Last-Translator: Henri <contact@hen.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/kooha/breathing/"
 "et/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Hinga"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
@@ -34,7 +34,7 @@ msgstr "Harjuta meditatsiooni"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "Puhka, keskendu ja vabane stressist."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -42,93 +42,95 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"Hinga on lihtne rakendus hingamisharjutamiseks. Harjutus, mis aitab ärevust "
+"vähendada, on ekspertide soovitatud."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Hinga rakenduse põhifunktsioonid:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Hingamisharjutused."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Tume teema."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Lihtne kasutada."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Kasutajasõbralikud kiirklahvid."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "Dave Patrick"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr ""
+msgstr "Valikud"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Tume teema sisse/välja"
 
 #: data/ui/window.ui:89
 msgid "Go"
-msgstr ""
+msgstr "Alusta"
 
 #: data/ui/window.ui:99
 msgid "In"
-msgstr ""
+msgstr "Sisse"
 
 #: data/ui/window.ui:109
 msgid "Out"
-msgstr ""
+msgstr "Välja"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Kiirklahvid"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "Teave"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr ""
+msgstr "Üldine"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Ava valikud"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Näita kiirklahve"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "Lahku"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Juhtnupud"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Hingamine sisse/välja"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "Autoriõigus 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr ""
+msgstr "Henri <contact@hen.ee>"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
