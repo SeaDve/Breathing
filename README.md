@@ -17,7 +17,7 @@
 
 <br>
 <p align="center">
-  <a href="https://hosted.weblate.org/engage/kooha/">
+  <a href="https://hosted.weblate.org/projects/kooha/breathing/">
     <img src="https://hosted.weblate.org/widgets/kooha/-/Breathing/svg-badge.svg" alt="Translation status"  />
   </a>
   <a href="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml">
@@ -65,7 +65,7 @@ ninja -C _build install
 
 ## 🙌 Help translate Breathing
 You can help Breathing translate into your native language. If you found any typos 
-or think you can improve a translation, you can use the [Weblate](https://hosted.weblate.org/engage/kooha/) platform.
+or think you can improve a translation, you can use the [Weblate](https://hosted.weblate.org/projects/kooha/breathing/) platform.
 
 
 ## ☕ Support me and the project
@@ -76,5 +76,5 @@ would like to support and fund it, you may donate through [Liberapay](https://li
 
 ## 💝 Acknowledgment
 
-A big thank you to all the [contributors](https://github.com/SeaDve/Kooha/graphs/contributors) 
-and [translators](https://hosted.weblate.org/engage/kooha/) from Weblate.
+A big thank you to all the [contributors](https://github.com/SeaDve/Breathing/graphs/contributors) 
+and [translators](https://hosted.weblate.org/projects/kooha/breathing/) from Weblate.
