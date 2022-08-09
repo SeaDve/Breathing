@@ -1,44 +1,40 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# Noel Fritz <toro_75@yahoo.com>, 2021.
-# Artem <Localizer_in_Russian@protonmail.com>, 2021.
-# VBB <librusekus35790@gmail.com>, 2022.
-# Daudix UFO <ddaudix@gmail.com>, 2022.
+# Henri <contact@hen.ee>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-06-20 00:14+0000\n"
-"Last-Translator: Daudix UFO <ddaudix@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/kooha/breathing/"
-"ru/>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2022-08-07 01:15+0000\n"
+"Last-Translator: Henri <contact@hen.ee>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/kooha/breathing/"
+"et/>\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr "Дыхание"
+msgstr "Hinga"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr "Утилита;Дышать;Упражнение;"
+msgstr "Utility;Breath;Exercise;hingamine;mediteerimine;meditatsioon;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr "Расслабьтесь и медитируйте"
+msgstr "Harjuta meditatsiooni"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr "Расслабьтесь, сосредоточьтесь и избавьтесь от стресса."
+msgstr "Puhka, keskendu ja vabane stressist."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -46,96 +42,94 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
-"Дыхание — это очень простое приложение, которое поможет вам дышать по схеме "
-"дыхания, Эта схема, рекомендованная экспертами, поможет облегчить ваше "
-"беспокойство. Оно также обеспечивает успокаивающий звук, чтобы было намного "
-"легче расслабиться."
+"Hinga on lihtne rakendus hingamisharjutamiseks. Harjutus, mis aitab ärevust "
+"vähendada, on ekspertide soovitatud."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr "Основные функции Дыхания включают следующее:"
+msgstr "Hinga rakenduse põhifunktsioonid:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr "🌬️ Помогает вам дышать."
+msgstr "🌬️ Hingamisharjutused."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr "🌑 С легкостью включайте темный режим."
+msgstr "🌑 Tume teema."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Лёгкий в использовании интерфейс."
+msgstr "📱 Lihtne kasutada."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ Удобные сочетания клавиш."
+msgstr "⌨️ Kasutajasõbralikud kiirklahvid."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr "Дэйв Патрик"
+msgstr "Dave Patrick"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr "Главное меню"
+msgstr "Valikud"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr "Тёмный режим"
+msgstr "Tume teema sisse/välja"
 
 #: data/ui/window.ui:89
 msgid "Go"
-msgstr "Старт"
+msgstr "Alusta"
 
 #: data/ui/window.ui:99
 msgid "In"
-msgstr "Вдох"
+msgstr "Sisse"
 
 #: data/ui/window.ui:109
 msgid "Out"
-msgstr "Выдох"
+msgstr "Välja"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr "Сочетания клавиш"
+msgstr "Kiirklahvid"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr "О Дыхании"
+msgstr "Teave"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr "Основное"
+msgstr "Üldine"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "Открыть меню"
+msgstr "Ava valikud"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr "Показать комбинации клавиш"
+msgstr "Näita kiirklahve"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "Выйти"
+msgstr "Lahku"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr "Основные элементы управления"
+msgstr "Juhtnupud"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr "Переключить дыхание"
+msgstr "Hingamine sisse/välja"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr "Авторское право 2021 Дейв Патрик"
+msgstr "Autoriõigus 2021 Dave Patrick"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Ковалев Артем, Давид Лапшин"
+msgstr "Henri <contact@hen.ee>"
 
 #: src/main.py:75
 msgid "GitHub"
