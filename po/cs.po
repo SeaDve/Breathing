@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Vojtěch Perník <translations@pervoj.cz>, 2021.
 # Jan Novák <novak@silen.org>, 2021.
+# multiflexi <multi.flexi@seznam.cz>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2021-10-26 12:33+0000\n"
-"Last-Translator: Jan Novák <novak@silen.org>\n"
+"PO-Revision-Date: 2022-08-23 11:26+0000\n"
+"Last-Translator: multiflexi <multi.flexi@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/kooha/breathing/cs/"
 ">\n"
 "Language: cs\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -133,7 +134,8 @@ msgstr "Copyright 2021 Dave Patrick"
 msgid "translator-credits"
 msgstr ""
 "Jan Novák <jan.novak@silen.org>\n"
-"Vojtěch Perník <translations@pervoj.cz>"
+"Vojtěch Perník <translations@pervoj.cz>\n"
+"Jaroslav Svoboda <jaroslav.svoboda@vse.cz>"
 
 #: src/main.py:75
 msgid "GitHub"
