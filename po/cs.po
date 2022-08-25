@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-08-23 11:26+0000\n"
+"PO-Revision-Date: 2022-08-25 10:22+0000\n"
 "Last-Translator: multiflexi <multi.flexi@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/kooha/breathing/cs/"
 ">\n"
@@ -32,11 +32,11 @@ msgstr "Pomůcka;Dech;Cvičení;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr "Procvičte si dýchání"
+msgstr "Relax a meditace"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr "Relaxujte, soustřeďte se a buďte bez stresu."
+msgstr "Relaxujte, soustřeďte se a zbavte se stresu."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
