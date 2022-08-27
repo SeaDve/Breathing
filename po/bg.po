@@ -7,13 +7,16 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-08-27 13:18+0000\n"
+"Last-Translator: Victor Keranov <vkeranov@gmail.com>\n"
+"Language-Team: Bulgarian <https://hosted.weblate.org/projects/kooha/"
+"breathing/bg/>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -67,7 +70,7 @@ msgstr ""
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr ""
+msgstr "Основно меню"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -95,11 +98,11 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr ""
+msgstr "Основни"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Отвори меню"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -107,7 +110,7 @@ msgstr ""
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "Изход"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -124,8 +127,8 @@ msgstr ""
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr ""
+msgstr "Victor Keranov"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
