@@ -7,31 +7,34 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-27 09:04+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/kooha/breathing/ta/"
+">\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "சுவாசம்"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "உபயோகம்;மூச்சு;உடற்பயிற்சி;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr ""
+msgstr "நிதானமாக தியானம் செய்யுங்கள்"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "ஓய்வெடுங்கள், கவனம் செலுத்துங்கள் மற்றும் மன அழுத்தமில்லாமல் இருங்கள்."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -39,93 +42,96 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"சுவாசம் என்பது உங்கள் சுவாச முறையை வழிநடத்தும் மிகவும் எளிமையான பயன்பாடாகும்"
+". இந்த முறை நிபுணர்களால் பரிந்துரைக்கப்படுகிறது, இது உங்கள் கவலையைப் போக்க "
+"உதவும். இது மிகவும் எளிதாக ஓய்வெடுக்க ஒரு அமைதியான ஒலியை வழங்குகிறது."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "சுவாசத்தின் முக்கிய அம்சங்கள் பின்வருவனவற்றை உள்ளடக்குகின்றன:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬உங்கள் சுவாசத்தை வழிநடத்துங்கள்."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 எளிதாக இருண்ட பயன்முறைக்கு மாற்றலாம்."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 பயன்படுத்த எளிதான பயனர் இடைமுகம்."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ பயனர் நட்பு கீபோர்டு ஷார்ட்கட்கள்."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "டேவ் பேட்ரிக்"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr ""
+msgstr "முதன்மை மெனு"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "டார்க் பயன்முறையை நிலைமாற்று"
 
 #: data/ui/window.ui:89
 msgid "Go"
-msgstr ""
+msgstr "போ"
 
 #: data/ui/window.ui:99
 msgid "In"
-msgstr ""
+msgstr "உள்ளே"
 
 #: data/ui/window.ui:109
 msgid "Out"
-msgstr ""
+msgstr "வெளியே"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "விசைப்பலகை குறுக்குவழிகள்"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "சுவாசம் பற்றி"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr ""
+msgstr "ஜெனரல்"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "மெனுவை திறக்கவும்"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "விசைப்பலகை குறுக்குவழிகளைக் காட்டு"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "வெளியேறு"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "முக்கிய கட்டுப்பாடுகள்"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "சுவாசத்தை நிலைமாற்றவும்"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "பதிப்புரிமை 2021 டேவ் பேட்ரிக்"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr ""
+msgstr "தருண் கிருஷ்ணா.க.பா"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr ""
+msgstr "கிட்ஹப்"
