@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# Hemish <hemish04082005@gmail.com>, 2021.
+# Hemish <hemish04082005@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2021-09-04 18:32+0000\n"
+"PO-Revision-Date: 2022-11-16 15:46+0000\n"
 "Last-Translator: Hemish <hemish04082005@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/kooha/breathing/hi/"
 ">\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -70,7 +70,7 @@ msgstr "Dave Patrick"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr "मुख्य मेनू"
+msgstr "मुख्य मेन्यू"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -102,7 +102,7 @@ msgstr "आम (General)"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "मेनू खोलें"
+msgstr "मेन्यू खोलें"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
@@ -127,8 +127,8 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Hemish (hemish04082005)"
+msgstr "Hemish <hemish04082005@gmail.com>"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr "GitHub"
+msgstr "गिटहब"
