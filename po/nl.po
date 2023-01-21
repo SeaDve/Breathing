@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2023-01-20 10:47+0000\n"
+"PO-Revision-Date: 2023-01-21 13:17+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/kooha/breathing/nl/"
 ">\n"
@@ -22,16 +22,16 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr "Adembeheersing"
+msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr "Hulpmiddel;Ademhaling;Oefening;"
+msgstr "Utility;Breath;Exercise;Hulpmiddel;Ademhaling;Oefening;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr "Train je ademhaling"
+msgstr "Ontspan en mediteer"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
@@ -43,29 +43,29 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
-"Adembeheersing toont door experts aanbevolen instructies die je helpen in "
+"Breathing toont door experts aanbevolen instructies die je helpen in "
 "angstige of stressvolle situaties. Daarnaast wordt er een kalmerend geluid "
 "afgespeeld waardoor je makkelijker tot rust komt."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr "Belangrijkste kenmerken van Adembeheersing:"
+msgstr "Belangrijkste kenmerken van Breathing:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr "🌬️ Ademhalingsinstructies;"
+msgstr "🌬️ Ademhalingsinstructies"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr "🌑 Donker thema (optioneel);"
+msgstr "🌑 Gemakkelijk schakelen naar donker thema"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Eenvoudige vormgeving."
+msgstr "📱 Eenvoudige vormgeving"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ Gebruiksvriendelijke sneltoetsen."
+msgstr "⌨️ Gebruiksvriendelijke sneltoetsen"
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
@@ -98,7 +98,7 @@ msgstr "Sneltoetsen"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr "Over Adembeheersing"
+msgstr "Over Breathing"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
@@ -122,7 +122,7 @@ msgstr "Hoofdbediening"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr "Adembeheersing aan-/uitzetten"
+msgstr "Breathing aan-/uitzetten"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
