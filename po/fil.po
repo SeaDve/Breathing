@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# Dave Patrick <davecruz48@gmail.com>, 2021.
+# Dave Patrick <davecruz48@gmail.com>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2021-08-06 04:02+0000\n"
+"PO-Revision-Date: 2023-04-08 03:47+0000\n"
 "Last-Translator: Dave Patrick <davecruz48@gmail.com>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/kooha/breathing/"
 "fil/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
 "|| n % 10 == 6 || n % 10 == 9);\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -132,7 +132,7 @@ msgstr "Kopirayt 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Dave Patrick"
+msgstr "Dave Patrick Caberto"
 
 #: src/main.py:75
 msgid "GitHub"
