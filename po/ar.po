@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2023-04-09 11:47+0000\n"
+"PO-Revision-Date: 2023-04-10 13:47+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/kooha/breathing/"
 "ar/>\n"
@@ -24,20 +24,20 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr "تنفس"
+msgstr "تنفُّس"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "وسيلة;تنفس;تدريب;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr ""
+msgstr "استرخِ وتدبَّر"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "استرخ وركِّز وارتح."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -45,59 +45,61 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"تنفُّس هو تطبيق يسير يوجِّه نمط تنفُّسك، وهذا نمط يوصي به الخبراء، فهو يريحك،"
+" وكذلك تسمع أصواتًا تسهِّل عليك الاسترخاء."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "المزايا الرئيسة لتنفُّس تتضمَّن:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ توجيه تنفُّسك."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 غيِّر للسمة الداكنة بيُسر."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 واجهة سهلة الإستعمال."
+msgstr "📱 واجهة سهلة الاستخدام."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ إختصارات على لوحة المفاتيح سهلة اﻹستعمال."
+msgstr "⌨️ اختصارات لوحة مفاتيح سهلة الاستخدام."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr "Dave Patrick"
+msgstr "ديف باترك"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr "القائمة الرئيسية"
+msgstr "القائمة الرئيسة"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "بدِّل السمة الداكنة"
 
 #: data/ui/window.ui:89
 msgid "Go"
-msgstr ""
+msgstr "تنفَّس"
 
 #: data/ui/window.ui:99
 msgid "In"
-msgstr ""
+msgstr "شهيق"
 
 #: data/ui/window.ui:109
 msgid "Out"
-msgstr ""
+msgstr "زفير"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "عن «تنفُّس»"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
@@ -105,27 +107,27 @@ msgstr "عام"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "فتح القائمة"
+msgstr "افتح القائمة"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "أظهر اختصارات لوحة المفاتيح"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "خروج"
+msgstr "أنهِ"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "عناصر التحكُّم الرئيسة"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "بدِّل التنفُّس"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr "الحقوق Dave Patrick 2021"
+msgstr "حقوق النشر ٢٠٢١ ديف باترك"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
@@ -133,8 +135,8 @@ msgid "translator-credits"
 msgstr ""
 "Mehdi Essalehi\n"
 "Muhammad Yasser\n"
-"علي الجشي &lt;ahj696@hotmail.com&gt;"
+"علي الجشي https://github.com/Ali-x98"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr "جب‌هب"
+msgstr "جت‌هب"
