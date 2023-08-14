@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2023-08-12 10:48+0000\n"
+"PO-Revision-Date: 2023-08-14 15:48+0000\n"
 "Last-Translator: \"HelaBasa Group (හෙළබස සමූහය)\" <weblate-helabasa@yalu.lk>"
 "\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -22,20 +22,20 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "හුස්ම ගැනීම"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Utility;Breath;Exercise;හුස්ම;මෙවලම්;ව්‍යායාම;හුස්මගැනීම;"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
 msgid "Relax and meditate"
-msgstr ""
+msgstr "විවේකීව භාවනා කරන්න"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid "Relax, focus, and become stress-free."
-msgstr ""
+msgstr "විවේක ගන්න, අවධානය යොමු කරන්න සහ ආතතිය නිදහස් කරන්න."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid ""
@@ -43,39 +43,42 @@ msgid ""
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
+"හුස්ම ගැනීම යනු ඔබගේ හුස්ම ගැනීමේ රටාවට මඟපෙන්වන ඉතා සරල යෙදුමකි. මෙම රටාව "
+"විශේෂඥයින් විසින් නිර්දේශ කරනු ලබන අතර එය ඔබගේ සාංකාව ලිහිල් කිරීමට උපකාරී වේ"
+". වඩාත් සැහැල්ලුවක් ගෙනදීම සඳහා මෘදු ශබ්දයක් ද සපයයි."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:12
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "හුස්ම ගැනීම යෙදුමේ පහත විශේෂාංග ඇතුළත්ය:"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ හුස්ම ගැනීමට මඟපෙන්වීම."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 ක්‍ෂණිකව අඳුරු ප්‍රකාරයට මාරු වන්න."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 සරල පරිශ්‍රීලක අතුරුමුහුණතක්."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:17
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ පහසු යතුරුපුවරු කෙටිමං."
 
 #. Translators: please do NOT translate this
 #: data/io.github.seadve.Breathing.appdata.xml.in:26
 msgid "Dave Patrick"
-msgstr ""
+msgstr "ඩේව් පැට්‍රික්"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
-msgstr ""
+msgstr "ප්‍රධාන වට්ටෝරුව"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "අඳුරු ප්‍රකාරය යොදන්න"
 
 #: data/ui/window.ui:89
 msgid "Go"
@@ -83,31 +86,31 @@ msgstr "යන්න"
 
 #: data/ui/window.ui:99
 msgid "In"
-msgstr ""
+msgstr "ඇතුළට"
 
 #: data/ui/window.ui:109
 msgid "Out"
-msgstr ""
+msgstr "පිටතට"
 
 #: data/ui/window.ui:127
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "යතුරුපුවරුවේ කෙටිමං"
 
 #: data/ui/window.ui:131
 msgid "About Breathing"
-msgstr ""
+msgstr "හුස්ම ගැනීම පිළිබඳව"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr "සාමාන්‍ය"
+msgstr "ප්‍රධාන"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "වට්ටෝරුව අරින්න"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "යතුරුපුවරුවේ කෙටිමං පෙන්වන්න"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
@@ -119,17 +122,17 @@ msgstr "ප්‍රධාන පාලන"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "හුස්ම ගැනීම අරඹන්න"
 
 #: src/main.py:72
 msgid "Copyright 2021 Dave Patrick"
-msgstr ""
+msgstr "ප්‍රකාශන හිමිකම 2021 ඩේව් පැට්‍රික්"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr ""
+msgstr "පරිවර්තනයට ස්තූතිය"
 
 #: src/main.py:75
 msgid "GitHub"
-msgstr ""
+msgstr "ගිට්හබ්"
