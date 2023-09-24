@@ -4,13 +4,15 @@
 # liimee <alt3753.7@gmail.com>, 2021, 2022.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>, 2022.
+# Muhammad Akbar Yanuar Mantari <mantarimay@users.noreply.hosted.weblate.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-06-20 00:14+0000\n"
-"Last-Translator: liimee <alt3753.7@gmail.com>\n"
+"PO-Revision-Date: 2023-09-24 17:00+0000\n"
+"Last-Translator: Muhammad Akbar Yanuar Mantari <mantarimay@users.noreply."
+"hosted.weblate.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/kooha/"
 "breathing/id/>\n"
 "Language: id\n"
@@ -18,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -136,7 +138,8 @@ msgid "translator-credits"
 msgstr ""
 "@liimee\n"
 "Hervy Qurrotul Ainur Rozi\n"
-"Reza Almanda"
+"Reza Almanda\n"
+"@mantarimay"
 
 #: src/main.py:75
 msgid "GitHub"
