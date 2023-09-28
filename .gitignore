@@ -5,3 +5,4 @@ build-dir/
 builddir/
 .flatpak
 .vscode
+_build/
