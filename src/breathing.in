@@ -19,7 +19,10 @@ gettext.install('breathing', localedir)
 if __name__ == '__main__':
     import gi
 
-    from gi.repository import Gio
+    from gi.repository import Gio, GLib
+
+    GLib.set_application_name("Breathing")
+
     resource = Gio.Resource.load(os.path.join(pkgdatadir, 'breathing.gresource'))
     resource._register()
 

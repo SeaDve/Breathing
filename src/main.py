@@ -10,15 +10,15 @@ from gi.repository import Gtk, Gio, GLib, Adw
 
 from breathing.window import BreathingWindow
 
+APPLICATION_ID = "io.github.seadve.Breathing"
 
 class Application(Adw.Application):
     def __init__(self, version):
-        super().__init__(application_id='io.github.seadve.Breathing',
+        super().__init__(application_id=APPLICATION_ID,
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
 
         self.version = version
-
-        GLib.set_application_name("Breathing")
+        self.settings = Gio.Settings.new(APPLICATION_ID)
 
     def do_activate(self):
         win = self.props.active_window
@@ -29,7 +29,8 @@ class Application(Adw.Application):
     def do_startup(self):
         Adw.Application.do_startup(self)
 
-        self.settings = Gio.Settings.new('io.github.seadve.Breathing')
+        Gtk.Window.set_default_icon_name(APPLICATION_ID)
+
         self.setup_actions()
 
     def setup_actions(self):
@@ -62,7 +63,7 @@ class Application(Adw.Application):
         about = Adw.AboutWindow()
         about.set_modal(True)
         about.set_transient_for(self.get_active_window())
-        about.set_application_icon("io.github.seadve.Breathing")
+        about.set_application_icon(APPLICATION_ID)
         about.set_application_name("Breathing")
         about.set_developer_name("Dave Patrick Caberto")
         about.set_version(self.version)
