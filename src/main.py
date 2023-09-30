@@ -12,6 +12,7 @@ from breathing.window import BreathingWindow
 
 APPLICATION_ID = "io.github.seadve.Breathing"
 
+
 class Application(Adw.Application):
     def __init__(self, version):
         super().__init__(application_id=APPLICATION_ID,
