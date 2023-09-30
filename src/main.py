@@ -59,21 +59,24 @@ class Application(Adw.Application):
         self.get_active_window().toggle_breathing()
 
     def show_about_dialog(self, action, param):
-        about = Gtk.AboutDialog()
-        about.set_transient_for(self.get_active_window())
+        about = Adw.AboutWindow()
         about.set_modal(True)
+        about.set_transient_for(self.get_active_window())
+        about.set_application_icon("io.github.seadve.Breathing")
+        about.set_application_name("Breathing")
+        about.set_developer_name("Dave Patrick Caberto")
         about.set_version(self.version)
-        about.set_program_name("Breathing")
-        about.set_logo_icon_name("io.github.seadve.Breathing")
-        about.set_authors(["Dave Patrick"])
-        about.set_comments(_("Relax and meditate"))
-        about.set_wrap_license(True)
+        about.set_copyright(_("© 2023 Dave Patrick Caberto"))
         about.set_license_type(Gtk.License.GPL_3_0)
-        about.set_copyright(_("Copyright 2021 Dave Patrick"))
         # Translators: Replace "translator-credits" with your names, one name per line
         about.set_translator_credits(_("translator-credits"))
-        about.set_website_label(_("GitHub"))
-        about.set_website("https://github.com/SeaDve/Breathing")
+        about.set_issue_url("https://github.com/SeaDve/Breathing/issues")
+        about.set_support_url("https://github.com/SeaDve/Breathing/discussions")
+
+        about.add_link(_("Donate (Buy Me a Coffee)"), "https://www.buymeacoffee.com/seadve")
+        about.add_link(_("GitHub"), "https://github.com/SeaDve/Breathing")
+        about.add_link(_("Translate"), "https://hosted.weblate.org/projects/kooha/breathing")
+
         about.present()
 
 
