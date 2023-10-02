@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2021 Dave Patrick <davecruz48@gmail.com> -->
 <component type="desktop">
   <id>io.github.seadve.Breathing.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -17,17 +16,6 @@
       <li>⌨️ User-friendly keyboard shortcuts.</li>
     </ul>
   </description>
-
-  <url type="homepage">https://github.com/SeaDve/Breathing</url>
-  <url type="bugtracker">https://github.com/SeaDve/Breathing/issues</url>
-  <url type="translate">https://hosted.weblate.org/projects/kooha/breathing/</url>
-  <url type="donation">https://liberapay.com/SeaDve/</url>
-  <!-- Translators: please do NOT translate this -->
-  <developer_name>Dave Patrick</developer_name>
-  <content_rating type="oars-1.1"/>
-
-  <launchable type="desktop-id">io.github.seadve.Breathing.desktop</launchable>
-
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/SeaDve/Breathing/main/screenshots/Breathing-screenshot.png</image>
@@ -36,7 +24,11 @@
       <image>https://raw.githubusercontent.com/SeaDve/Breathing/main/screenshots/Breathing-screenshot2.png</image>
     </screenshot>
   </screenshots>
-
+  <url type="homepage">https://github.com/SeaDve/Breathing</url>
+  <url type="bugtracker">https://github.com/SeaDve/Breathing/issues</url>
+  <url type="translate">https://hosted.weblate.org/projects/kooha/breathing/</url>
+  <url type="donation">https://www.buymeacoffee.com/seadve</url>
+  <content_rating type="oars-1.1"/>
   <releases>
     <release version="0.1.2" date="2022-04-08">
       <description>
@@ -75,6 +67,13 @@
       </description>
     </release>
   </releases>
+  <kudos>
+    <kudo>ModernToolkit</kudo>
+    <kudo>HiDpiIcon</kudo>
+  </kudos>
+  <developer_name>Dave Patrick Caberto</developer_name>
+  <update_contact>davecruz48@gmail.com</update_contact>
+  <launchable type="desktop-id">io.github.seadve.Breathing.desktop</launchable>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>

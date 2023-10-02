@@ -1,38 +1,41 @@
 <h1 align="center">
-  <img src="data/logo/io.github.seadve.Breathing.svg" alt="Breathing" width="192" height="192"/><br>
+  <img src="data/logo/io.github.seadve.Breathing.svg" alt="Breathing" width="192" height="192"/>
+  <br>
   Breathing
 </h1>
 
-<p align="center"><strong>Relax and meditate</strong></p>
+<p align="center">
+  <strong>Relax and meditate</strong>
+</p>
 
 <p align="center">
   <a href="https://flathub.org/apps/details/io.github.seadve.Breathing">
-    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png"/>
+    <img alt="Download on Flathub" src="https://dl.flathub.org/assets/badges/flathub-badge-i-en.svg" width="200"/>
   </a>
   <br>
-  <a href="https://liberapay.com/SeaDve/donate">
-    <img src="https://liberapay.com/assets/widgets/donate.svg" alt="Donate using Liberapay">
+  <a href="https://www.buymeacoffee.com/seadve">
+    <img alt="Buy Me a Coffee" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=seadve&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" width="150"/>
   </a>
 </p>
 
 <br>
 <p align="center">
   <a href="https://hosted.weblate.org/projects/kooha/breathing/">
-    <img src="https://hosted.weblate.org/widgets/kooha/-/Breathing/svg-badge.svg" alt="Translation status"  />
+    <img alt="Translation status" src="https://hosted.weblate.org/widgets/kooha/-/Breathing/svg-badge.svg"/>
+  </a>
+  <a href="https://flathub.org/apps/details/io.github.seadve.Breathing">
+    <img alt="Flathub downloads" src="https://img.shields.io/badge/dynamic/json?color=informational&label=downloads&logo=flathub&logoColor=white&query=%24.installs_total&url=https%3A%2F%2Fflathub.org%2Fapi%2Fv2%2Fstats%2Fio.github.seadve.Breathing"/>
   </a>
   <a href="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml">
-    <img src="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml/badge.svg" alt="CI status"/>
-  </a>
-  <a href="https://github.com/humanetech-community/awesome-humane-tech">
-    <img src="https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true" alt="Awesome Humane Tech">
+    <img alt="CI status" src="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml/badge.svg"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="screenshots/Breathing-preview.png" width="650" alt="Preview"/>
+  <img src="screenshots/Breathing-preview.png" alt="Preview"/>
 </p>
 
-Relax, focus, and become stress-free. 
+Relax, focus, and become stress-free.
 
 Breathing is a very simple application that guides your breathing pattern. This
 pattern is recommended by experts that will help ease your anxiety. It also provides
@@ -43,7 +46,6 @@ The main features of Breathing includes the following:
 * 🌑 Change to a dark-mode with ease.
 * 📱 Easy-to-use user interface.
 * ⌨️ User-friendly keyboard shortcuts.
-
 
 ## 🏗️ Building from source
 
@@ -62,19 +64,24 @@ meson _build --prefix=/usr/local
 ninja -C _build install
 ```
 
+## 📦 Third-Party Packages
+
+Unlike Flatpak, take note that these packages are not officially supported by the developer.
+
+### Repology
+
+You can also check out other third-party packages on [Repology](https://repology.org/project/breathing/versions).
 
 ## 🙌 Help translate Breathing
-You can help Breathing translate into your native language. If you found any typos 
+You can help Breathing translate into your native language. If you found any typos
 or think you can improve a translation, you can use the [Weblate](https://hosted.weblate.org/projects/kooha/breathing/) platform.
-
 
 ## ☕ Support me and the project
 
 Breathing is free and will always be for everyone to use. If you like the project and
-would like to support and fund it, you may donate through [Liberapay](https://liberapay.com/SeaDve/).
-
+would like to support it, you may [buy me a coffee](https://www.buymeacoffee.com/seadve).
 
 ## 💝 Acknowledgment
 
-A big thank you to all the [contributors](https://github.com/SeaDve/Breathing/graphs/contributors) 
+A big thank you to all the [contributors](https://github.com/SeaDve/Breathing/graphs/contributors)
 and [translators](https://hosted.weblate.org/projects/kooha/breathing/) from Weblate.
