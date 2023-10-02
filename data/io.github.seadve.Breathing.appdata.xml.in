@@ -31,7 +31,7 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="0.1.2" date="2022-04-08">
-      <description>
+      <description translatable="no">
         <p>This is a simple release with behind the scenes fixes.</p>
         <ul>
           <li>Port to libadwaita</li>
@@ -40,7 +40,7 @@
       </description>
     </release>
     <release version="0.1.1" date="2021-08-05">
-      <description>
+      <description translatable="no">
         <p>This is a simple release with behind the scenes fixes.</p>
         <ul>
           <li>Better support for smaller form factor</li>
@@ -62,7 +62,7 @@
       </description>
     </release>
     <release version="0.1.0" date="2021-05-14">
-      <description>
+      <description translatable="no">
         <p>Initial release.</p>
       </description>
     </release>
