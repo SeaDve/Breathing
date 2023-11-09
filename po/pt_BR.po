@@ -5,13 +5,14 @@
 # Dave Patrick <davecruz48@gmail.com>, 2021.
 # inkhorn <inkhorn@hostux.ninja>, 2021.
 # André L. Alvares <andrluiz.alvares.alvares84@gmail.com>, 2022.
+# Tiago Lucas Flach <tiagolucas9830@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2022-12-21 20:50+0000\n"
-"Last-Translator: André L. Alvares <andrluiz.alvares.alvares84@gmail.com>\n"
+"PO-Revision-Date: 2023-11-09 02:32+0000\n"
+"Last-Translator: Tiago Lucas Flach <tiagolucas9830@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "kooha/breathing/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,12 +20,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Breathing"
-msgstr "Breathing"
+msgstr "Respirando"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
