@@ -7,13 +7,16 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-11-18 04:06+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/kooha/"
+"breathing/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.2\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -66,8 +69,9 @@ msgid "Dave Patrick"
 msgstr ""
 
 #: data/ui/window.ui:48
+#, fuzzy
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu Principal"
 
 #: data/ui/window.ui:58 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
@@ -94,20 +98,23 @@ msgid "About Breathing"
 msgstr ""
 
 #: data/ui/shortcuts.ui:10
+#, fuzzy
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: data/ui/shortcuts.ui:14
+#, fuzzy
 msgid "Open Menu"
-msgstr ""
+msgstr "Abrir Menu"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
 msgstr ""
 
 #: data/ui/shortcuts.ui:26
+#, fuzzy
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -123,9 +130,11 @@ msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
+#, fuzzy
 msgid "translator-credits"
-msgstr ""
+msgstr "Danilo Alfredo Vieira"
 
 #: src/main.py:75
+#, fuzzy
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
