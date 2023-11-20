@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
 # Chardinson De la cruz Ventura <chardinsondelacruzventura@gmail.com>, 2021.
+# Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 09:24+0800\n"
-"PO-Revision-Date: 2021-09-17 09:37+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
+"PO-Revision-Date: 2023-11-20 20:00+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/kooha/breathing/"
 "es/>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:7
@@ -132,7 +133,9 @@ msgstr "Copyright 2021 Dave Patrick"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Óscar Fernández Díaz <oscfdezdz@tuta.io>"
+msgstr ""
+"Óscar Fernández Díaz (oscfdezdz@tuta.io)\n"
+"Adolfo Jayme Barrientos (fitojb@ubuntu.com), 2023"
 
 #: src/main.py:75
 msgid "GitHub"
