@@ -6,10 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-08 09:24+0800\n"
+"POT-Creation-Date: 2023-10-03 01:21+0300\n"
 "PO-Revision-Date: 2023-08-14 15:48+0000\n"
-"Last-Translator: \"HelaBasa Group (හෙළබස සමූහය)\" <weblate-helabasa@yalu.lk>"
-"\n"
+"Last-Translator: \"HelaBasa Group (හෙළබස සමූහය)\" <weblate-helabasa@yalu.lk>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/kooha/breathing/"
 "si/>\n"
 "Language: si\n"
@@ -20,7 +19,7 @@ msgstr ""
 "X-Generator: Weblate 5.0-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.appdata.xml.in:6
 msgid "Breathing"
 msgstr "හුස්ම ගැනීම"
 
@@ -29,48 +28,47 @@ msgstr "හුස්ම ගැනීම"
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;හුස්ම;මෙවලම්;ව්‍යායාම;හුස්මගැනීම;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
+#: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Relax and meditate"
 msgstr "විවේකීව භාවනා කරන්න"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.appdata.xml.in:9
 msgid "Relax, focus, and become stress-free."
 msgstr "විවේක ගන්න, අවධානය යොමු කරන්න සහ ආතතිය නිදහස් කරන්න."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid ""
 "Breathing is a very simple application that guides your breathing pattern. "
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
-"හුස්ම ගැනීම යනු ඔබගේ හුස්ම ගැනීමේ රටාවට මඟපෙන්වන ඉතා සරල යෙදුමකි. මෙම රටාව "
-"විශේෂඥයින් විසින් නිර්දේශ කරනු ලබන අතර එය ඔබගේ සාංකාව ලිහිල් කිරීමට උපකාරී වේ"
-". වඩාත් සැහැල්ලුවක් ගෙනදීම සඳහා මෘදු ශබ්දයක් ද සපයයි."
+"හුස්ම ගැනීම යනු ඔබගේ හුස්ම ගැනීමේ රටාවට මඟපෙන්වන ඉතා සරල යෙදුමකි. මෙම රටාව විශේෂඥයින් විසින් "
+"නිර්දේශ කරනු ලබන අතර එය ඔබගේ සාංකාව ලිහිල් කිරීමට උපකාරී වේ. වඩාත් සැහැල්ලුවක් ගෙනදීම සඳහා "
+"මෘදු ශබ්දයක් ද සපයයි."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:12
+#: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "හුස්ම ගැනීම යෙදුමේ පහත විශේෂාංග ඇතුළත්ය:"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.appdata.xml.in:13
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ හුස්ම ගැනීමට මඟපෙන්වීම."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 ක්‍ෂණිකව අඳුරු ප්‍රකාරයට මාරු වන්න."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 සරල පරිශ්‍රීලක අතුරුමුහුණතක්."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:17
+#: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ පහසු යතුරුපුවරු කෙටිමං."
 
-#. Translators: please do NOT translate this
-#: data/io.github.seadve.Breathing.appdata.xml.in:26
-msgid "Dave Patrick"
-msgstr "ඩේව් පැට්‍රික්"
+#: data/io.github.seadve.Breathing.appdata.xml.in:74
+msgid "Dave Patrick Caberto"
+msgstr ""
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -124,15 +122,29 @@ msgstr "ප්‍රධාන පාලන"
 msgid "Toggle Breathing"
 msgstr "හුස්ම ගැනීම අරඹන්න"
 
-#: src/main.py:72
-msgid "Copyright 2021 Dave Patrick"
-msgstr "ප්‍රකාශන හිමිකම 2021 ඩේව් පැට්‍රික්"
+#: src/main.py:71
+msgid "© 2023 Dave Patrick Caberto"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
 msgstr "පරිවර්තනයට ස්තූතිය"
 
-#: src/main.py:75
+#: src/main.py:78
+msgid "Donate (Buy Me a Coffee)"
+msgstr ""
+
+#: src/main.py:79
 msgid "GitHub"
 msgstr "ගිට්හබ්"
+
+#: src/main.py:80
+msgid "Translate"
+msgstr ""
+
+#~ msgid "Dave Patrick"
+#~ msgstr "ඩේව් පැට්‍රික්"
+
+#~ msgid "Copyright 2021 Dave Patrick"
+#~ msgstr "ප්‍රකාශන හිමිකම 2021 ඩේව් පැට්‍රික්"

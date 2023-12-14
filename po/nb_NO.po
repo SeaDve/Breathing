@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-08 09:24+0800\n"
+"POT-Creation-Date: 2023-10-03 01:21+0300\n"
 "PO-Revision-Date: 2021-08-08 12:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/kooha/"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Weblate 4.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.appdata.xml.in:6
 msgid "Breathing"
 msgstr "Pust"
 
@@ -28,16 +28,16 @@ msgstr "Pust"
 msgid "Utility;Breath;Exercise;"
 msgstr "Verktøy;pust;øvelse;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
+#: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Relax and meditate"
 msgstr "Øv på pustingen din"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.appdata.xml.in:9
 #, fuzzy
 msgid "Relax, focus, and become stress-free."
 msgstr "Slapp av, fokuser, og bli stressfri."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.appdata.xml.in:10
 #, fuzzy
 msgid ""
 "Breathing is a very simple application that guides your breathing pattern. "
@@ -48,31 +48,30 @@ msgstr ""
 "eksperter for å behjelpe usikkerhet. Det har også en beroligende lyd som "
 "gjør det mye enklere å slappe av."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:12
+#: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "Hovedfunksjonen i Pust inkluderer følgende:"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.appdata.xml.in:13
 #, fuzzy
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ Veiled pustingen din."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 Endre til mørk drakt"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 Enkelt brukergrensesnitt"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:17
+#: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Brukervennlige tastatursnarveier"
 
-#. Translators: please do NOT translate this
-#: data/io.github.seadve.Breathing.appdata.xml.in:26
-msgid "Dave Patrick"
-msgstr "Dave Patrick"
+#: data/io.github.seadve.Breathing.appdata.xml.in:74
+msgid "Dave Patrick Caberto"
+msgstr ""
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -126,18 +125,32 @@ msgstr "Hovedkontroller"
 msgid "Toggle Breathing"
 msgstr "Veksle pusting"
 
-#: src/main.py:72
-msgid "Copyright 2021 Dave Patrick"
-msgstr "Opphavsrett © 2021 Dave Patrick"
+#: src/main.py:71
+msgid "© 2023 Dave Patrick Caberto"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
 msgstr "Allan Nordhøy"
 
-#: src/main.py:75
+#: src/main.py:78
+msgid "Donate (Buy Me a Coffee)"
+msgstr ""
+
+#: src/main.py:79
 msgid "GitHub"
 msgstr "GitHub"
+
+#: src/main.py:80
+msgid "Translate"
+msgstr ""
+
+#~ msgid "Dave Patrick"
+#~ msgstr "Dave Patrick"
+
+#~ msgid "Copyright 2021 Dave Patrick"
+#~ msgstr "Opphavsrett © 2021 Dave Patrick"
 
 #~ msgid "Initial release."
 #~ msgstr "Opprinnelig utgave"

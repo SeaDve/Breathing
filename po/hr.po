@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-08 09:24+0800\n"
+"POT-Creation-Date: 2023-10-03 01:21+0300\n"
 "PO-Revision-Date: 2023-10-08 11:02+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Weblate 5.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.appdata.xml.in:6
 msgid "Breathing"
 msgstr "Disanje"
 
@@ -29,15 +29,15 @@ msgstr "Disanje"
 msgid "Utility;Breath;Exercise;"
 msgstr "Uslužni program;dah;vježba;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
+#: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Relax and meditate"
 msgstr "Opusti se i meditiraj"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.appdata.xml.in:9
 msgid "Relax, focus, and become stress-free."
 msgstr "Opusti se, usredotoči se i riješi se stresa."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid ""
 "Breathing is a very simple application that guides your breathing pattern. "
 "This pattern is recommended by experts that will help ease your anxiety. It "
@@ -47,30 +47,29 @@ msgstr ""
 "model preporučuju stručnjaci kako bi se ljudi riješili tjeskobe. Također "
 "pruža umirujući zvuk za dodatno opuštanje."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:12
+#: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "Glavne karakteristike programa Disanje:"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.appdata.xml.in:13
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ Daje upute za disanje."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 Jednostavno mijenjanje u tamni modus."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 Jednostavno korisničko sučelje."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:17
+#: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Praktčni tipkovni prečaci."
 
-#. Translators: please do NOT translate this
-#: data/io.github.seadve.Breathing.appdata.xml.in:26
-msgid "Dave Patrick"
-msgstr "Dave Patrick"
+#: data/io.github.seadve.Breathing.appdata.xml.in:74
+msgid "Dave Patrick Caberto"
+msgstr ""
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -124,15 +123,29 @@ msgstr "Glavne kontrole"
 msgid "Toggle Breathing"
 msgstr "Uključi/isključi Disanje"
 
-#: src/main.py:72
-msgid "Copyright 2021 Dave Patrick"
-msgstr "Autorska prava 2021. Dave Patrick"
+#: src/main.py:71
+msgid "© 2023 Dave Patrick Caberto"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
 msgstr "Milo Ivir &lt;mail@milotype.de&gt;"
 
-#: src/main.py:75
+#: src/main.py:78
+msgid "Donate (Buy Me a Coffee)"
+msgstr ""
+
+#: src/main.py:79
 msgid "GitHub"
 msgstr "GitHub"
+
+#: src/main.py:80
+msgid "Translate"
+msgstr ""
+
+#~ msgid "Dave Patrick"
+#~ msgstr "Dave Patrick"
+
+#~ msgid "Copyright 2021 Dave Patrick"
+#~ msgstr "Autorska prava 2021. Dave Patrick"

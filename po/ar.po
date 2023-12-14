@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-08 09:24+0800\n"
+"POT-Creation-Date: 2023-10-03 01:21+0300\n"
 "PO-Revision-Date: 2023-04-10 13:47+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/kooha/breathing/"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Weblate 4.17-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.appdata.xml.in:6
 msgid "Breathing"
 msgstr "تنفُّس"
 
@@ -31,47 +31,46 @@ msgstr "تنفُّس"
 msgid "Utility;Breath;Exercise;"
 msgstr "وسيلة;تنفس;تدريب;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:8 src/main.py:69
+#: data/io.github.seadve.Breathing.appdata.xml.in:7
 msgid "Relax and meditate"
 msgstr "استرخِ وتدبَّر"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.appdata.xml.in:9
 msgid "Relax, focus, and become stress-free."
 msgstr "استرخ وركِّز وارتح."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.appdata.xml.in:10
 msgid ""
 "Breathing is a very simple application that guides your breathing pattern. "
 "This pattern is recommended by experts that will help ease your anxiety. It "
 "also provides a calming sound to make it much easier to relax."
 msgstr ""
-"تنفُّس هو تطبيق يسير يوجِّه نمط تنفُّسك، وهذا نمط يوصي به الخبراء، فهو يريحك،"
-" وكذلك تسمع أصواتًا تسهِّل عليك الاسترخاء."
+"تنفُّس هو تطبيق يسير يوجِّه نمط تنفُّسك، وهذا نمط يوصي به الخبراء، فهو يريحك، "
+"وكذلك تسمع أصواتًا تسهِّل عليك الاسترخاء."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:12
+#: data/io.github.seadve.Breathing.appdata.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "المزايا الرئيسة لتنفُّس تتضمَّن:"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.appdata.xml.in:13
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ توجيه تنفُّسك."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.appdata.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 غيِّر للسمة الداكنة بيُسر."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.appdata.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 واجهة سهلة الاستخدام."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:17
+#: data/io.github.seadve.Breathing.appdata.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ اختصارات لوحة مفاتيح سهلة الاستخدام."
 
-#. Translators: please do NOT translate this
-#: data/io.github.seadve.Breathing.appdata.xml.in:26
-msgid "Dave Patrick"
-msgstr "ديف باترك"
+#: data/io.github.seadve.Breathing.appdata.xml.in:74
+msgid "Dave Patrick Caberto"
+msgstr ""
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -125,9 +124,9 @@ msgstr "عناصر التحكُّم الرئيسة"
 msgid "Toggle Breathing"
 msgstr "بدِّل التنفُّس"
 
-#: src/main.py:72
-msgid "Copyright 2021 Dave Patrick"
-msgstr "حقوق النشر ٢٠٢١ ديف باترك"
+#: src/main.py:71
+msgid "© 2023 Dave Patrick Caberto"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
@@ -137,6 +136,20 @@ msgstr ""
 "Muhammad Yasser\n"
 "علي الجشي https://github.com/Ali-x98"
 
-#: src/main.py:75
+#: src/main.py:78
+msgid "Donate (Buy Me a Coffee)"
+msgstr ""
+
+#: src/main.py:79
 msgid "GitHub"
 msgstr "جت‌هب"
+
+#: src/main.py:80
+msgid "Translate"
+msgstr ""
+
+#~ msgid "Dave Patrick"
+#~ msgstr "ديف باترك"
+
+#~ msgid "Copyright 2021 Dave Patrick"
+#~ msgstr "حقوق النشر ٢٠٢١ ديف باترك"
