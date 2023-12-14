@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-09-24 17:00+0000\n"
-"Last-Translator: Muhammad Akbar Yanuar Mantari <mantarimay@users.noreply."
-"hosted.weblate.org>\n"
+"PO-Revision-Date: 2023-12-14 10:37+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/kooha/"
 "breathing/id/>\n"
 "Language: id\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -72,8 +71,9 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Pintasan keyboard yang bersahabat."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
+#, fuzzy
 msgid "Dave Patrick Caberto"
-msgstr ""
+msgstr "Dave Patrick Caberto"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -128,8 +128,9 @@ msgid "Toggle Breathing"
 msgstr "Beralih ke Breathing"
 
 #: src/main.py:71
+#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
-msgstr ""
+msgstr "© 2023 Dave Patrick Caberto"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
@@ -141,16 +142,18 @@ msgstr ""
 "@mantarimay"
 
 #: src/main.py:78
+#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "Donasi (Traktir Saya Kopi)"
 
 #: src/main.py:79
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
+#, fuzzy
 msgid "Translate"
-msgstr ""
+msgstr "Terjemahkan"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "Dave Patrick"

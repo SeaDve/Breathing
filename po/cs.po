@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2022-08-25 10:22+0000\n"
-"Last-Translator: multiflexi <multi.flexi@seznam.cz>\n"
+"PO-Revision-Date: 2023-12-14 10:37+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/kooha/breathing/cs/"
 ">\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -69,8 +69,9 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Uživatelsky přívětivé klávesové zkratky."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
+#, fuzzy
 msgid "Dave Patrick Caberto"
-msgstr ""
+msgstr "Dave Patrick Caberto"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -125,8 +126,9 @@ msgid "Toggle Breathing"
 msgstr "Zapnout/vypnout řízení dechu"
 
 #: src/main.py:71
+#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
-msgstr ""
+msgstr "© 2023 Dave Patrick Caberto"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
@@ -137,16 +139,18 @@ msgstr ""
 "Jaroslav Svoboda <jaroslav.svoboda@vse.cz>"
 
 #: src/main.py:78
+#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "Přispět (kupte mi kávu)"
 
 #: src/main.py:79
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
+#, fuzzy
 msgid "Translate"
-msgstr ""
+msgstr "Překlad"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "Dave Patrick"

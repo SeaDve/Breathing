@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-02-13 15:35+0000\n"
-"Last-Translator: kj7kt <yyhuton@gmail.com>\n"
+"PO-Revision-Date: 2023-12-14 10:37+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/kooha/breathing/"
 "ja/>\n"
 "Language: ja\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -73,8 +73,9 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ ユーザーフレンドリーなキーボードショートカット。"
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
+#, fuzzy
 msgid "Dave Patrick Caberto"
-msgstr ""
+msgstr "Dave Patrick Caberto"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -143,16 +144,18 @@ msgstr ""
 "kj7kt"
 
 #: src/main.py:78
+#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "寄付 (Buy Me a Coffee)"
 
 #: src/main.py:79
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
+#, fuzzy
 msgid "Translate"
-msgstr ""
+msgstr "翻訳"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "Dave Patrick"

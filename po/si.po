@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-08-14 15:48+0000\n"
-"Last-Translator: \"HelaBasa Group (හෙළබස සමූහය)\" <weblate-helabasa@yalu.lk>\n"
+"PO-Revision-Date: 2023-12-14 10:37+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/kooha/breathing/"
 "si/>\n"
 "Language: si\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -67,8 +67,9 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ පහසු යතුරුපුවරු කෙටිමං."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
+#, fuzzy
 msgid "Dave Patrick Caberto"
-msgstr ""
+msgstr "ඩේව් පැට්‍රික් කැබර්ටෝ"
 
 #: data/ui/window.ui:48
 msgid "Main Menu"
@@ -123,8 +124,9 @@ msgid "Toggle Breathing"
 msgstr "හුස්ම ගැනීම අරඹන්න"
 
 #: src/main.py:71
+#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
-msgstr ""
+msgstr "© 2023 ඩේව් පැට්‍රික් කැබර්ටෝ"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
@@ -140,8 +142,9 @@ msgid "GitHub"
 msgstr "ගිට්හබ්"
 
 #: src/main.py:80
+#, fuzzy
 msgid "Translate"
-msgstr ""
+msgstr "පරිවර්තනය"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "ඩේව් පැට්‍රික්"
