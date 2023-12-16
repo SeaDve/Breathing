@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/Breathing-preview.png" alt="Preview"/>
+  <img src="screenshots/preview.png" alt="Preview"/>
 </p>
 
 Relax, focus, and become stress-free.
