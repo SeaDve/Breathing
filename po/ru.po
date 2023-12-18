@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-12-18 21:08+0000\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/kooha/breathing/"
 "ru/>\n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.3\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -74,7 +74,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Удобные сочетания клавиш."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
 msgid "Dave Patrick Caberto"
 msgstr "Дэйв Патрик Каберто"
 
@@ -131,7 +130,6 @@ msgid "Toggle Breathing"
 msgstr "Переключить дыхание"
 
 #: src/main.py:71
-#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
 msgstr "© 2023 Дэйв Патрик Каберто"
 
@@ -142,7 +140,6 @@ msgstr ""
 "Ковалев Артем, Давид Лапшин, ViktorOn &lt;https://github.com/viktoron&gt;"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Пожертвовать (Купите мне кофе)"
 
@@ -151,7 +148,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
-#, fuzzy
 msgid "Translate"
 msgstr "Перевести"
 

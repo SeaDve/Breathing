@@ -4,13 +4,14 @@
 # Ali Galal <ali.sameh.galal@gmail.com>, 2021.
 # Muhammad Yasser <iamrokt@gmail.com>, 2021.
 # Ali Aljishi <ahj696@hotmail.com>, 2023.
+# Ali-98 <ahj696@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-12-18 21:08+0000\n"
+"Last-Translator: Ali-98 <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/kooha/breathing/"
 "ar/>\n"
 "Language: ar\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.3\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -69,7 +70,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ اختصارات لوحة مفاتيح سهلة الاستخدام."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
 msgid "Dave Patrick Caberto"
 msgstr "ديف باترك كابرتو"
 
@@ -126,7 +126,6 @@ msgid "Toggle Breathing"
 msgstr "بدِّل التنفُّس"
 
 #: src/main.py:71
-#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
 msgstr "© ٢٠٢٣ ديف باترك كابرتو"
 
@@ -139,7 +138,6 @@ msgstr ""
 "علي الجشي https://github.com/Ali-x98"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "تبرَّع (اشترِ لي كوب قهوة)"
 
@@ -148,7 +146,6 @@ msgid "GitHub"
 msgstr "جت‌هب"
 
 #: src/main.py:80
-#, fuzzy
 msgid "Translate"
 msgstr "ترجم"
 

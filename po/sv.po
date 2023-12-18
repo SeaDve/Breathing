@@ -4,13 +4,14 @@
 # Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
 # Kristoffer Grundström <swedishsailfishosuser@tutanota.com>, 2021.
+# bittin1ddc447d824349b2 <bittin@reimu.nl>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-12-18 21:08+0000\n"
+"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/kooha/breathing/"
 "sv/>\n"
 "Language: sv\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.3\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -70,7 +71,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Användarvänliga kortkommandon."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
 msgid "Dave Patrick Caberto"
 msgstr "Dave Patrick Caberto"
 
@@ -127,7 +127,6 @@ msgid "Toggle Breathing"
 msgstr "Växla andning"
 
 #: src/main.py:71
-#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
 msgstr "© 2023 Dave Patrick Caberto"
 
@@ -139,7 +138,6 @@ msgstr ""
 "Luna Jernberg"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Donera (köp mig en kaffe)"
 
@@ -148,7 +146,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
-#, fuzzy
 msgid "Translate"
 msgstr "Översätt"
 
