@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Oğuz Ersen <oguz@ersen.moe>, 2023.
+# Sabri Ünal <libreajans@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-18 21:08+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2024-01-05 08:06+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/kooha/breathing/"
 "tr/>\n"
 "Language: tr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -133,7 +134,8 @@ msgstr "© 2023 Dave Patrick Caberto"
 msgid "translator-credits"
 msgstr ""
 "Ümit Solmaz\n"
-"Oğuz Ersen"
+"Oğuz Ersen\n"
+"Sabri Ünal"
 
 #: src/main.py:78
 msgid "Donate (Buy Me a Coffee)"
