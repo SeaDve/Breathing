@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # K.B.Dharun Krishna <kbdharunkrishna@gmail.com>, 2022.
-# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-01-18 07:31+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/kooha/breathing/ta/"
 ">\n"
 "Language: ta\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -68,7 +68,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ பயனர் நட்பு கீபோர்டு ஷார்ட்கட்கள்."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
 msgid "Dave Patrick Caberto"
 msgstr "டேவ் பேட்ரிக் கேபர்டோ"
 
@@ -125,7 +124,6 @@ msgid "Toggle Breathing"
 msgstr "சுவாசத்தை நிலைமாற்றவும்"
 
 #: src/main.py:71
-#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
 msgstr "© 2023 டேவ் பேட்ரிக் கேபர்டோ"
 
@@ -135,7 +133,6 @@ msgid "translator-credits"
 msgstr "தருண் கிருஷ்ணா.க.பா"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "நன்கொடை (எனக்கு ஒரு காபி வாங்கிக் கொடு)"
 
@@ -144,7 +141,6 @@ msgid "GitHub"
 msgstr "கிட்ஹப்"
 
 #: src/main.py:80
-#, fuzzy
 msgid "Translate"
 msgstr "மொழிபெயர்"
 

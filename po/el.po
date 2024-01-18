@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# greek anon <rnation@bbq59.xyz>, 2023.
+# greek anon <rnation@bbq59.xyz>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-01-18 07:31+0000\n"
+"Last-Translator: greek anon <rnation@bbq59.xyz>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/kooha/breathing/el/"
 ">\n"
 "Language: el\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -132,7 +132,7 @@ msgstr "συντελεστές-μετάφρασης"
 
 #: src/main.py:78
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "Δωρεά (Αγόρασέ μου έναν καφέ)"
 
 #: src/main.py:79
 msgid "GitHub"
