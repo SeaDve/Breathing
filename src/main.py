@@ -77,7 +77,7 @@ class Application(Adw.Application):
 
         about.add_link(_("Donate (Buy Me a Coffee)"), "https://www.buymeacoffee.com/seadve")
         about.add_link(_("GitHub"), "https://github.com/SeaDve/Breathing")
-        about.add_link(_("Translate"), "https://hosted.weblate.org/projects/kooha/breathing")
+        about.add_link(_("Translate"), "https://hosted.weblate.org/projects/seadve/breathing")
 
         about.present()
 
