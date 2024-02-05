@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2024-01-05 08:06+0000\n"
+"PO-Revision-Date: 2024-02-05 02:01+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/seadve/breathing/"
 "tr/>\n"
@@ -132,10 +132,7 @@ msgstr "© 2023 Dave Patrick Caberto"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr ""
-"Ümit Solmaz\n"
-"Oğuz Ersen\n"
-"Sabri Ünal"
+msgstr "Sabri Ünal <libreajans@gmail.com>"
 
 #: src/main.py:78
 msgid "Donate (Buy Me a Coffee)"

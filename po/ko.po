@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2024-01-12 06:06+0000\n"
+"PO-Revision-Date: 2024-02-05 02:01+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/seadve/breathing/"
 "ko/>\n"
@@ -113,7 +113,7 @@ msgstr ""
 #: data/ui/shortcuts.ui:26
 #, fuzzy
 msgid "Quit"
-msgstr "끝내기"
+msgstr "종료"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
