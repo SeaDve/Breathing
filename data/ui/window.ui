@@ -2,6 +2,8 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <template class="BreathingWindow" parent="AdwApplicationWindow">
+    <property name="width-request">360</property>
+    <property name="height-request">294</property>
     <child>
       <object class="GtkWindowHandle">
         <child>
@@ -72,6 +74,8 @@
               <object class="GtkButton" id="main_button">
                 <property name="halign">center</property>
                 <property name="valign">center</property>
+                <property name="width-request">48</property>
+                <property name="height-request">48</property>
                 <property name="action-name">app.toggle-breathing</property>
                 <style>
                   <class name="circular"/>

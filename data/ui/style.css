@@ -1,13 +1,6 @@
 .main-button {
-  min-width: 48px;
-  min-height: 48px;
   transition: 200ms ease-in-out;
   font-weight: bold;
-}
-
-overlay {
-  min-width: 340px;
-  min-height: 350px;
 }
 
 overlay > image {
@@ -32,7 +25,7 @@ overlay > image {
 
 .enlarge3 {
   transition: 2.9s ease-in-out;
-  -gtk-icon-size: 340px;
+  -gtk-icon-size: 330px;
 }
 
 .smallify {
