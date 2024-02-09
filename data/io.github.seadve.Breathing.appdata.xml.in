@@ -26,6 +26,7 @@
   </screenshots>
   <url type="homepage">https://github.com/SeaDve/Breathing</url>
   <url type="bugtracker">https://github.com/SeaDve/Breathing/issues</url>
+  <url type="vcs-browser">https://github.com/SeaDve/Breathing</url>
   <url type="translate">https://hosted.weblate.org/projects/seadve/breathing/</url>
   <url type="donation">https://www.buymeacoffee.com/seadve</url>
   <content_rating type="oars-1.1"/>
