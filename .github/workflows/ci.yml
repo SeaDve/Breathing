@@ -64,6 +64,6 @@ jobs:
       - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
           bundle: breathing.flatpak
-          manifest-path: io.github.seadve.Breathing.Devel.json
+          manifest-path: io.github.seadve.Breathing.json
           run-tests: true
           cache-key: flatpak-builder-${{ github.sha }}

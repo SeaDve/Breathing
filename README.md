@@ -26,8 +26,8 @@
   <a href="https://flathub.org/apps/details/io.github.seadve.Breathing">
     <img alt="Flathub downloads" src="https://img.shields.io/badge/dynamic/json?color=informational&label=downloads&logo=flathub&logoColor=white&query=%24.installs_total&url=https%3A%2F%2Fflathub.org%2Fapi%2Fv2%2Fstats%2Fio.github.seadve.Breathing"/>
   </a>
-  <a href="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml">
-    <img alt="CI status" src="https://github.com/SeaDve/Breathing/actions/workflows/testing.yml/badge.svg"/>
+  <a href="https://github.com/SeaDve/Breathing/actions/workflows/ci.yml">
+    <img alt="CI status" src="https://github.com/SeaDve/Breathing/actions/workflows/ci.yml/badge.svg"/>
   </a>
 </p>
 
