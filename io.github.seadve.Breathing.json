@@ -1,7 +1,7 @@
 {
-    "app-id": "io.github.seadve.Breathing",
+    "id": "io.github.seadve.Breathing",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "master",
     "sdk": "org.gnome.Sdk",
     "command": "breathing",
     "finish-args": [
