@@ -61,25 +61,23 @@ class Application(Adw.Application):
         self.get_active_window().toggle_breathing()
 
     def show_about_dialog(self, action, param):
-        about = Adw.AboutWindow()
-        about.set_modal(True)
-        about.set_transient_for(self.get_active_window())
-        about.set_application_icon(APPLICATION_ID)
-        about.set_application_name("Breathing")
-        about.set_developer_name("Dave Patrick Caberto")
-        about.set_version(self.version)
-        about.set_copyright(_("© 2023 Dave Patrick Caberto"))
-        about.set_license_type(Gtk.License.GPL_3_0)
+        dialog = Adw.AboutDialog()
+        dialog.set_application_icon(APPLICATION_ID)
+        dialog.set_application_name("Breathing")
+        dialog.set_developer_name("Dave Patrick Caberto")
+        dialog.set_version(self.version)
+        dialog.set_copyright(_("© 2023 Dave Patrick Caberto"))
+        dialog.set_license_type(Gtk.License.GPL_3_0)
         # Translators: Replace "translator-credits" with your names, one name per line
-        about.set_translator_credits(_("translator-credits"))
-        about.set_issue_url("https://github.com/SeaDve/Breathing/issues")
-        about.set_support_url("https://github.com/SeaDve/Breathing/discussions")
+        dialog.set_translator_credits(_("translator-credits"))
+        dialog.set_issue_url("https://github.com/SeaDve/Breathing/issues")
+        dialog.set_support_url("https://github.com/SeaDve/Breathing/discussions")
 
-        about.add_link(_("Donate (Buy Me a Coffee)"), "https://www.buymeacoffee.com/seadve")
-        about.add_link(_("GitHub"), "https://github.com/SeaDve/Breathing")
-        about.add_link(_("Translate"), "https://hosted.weblate.org/projects/seadve/breathing")
+        dialog.add_link(_("Donate (Buy Me a Coffee)"), "https://www.buymeacoffee.com/seadve")
+        dialog.add_link(_("GitHub"), "https://github.com/SeaDve/Breathing")
+        dialog.add_link(_("Translate"), "https://hosted.weblate.org/projects/seadve/breathing")
 
-        about.present()
+        dialog.present(self.get_active_window())
 
 
 def main(version):
