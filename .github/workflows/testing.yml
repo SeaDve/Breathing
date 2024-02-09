@@ -9,9 +9,9 @@ on:
 jobs:
   flake8:
     name: "Linter"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v1
@@ -28,9 +28,9 @@ jobs:
 
   mypy:
     name: "Static Type Checker"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v1
@@ -45,17 +45,25 @@ jobs:
         run: |
           mypy --ignore-missing-imports --disallow-incomplete-defs src
 
-  flatpak-builder:
-    name: "Flatpak Builder"
-    runs-on: ubuntu-latest
+  typos:
+    name: Typos
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for typos
+        uses: crate-ci/typos@master
+
+  flatpak:
+    name: Flatpak
+    runs-on: ubuntu-22.04
     container:
-      image: bilelmoussaoui/flatpak-github-actions:gnome-40
+      image: bilelmoussaoui/flatpak-github-actions:gnome-nightly
       options: --privileged
     steps:
-    - uses: actions/checkout@v2
-    - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
-      with:
-        bundle: "Breathing-dev.flatpak"
-        manifest-path: "io.github.seadve.Breathing.json"
-        cache-key: flatpak-builder-${{ github.sha }}
-        run-tests: "true"
+      - uses: actions/checkout@v3
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        with:
+          bundle: breathing.flatpak
+          manifest-path: io.github.seadve.Breathing.Devel.json
+          run-tests: true
+          cache-key: flatpak-builder-${{ github.sha }}
