@@ -5,21 +5,22 @@
 # Jan Novák <novak@silen.org>, 2021.
 # multiflexi <multi.flexi@seznam.cz>, 2022.
 # Fjuro <ifjuro@proton.me>, 2023.
+# Fjuro <fjuro@alius.cz>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-18 21:08+0000\n"
-"Last-Translator: Fjuro <ifjuro@proton.me>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/seadve/breathing/cs/"
-">\n"
+"PO-Revision-Date: 2024-02-22 21:02+0000\n"
+"Last-Translator: Fjuro <fjuro@alius.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/seadve/breathing/"
+"cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -133,9 +134,10 @@ msgstr "© 2023 Dave Patrick Caberto"
 #: src/main.py:74
 msgid "translator-credits"
 msgstr ""
-"Jan Novák <jan.novak@silen.org>\n"
-"Vojtěch Perník <translations@pervoj.cz>\n"
-"Jaroslav Svoboda <jaroslav.svoboda@vse.cz>"
+"Jan Novák \n"
+"Vojtěch Perník \n"
+"Jaroslav Svoboda \n"
+"Jonáš Loskot "
 
 #: src/main.py:78
 msgid "Donate (Buy Me a Coffee)"

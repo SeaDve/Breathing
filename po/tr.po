@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2023.
+# Oğuz Ersen <oguz@ersen.moe>, 2023, 2024.
 # Sabri Ünal <libreajans@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2024-02-05 02:01+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"PO-Revision-Date: 2024-02-22 21:02+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/seadve/breathing/"
 "tr/>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -132,7 +132,9 @@ msgstr "© 2023 Dave Patrick Caberto"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:74
 msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>"
+msgstr ""
+"Sabri Ünal \n"
+"Oğuz Ersen"
 
 #: src/main.py:78
 msgid "Donate (Buy Me a Coffee)"
