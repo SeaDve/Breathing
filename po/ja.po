@@ -4,7 +4,7 @@
 # tinaxd <systemd.tinaxd@gmail.com>, 2021.
 # tinaxd <tinaxd@protonmail.com>, 2021.
 # 小山田純 <oyamada.junjun@outlook.jp>, 2021.
-# Ryo Nakano <ryonakaknock3@gmail.com>, 2021, 2022.
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2021, 2022, 2024.
 # Kaz Sibuya <sibuyakazokuu@gmail.com>, 2021.
 # Kisaragi Hiu <mail@kisaragi-hiu.com>, 2022.
 # kj7kt <yyhuton@gmail.com>, 2023.
@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/breathing/"
-"ja/>\n"
+"PO-Revision-Date: 2024-02-24 02:56+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/"
+"breathing/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -137,10 +137,10 @@ msgstr ""
 #: src/main.py:74
 msgid "translator-credits"
 msgstr ""
-"小山田 純,\n"
-"Ryo Nakano,\n"
-"Kaz Sibuya,\n"
-"Kisaragi Hiu,\n"
+"小山田 純\n"
+"Ryo Nakano\n"
+"Kaz Sibuya\n"
+"Kisaragi Hiu\n"
 "kj7kt"
 
 #: src/main.py:78
