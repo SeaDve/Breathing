@@ -35,15 +35,12 @@
   <img src="screenshots/preview.png" alt="Preview"/>
 </p>
 
-Relax, focus, and become stress-free.
+Breathing is a simple application that guides your breathing pattern. This
+pattern is recommended by experts that will help ease your anxiety.
 
-Breathing is a very simple application that guides your breathing pattern. This
-pattern is recommended by experts that will help ease your anxiety. It also provides
-a calming sound to make it much easier to relax.
-
-The main features of Breathing includes the following:
+The main features of Breathing include the following:
 * 🌬️ Guide your breathing.
-* 🌑 Change to a dark-mode with ease.
+* 🌑 Change to a dark mode with ease.
 * 📱 Easy-to-use user interface.
 * ⌨️ User-friendly keyboard shortcuts.
 
@@ -73,7 +70,7 @@ Unlike Flatpak, take note that these packages are not officially supported by th
 You can also check out other third-party packages on [Repology](https://repology.org/project/breathing/versions).
 
 ## 🙌 Help translate Breathing
-You can help Breathing translate into your native language. If you found any typos
+You can help Breathing translate into your native language. If you find any typos
 or think you can improve a translation, you can use the [Weblate](https://hosted.weblate.org/projects/seadve/breathing/) platform.
 
 ## ☕ Support me and the project
