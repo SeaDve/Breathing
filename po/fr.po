@@ -5,13 +5,14 @@
 # Maxime Leroy <lisacintosh@gmail.com>, 2021.
 # matb <perso@mathieu-bousquet.fr>, 2022.
 # rene-coty <irenee.thirion@e.email>, 2023.
+# "Mathieu B." <mathieu.bousquet2@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 01:21+0300\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-03-10 01:01+0000\n"
+"Last-Translator: \"Mathieu B.\" <mathieu.bousquet2@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/seadve/breathing/"
 "fr/>\n"
 "Language: fr\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.appdata.xml.in:6
@@ -71,7 +72,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Raccourcis clavier intuitifs."
 
 #: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
 msgid "Dave Patrick Caberto"
 msgstr "Dave Patrick Caberto"
 
@@ -128,7 +128,6 @@ msgid "Toggle Breathing"
 msgstr "Activer la respiration"
 
 #: src/main.py:71
-#, fuzzy
 msgid "© 2023 Dave Patrick Caberto"
 msgstr "© 2023 Dave Patrick Caberto"
 
@@ -138,7 +137,6 @@ msgid "translator-credits"
 msgstr "J. Lavoie, M. Bousquet, Irénée Thirion"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Faire un don (Buy Me a Coffee)"
 
@@ -147,7 +145,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:80
-#, fuzzy
 msgid "Translate"
 msgstr "Traduire"
 
