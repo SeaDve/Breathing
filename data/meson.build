@@ -27,11 +27,11 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'io.github.seadve.Breathing.appdata.xml.in',
-  output: 'io.github.seadve.Breathing.appdata.xml',
+  input: 'io.github.seadve.Breathing.metainfo.xml.in',
+  output: 'io.github.seadve.Breathing.metainfo.xml',
   po_dir: '../po',
   install: true,
-  install_dir: join_paths(get_option('datadir'), 'appdata')
+  install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 
 appstreamcli = find_program('appstreamcli', required: false)

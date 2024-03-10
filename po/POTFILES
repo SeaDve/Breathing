@@ -1,5 +1,5 @@
 data/io.github.seadve.Breathing.desktop.in
-data/io.github.seadve.Breathing.appdata.xml.in
+data/io.github.seadve.Breathing.metainfo.xml.in
 data/io.github.seadve.Breathing.gschema.xml
 data/ui/window.ui
 data/ui/shortcuts.ui
