@@ -66,7 +66,7 @@ class Application(Adw.Application):
         dialog.set_application_name("Breathing")
         dialog.set_developer_name("Dave Patrick Caberto")
         dialog.set_version(self.version)
-        dialog.set_copyright(_("© 2023 Dave Patrick Caberto"))
+        dialog.set_copyright("© 2023 Dave Patrick Caberto")
         dialog.set_license_type(Gtk.License.GPL_3_0)
         # Translators: Replace "translator-credits" with your names, one name per line
         dialog.set_translator_credits(_("translator-credits"))
