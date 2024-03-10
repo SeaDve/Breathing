@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 01:21+0300\n"
+"POT-Creation-Date: 2024-03-10 09:38+0800\n"
 "PO-Revision-Date: 2023-12-18 21:08+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: Weblate 5.3\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:6
+#: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Дыхание"
 
@@ -34,74 +34,61 @@ msgstr "Дыхание"
 msgid "Utility;Breath;Exercise;"
 msgstr "Утилита;Дышать;Упражнение;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
 msgstr "Расслабьтесь и медитируйте"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:9
-msgid "Relax, focus, and become stress-free."
-msgstr "Расслабьтесь, сосредоточьтесь и избавьтесь от стресса."
-
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
-"Breathing is a very simple application that guides your breathing pattern. "
-"This pattern is recommended by experts that will help ease your anxiety. It "
-"also provides a calming sound to make it much easier to relax."
+"Breathing is a simple application that guides your breathing pattern. This "
+"pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
-"Дыхание — это очень простое приложение, которое поможет вам дышать по схеме "
-"дыхания, Эта схема, рекомендованная экспертами, поможет облегчить ваше "
-"беспокойство. Оно также обеспечивает успокаивающий звук, чтобы было намного "
-"легче расслабиться."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "Основные функции Дыхания включают следующее:"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:13
+#: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ Помогает вам дышать."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 С легкостью включайте темный режим."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 Лёгкий в использовании интерфейс."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Удобные сочетания клавиш."
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:74
-msgid "Dave Patrick Caberto"
-msgstr "Дэйв Патрик Каберто"
-
-#: data/ui/window.ui:48
+#: data/ui/window.ui:50
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#: data/ui/window.ui:58 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "Тёмный режим"
 
-#: data/ui/window.ui:89
+#: data/ui/window.ui:93
 msgid "Go"
 msgstr "Старт"
 
-#: data/ui/window.ui:99
+#: data/ui/window.ui:103
 msgid "In"
 msgstr "Вдох"
 
-#: data/ui/window.ui:109
+#: data/ui/window.ui:113
 msgid "Out"
 msgstr "Выдох"
 
-#: data/ui/window.ui:127
+#: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
 msgstr "Сочетания клавиш"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:135
 msgid "About Breathing"
 msgstr "О Дыхании"
 
@@ -129,27 +116,42 @@ msgstr "Основные элементы управления"
 msgid "Toggle Breathing"
 msgstr "Переключить дыхание"
 
-#: src/main.py:71
-msgid "© 2023 Dave Patrick Caberto"
-msgstr "© 2023 Дэйв Патрик Каберто"
-
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:74
+#: src/main.py:72
 msgid "translator-credits"
 msgstr ""
 "Ковалев Артем, Давид Лапшин, ViktorOn &lt;https://github.com/viktoron&gt;"
 
-#: src/main.py:78
+#: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Пожертвовать (Купите мне кофе)"
 
-#: src/main.py:79
+#: src/main.py:77
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:80
+#: src/main.py:78
 msgid "Translate"
 msgstr "Перевести"
+
+#~ msgid "Relax, focus, and become stress-free."
+#~ msgstr "Расслабьтесь, сосредоточьтесь и избавьтесь от стресса."
+
+#~ msgid ""
+#~ "Breathing is a very simple application that guides your breathing "
+#~ "pattern. This pattern is recommended by experts that will help ease your "
+#~ "anxiety. It also provides a calming sound to make it much easier to relax."
+#~ msgstr ""
+#~ "Дыхание — это очень простое приложение, которое поможет вам дышать по "
+#~ "схеме дыхания, Эта схема, рекомендованная экспертами, поможет облегчить "
+#~ "ваше беспокойство. Оно также обеспечивает успокаивающий звук, чтобы было "
+#~ "намного легче расслабиться."
+
+#~ msgid "Dave Patrick Caberto"
+#~ msgstr "Дэйв Патрик Каберто"
+
+#~ msgid "© 2023 Dave Patrick Caberto"
+#~ msgstr "© 2023 Дэйв Патрик Каберто"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "Дэйв Патрик"

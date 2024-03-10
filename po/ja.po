@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 01:21+0300\n"
+"POT-Creation-Date: 2024-03-10 09:38+0800\n"
 "PO-Revision-Date: 2024-02-24 02:56+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
-#: data/io.github.seadve.Breathing.appdata.xml.in:6
+#: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Breathing"
 
@@ -34,74 +34,61 @@ msgstr "Breathing"
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:7
+#: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
 msgstr "リラックスと瞑想"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:9
-msgid "Relax, focus, and become stress-free."
-msgstr "リラックスして、集中し、ストレスから開放されましょう。"
-
-#: data/io.github.seadve.Breathing.appdata.xml.in:10
+#: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
-"Breathing is a very simple application that guides your breathing pattern. "
-"This pattern is recommended by experts that will help ease your anxiety. It "
-"also provides a calming sound to make it much easier to relax."
+"Breathing is a simple application that guides your breathing pattern. This "
+"pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
-"Breathingはとてもシンプルなアプリケーションで、あなたに呼吸のパターンを教えま"
-"す。この呼吸パターンは専門家が推奨するもので、あなたの不安を和らげるでしょ"
-"う。また、リラックスしやすくできるサウンドも用意されています。"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:11
+#: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
 msgstr "Breathingの特徴は以下の通りです："
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:13
+#: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
 msgstr "🌬️ あなたの呼吸をガイド。"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:14
+#: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 ダークモードへの切り替え"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:15
+#: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
 msgstr "📱 使いやすいインターフェース。"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:16
+#: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ ユーザーフレンドリーなキーボードショートカット。"
 
-#: data/io.github.seadve.Breathing.appdata.xml.in:74
-#, fuzzy
-msgid "Dave Patrick Caberto"
-msgstr "Dave Patrick Caberto"
-
-#: data/ui/window.ui:48
+#: data/ui/window.ui:50
 msgid "Main Menu"
 msgstr "メニュー"
 
-#: data/ui/window.ui:58 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "ダークモードの切り替え"
 
-#: data/ui/window.ui:89
+#: data/ui/window.ui:93
 msgid "Go"
 msgstr "開始"
 
-#: data/ui/window.ui:99
+#: data/ui/window.ui:103
 msgid "In"
 msgstr "吸って"
 
-#: data/ui/window.ui:109
+#: data/ui/window.ui:113
 msgid "Out"
 msgstr "吐いて"
 
-#: data/ui/window.ui:127
+#: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:135
 msgid "About Breathing"
 msgstr "Breathingについて"
 
@@ -129,12 +116,8 @@ msgstr "メインコントロール"
 msgid "Toggle Breathing"
 msgstr "開始と終了"
 
-#: src/main.py:71
-msgid "© 2023 Dave Patrick Caberto"
-msgstr ""
-
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:74
+#: src/main.py:72
 msgid "translator-credits"
 msgstr ""
 "小山田 純\n"
@@ -143,19 +126,35 @@ msgstr ""
 "Kisaragi Hiu\n"
 "kj7kt"
 
-#: src/main.py:78
+#: src/main.py:76
 #, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "寄付 (Buy Me a Coffee)"
 
-#: src/main.py:79
+#: src/main.py:77
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:80
+#: src/main.py:78
 #, fuzzy
 msgid "Translate"
 msgstr "翻訳"
+
+#~ msgid "Relax, focus, and become stress-free."
+#~ msgstr "リラックスして、集中し、ストレスから開放されましょう。"
+
+#~ msgid ""
+#~ "Breathing is a very simple application that guides your breathing "
+#~ "pattern. This pattern is recommended by experts that will help ease your "
+#~ "anxiety. It also provides a calming sound to make it much easier to relax."
+#~ msgstr ""
+#~ "Breathingはとてもシンプルなアプリケーションで、あなたに呼吸のパターンを教"
+#~ "えます。この呼吸パターンは専門家が推奨するもので、あなたの不安を和らげるで"
+#~ "しょう。また、リラックスしやすくできるサウンドも用意されています。"
+
+#, fuzzy
+#~ msgid "Dave Patrick Caberto"
+#~ msgstr "Dave Patrick Caberto"
 
 #~ msgid "Dave Patrick"
 #~ msgstr "Dave Patrick"
