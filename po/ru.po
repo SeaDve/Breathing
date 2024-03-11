@@ -6,13 +6,13 @@
 # VBB <librusekus35790@gmail.com>, 2022.
 # Daudix UFO <ddaudix@gmail.com>, 2022.
 # Vik <xasertop@gmail.com>, 2022.
-# Сергей <asvmail.as@gmail.com>, 2023.
+# Сергей <asvmail.as@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-18 21:08+0000\n"
+"PO-Revision-Date: 2024-03-11 02:01+0000\n"
 "Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/seadve/breathing/"
 "ru/>\n"
@@ -20,9 +20,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -43,10 +43,12 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Дыхание — это простое приложение для управления ритмом вашего дыханием. "
+"Эксперты рекомендуют данную практику для снижения беспокойства и тревоги."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr "Основные функции Дыхания включают следующее:"
+msgstr "Основные функции «Дыхания» следующее:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
@@ -54,7 +56,7 @@ msgstr "🌬️ Помогает вам дышать."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr "🌑 С легкостью включайте темный режим."
+msgstr "🌑 Лёгкое переключение в тёмный режим."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
@@ -86,11 +88,11 @@ msgstr "Выдох"
 
 #: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
-msgstr "Сочетания клавиш"
+msgstr "Комбинации клавиш"
 
 #: data/ui/window.ui:135
 msgid "About Breathing"
-msgstr "О Дыхании"
+msgstr "О приложении"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
