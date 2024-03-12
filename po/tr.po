@@ -4,13 +4,14 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Oğuz Ersen <oguz@ersen.moe>, 2023, 2024.
 # Sabri Ünal <libreajans@gmail.com>, 2024.
+# Sabri Ünal <yakushabb@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-03-11 02:01+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2024-03-12 14:01+0000\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/seadve/breathing/"
 "tr/>\n"
 "Language: tr\n"
@@ -118,7 +119,7 @@ msgstr "Nefesi Aç/Kapat"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr "Sabri Ünal (libreajans@gmail.com), Oğuz Ersen"
+msgstr "Sabri Ünal (yakushabb@gmail.com), Oğuz Ersen"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
