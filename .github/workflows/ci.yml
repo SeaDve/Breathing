@@ -1,14 +1,13 @@
-name: Unit Testing
-
 on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+
+name: CI
 
 jobs:
   flake8:
-    name: "Linter"
+    name: Linter
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +26,7 @@ jobs:
           flake8 --builtins=_ --ignore E402,W503 --max-complexity=10 --max-line-length=110 --show-source --statistics src/
 
   mypy:
-    name: "Static Type Checker"
+    name: Static Type Checker
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
