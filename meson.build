@@ -1,5 +1,5 @@
 project('breathing',
-          version: '0.1.2',
+          version: '0.1.3',
     meson_version: '>= 0.50.0',
           license: 'GPL-3.0-or-later',
   default_options: [ 'warning_level=2',
