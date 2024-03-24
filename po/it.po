@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the breathing package.
 # ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2021.
 # Dave Patrick <davecruz48@gmail.com>, 2021.
-# albanobattistella <albano_battistella@hotmail.com>, 2021, 2023.
+# albanobattistella <albano_battistella@hotmail.com>, 2021, 2023, 2024.
 # Nicolas Mariniello <seldon1000@tutanota.com>, 2021.
 # Michael Moroni <michaelmoroni@disroot.org>, 2021, 2023.
 # Andrea Brandi <git@andreabrandi.com>, 2022.
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-18 21:08+0000\n"
+"PO-Revision-Date: 2024-03-24 16:42+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/seadve/breathing/"
 "it/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -42,6 +42,9 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Breathing è una semplice applicazione che guida il tuo modello di "
+"respirazione. Questo modello è consigliato dagli esperti e ti aiuterà ad "
+"alleviare la tua ansia."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
