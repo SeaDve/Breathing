@@ -6,13 +6,14 @@
 # Hervy Qurrotul Ainur Rozi <hervyqa@proton.me>, 2022.
 # Muhammad Akbar Yanuar Mantari <mantarimay@users.noreply.hosted.weblate.org>, 2023.
 # Nur Ihsan <mnurihsanmutaqin66@gmail.com>, 2024.
+# Taufiq H <hosterwebplate.prh28@passinbox.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-03-05 18:01+0000\n"
-"Last-Translator: Nur Ihsan <mnurihsanmutaqin66@gmail.com>\n"
+"PO-Revision-Date: 2024-03-26 12:59+0000\n"
+"Last-Translator: Taufiq H <hosterwebplate.prh28@passinbox.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/seadve/"
 "breathing/id/>\n"
 "Language: id\n"
@@ -116,9 +117,10 @@ msgstr "Beralih ke Breathing"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
-#, fuzzy
 msgid "translator-credits"
-msgstr "@liimee,Hervy Qurrotul Ainur Rozi,Reza Almanda,@mantarimay,@nurihsan_m"
+msgstr ""
+"@liimee,Hervy Qurrotul Ainur Rozi,Reza "
+"Almanda,@mantarimay,@nurihsan_m,@tmhidayat"
 
 #: src/main.py:76
 #, fuzzy
@@ -130,7 +132,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
 msgstr "Terjemahkan"
 
