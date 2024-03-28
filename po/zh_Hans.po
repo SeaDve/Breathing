@@ -6,13 +6,14 @@
 # Zhongrui Cao <zhongrui.cao@suse.com>, 2021.
 # WhiredPlanck <fungdaat31@outlook.com>, 2021.
 # lumingzh <lumingzh@qq.com>, 2022.
+# Jianhua Lu <lujianhua000@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-03-28 06:01+0000\n"
+"Last-Translator: Jianhua Lu <lujianhua000@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "seadve/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
