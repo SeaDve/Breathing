@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Hemish <hemish04082005@gmail.com>, 2021, 2022.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-09 19:07+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/seadve/breathing/"
 "hi/>\n"
 "Language: hi\n"
@@ -16,87 +17,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.5.4-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "उपयोगिता;श्वास;व्यायाम;"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
-msgstr ""
+msgstr "आराम करें और ध्यान करें"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Breathing एक सरल अनुप्रयोग है जो आपके सांस लेने के प्रतिमान को निर्देशित करता"
+" है। यह प्रतिमान विशेषज्ञों द्वारा सुझाया गया है जो आपकी चिंता को कम करने में"
+" मदद करेगा।"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Breathing की मुख्य विशेषताएं निम्नलिखित हैं:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ अपनी सांस को निर्देशित करें।"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 आसानी से गहरे-मोड में बदलें।"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 उपयोग में आसान UI।"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ उपयोक्ता-अनुकूल कीबोर्ड शॉर्टकट।"
 
 #: data/ui/window.ui:50
 msgid "Main Menu"
-msgstr "मुख्य मेन्यू"
+msgstr "मुख्य मेनू"
 
 #: data/ui/window.ui:60 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "गहरा मोड टॉगल करें"
 
 #: data/ui/window.ui:93
 msgid "Go"
-msgstr ""
+msgstr "शुरू करें"
 
 #: data/ui/window.ui:103
 msgid "In"
-msgstr ""
+msgstr "अंदर"
 
 #: data/ui/window.ui:113
 msgid "Out"
-msgstr ""
+msgstr "बाहर"
 
 #: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "कीबोर्ड शॉर्टकट"
 
 #: data/ui/window.ui:135
 msgid "About Breathing"
-msgstr ""
+msgstr "Breathing के बारे में"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr "आम (General)"
+msgstr "सामान्य"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "मेन्यू खोलें"
+msgstr "मेनू खोलें"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "कीबोर्ड शॉर्टकट दिखाएं"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
@@ -104,29 +108,30 @@ msgstr "बंद करें"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "मुख्य नियंत्रण"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "श्वास टॉगल करें"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr "Hemish <hemish04082005@gmail.com>"
+msgstr ""
+"Hemish <hemish04082005@gmail.com>\n"
+"Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "दान करें (मेरे लिए कॉफ़ी खरीदें)"
 
 #: src/main.py:77
 msgid "GitHub"
-msgstr "गिटहब"
+msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
-msgstr "अनुवादन"
+msgstr "अनुवाद करें"
 
 #, fuzzy
 #~ msgid "Dave Patrick Caberto"
