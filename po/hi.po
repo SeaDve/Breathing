@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-05-09 19:07+0000\n"
+"PO-Revision-Date: 2024-05-11 05:00+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/seadve/breathing/"
 "hi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.5.4\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -118,12 +118,12 @@ msgstr "श्वास टॉगल करें"
 #: src/main.py:72
 msgid "translator-credits"
 msgstr ""
-"Hemish <hemish04082005@gmail.com>\n"
-"Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024"
+"Hemish &lt;hemish04082005@gmail.com&gt;\n"
+"Scrambled777 &lt;weblate.scrambled777@simplelogin.com&gt;"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
-msgstr "दान करें (मेरे लिए कॉफ़ी खरीदें)"
+msgstr "दान करें (मेरे लिए कॉफी खरीदें)"
 
 #: src/main.py:77
 msgid "GitHub"
