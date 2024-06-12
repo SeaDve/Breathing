@@ -7,13 +7,14 @@
 # rene-coty <irenee.thirion@e.email>, 2023.
 # "Mathieu B." <mathieu.bousquet2@gmail.com>, 2024.
 # p h <phhens@gmail.com>, 2024.
+# Wedone <cafh62@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-04-03 12:01+0000\n"
-"Last-Translator: p h <phhens@gmail.com>\n"
+"PO-Revision-Date: 2024-06-12 03:13+0000\n"
+"Last-Translator: Wedone <cafh62@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/seadve/breathing/"
 "fr/>\n"
 "Language: fr\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -64,7 +65,6 @@ msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Raccourcis clavier intuitifs."
 
 #: data/ui/window.ui:50
-#, fuzzy
 msgid "Main Menu"
 msgstr "Menu principal"
 
@@ -118,22 +118,18 @@ msgstr "Activer la respiration"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
-#, fuzzy
 msgid "translator-credits"
-msgstr "J. Lavoie, M. Bousquet, Irénée Thirion"
+msgstr "J. Lavoie, M. Bousquet, Irénée Thirion, Wedone"
 
 #: src/main.py:76
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Faire un don (Buy Me a Coffee)"
 
 #: src/main.py:77
-#, fuzzy
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
 msgstr "Traduire"
 
