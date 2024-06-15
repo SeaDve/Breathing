@@ -6,22 +6,23 @@
 # Carlod <carlod@disroot.org>, 2022.
 # gnu-ewm <gnu.ewm@protonmail.com>, 2022.
 # David <troianovskyidavid@gmail.com>, 2023.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-15 03:39+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/seadve/breathing/"
 "pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -42,6 +43,9 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Breathing to prosta aplikacja, która pomaga zachować prawidłowy wzorzec "
+"oddychania. Ten wzorzec jest zalecany przez ekspertów i pomaga złagodzić "
+"uczucie niepokoju."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -123,16 +127,15 @@ msgstr ""
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
-msgstr ""
+msgstr "Wspomóż (Buy Me a Coffee)"
 
 #: src/main.py:77
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
-msgstr "Przetłumacz"
+msgstr "Pomóż w tłumaczeniu"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "Zrelaksuj się, skup się i pozbądź się stresu."
