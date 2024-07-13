@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="data/logo/io.github.seadve.Breathing.svg" alt="Breathing" width="192" height="192"/>
+  <img alt="Breathing" src="data/logo/io.github.seadve.Breathing.svg" width="192" height="192"/>
   <br>
   Breathing
 </h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://flathub.org/apps/details/io.github.seadve.Breathing">
-    <img alt="Download on Flathub" src="https://dl.flathub.org/assets/badges/flathub-badge-i-en.svg" width="200"/>
+    <img alt="Download on Flathub" src="https://flathub.org/api/badge?svg&locale=en&light" width="200"/>
   </a>
   <br>
   <a href="https://www.buymeacoffee.com/seadve">
