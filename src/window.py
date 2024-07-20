@@ -95,10 +95,10 @@ class BreathingWindow(Adw.ApplicationWindow):
     def set_button_play_mode(self, is_play):
         if is_play:
             self.main_button.remove_css_class("suggested-action")
-            self.main_button.add_css_class("playing")
+            self.main_button.add_css_class("opaque")
         else:
             self.main_button.add_css_class("suggested-action")
-            self.main_button.remove_css_class("playing")
+            self.main_button.remove_css_class("opaque")
 
     def toggle_breathing(self):
         if self.timer.time == 0:

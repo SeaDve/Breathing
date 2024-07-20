@@ -1,18 +1,3 @@
-.main-button {
-  transition: 200ms ease-in-out;
-  font-weight: bold;
-}
-
-overlay > image {
-  color: @accent_bg_color;
-}
-
-.playing {
-  color: @theme_fg_color;
-  background-color: @theme_bg_color;
-  box-shadow: 0 0 6px 0 @theme_fg_color;
-}
-
 .enlarge1 {
   transition: 2.3s ease-in-out;
   -gtk-icon-size: 110px;

@@ -13,18 +13,27 @@
               <object class="GtkImage" id="circle1">
                 <property name="valign">center</property>
                 <property name="icon-name">circle-symbolic</property>
+                <style>
+                  <class name="accent"/>
+                </style>
               </object>
             </child>
             <child type="overlay">
               <object class="GtkImage" id="circle2">
                 <property name="valign">center</property>
                 <property name="icon-name">circle-symbolic</property>
+                <style>
+                  <class name="accent"/>
+                </style>
               </object>
             </child>
             <child type="overlay">
               <object class="GtkImage" id="circle3">
                 <property name="valign">center</property>
                 <property name="icon-name">circle-symbolic</property>
+                <style>
+                  <class name="accent"/>
+                </style>
               </object>
             </child>
             <child type="overlay">
@@ -79,7 +88,6 @@
                 <property name="action-name">app.toggle-breathing</property>
                 <style>
                   <class name="circular"/>
-                  <class name="main-button"/>
                   <class name="suggested-action"/>
                 </style>
                 <child>
