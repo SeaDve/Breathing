@@ -19,9 +19,11 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/SeaDve/Breathing/main/screenshots/screenshot1.png</image>
+      <caption>Start screen with a centered Go button</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/SeaDve/Breathing/main/screenshots/screenshot2.png</image>
+      <caption>On-going breathing guide screen</caption>
     </screenshot>
   </screenshots>
   <url type="bugtracker">https://github.com/SeaDve/Breathing/issues</url>
