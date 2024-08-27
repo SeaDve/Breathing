@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Danilo Alfredo Vieira <danilovieira978@gmail.com>, 2023.
+# Alexandre Vergueiro <alexandrevergueirojr@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-08-27 21:09+0000\n"
+"Last-Translator: Alexandre Vergueiro <alexandrevergueirojr@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/seadve/"
 "breathing/pt/>\n"
 "Language: pt\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -37,6 +38,8 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Breathing é um aplicativo simples que orienta seu padrão respiratório. Esse "
+"padrão é recomendado por especialistas para aliviar sua ansiedade."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -100,7 +103,7 @@ msgstr "Mostrar atalhos de teclado"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "Desistir"
+msgstr "Sair"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -113,19 +116,17 @@ msgstr "Alternar respiração"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr "créditos do Tradutor"
+msgstr "Créditos do tradutor"
 
 #: src/main.py:76
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
-msgstr "Doe (compre um café para mim)"
+msgstr "Doe (Compre um café para mim)"
 
 #: src/main.py:77
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
 msgstr "Traduzir"
 
