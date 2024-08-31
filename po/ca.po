@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-08-29 12:09+0000\n"
+"PO-Revision-Date: 2024-08-31 22:09+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/seadve/breathing/"
 "ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.1-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -71,45 +71,43 @@ msgstr "Commutar mode fosc"
 
 #: data/ui/window.ui:93
 msgid "Go"
-msgstr ""
+msgstr "Inicia"
 
 #: data/ui/window.ui:103
 msgid "In"
-msgstr ""
+msgstr "Inspira"
 
 #: data/ui/window.ui:113
 msgid "Out"
-msgstr ""
+msgstr "Expira"
 
 #: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Dreceres de teclat"
 
 #: data/ui/window.ui:135
 msgid "About Breathing"
-msgstr ""
+msgstr "Quant a Respiració"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
 msgstr "General"
 
 #: data/ui/shortcuts.ui:14
-#, fuzzy
 msgid "Open Menu"
 msgstr "Obre el menú"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Mostra les dreceres de teclat"
 
 #: data/ui/shortcuts.ui:26
-#, fuzzy
 msgid "Quit"
 msgstr "Surt"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Controls principals"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
@@ -126,12 +124,10 @@ msgid "Donate (Buy Me a Coffee)"
 msgstr "Feu una donació (Buy Me a Coffee)"
 
 #: src/main.py:77
-#, fuzzy
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
 msgstr "Tradueix"
 
