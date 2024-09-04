@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Victor Keranov <vkeranov@gmail.com>, 2022.
+# twlvnn <kraft_werk@tutanota.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-10 09:38+0800\n"
-"PO-Revision-Date: 2024-08-12 21:09+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-09-04 22:09+0000\n"
+"Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/seadve/"
 "breathing/bg/>\n"
 "Language: bg\n"
@@ -16,47 +17,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7.2-rc\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Дишане"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:11
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "инструмент;дишане;упражнение;"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
-msgstr ""
+msgstr "Отпуснете се и медитирайте"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"„Дишане“ е просто приложение, което насочва начина ви на дишане. Този начин "
+"на дишане е препоръчан от експерти и ще ви помогне да облекчите тревожността "
+"си."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Основните функции на „Дишане“ включват:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Насочвайте дишането си."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Превключвайте лесно в тъмен режим."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Лесен за използване потребителски интерфейс."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Лесни за използване клавишни комбинации."
 
 #: data/ui/window.ui:50
 msgid "Main Menu"
@@ -64,59 +68,60 @@ msgstr "Основно меню"
 
 #: data/ui/window.ui:60 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Превключване към тъмен режим"
 
 #: data/ui/window.ui:93
 msgid "Go"
-msgstr ""
+msgstr "Начало"
 
 #: data/ui/window.ui:103
 msgid "In"
-msgstr ""
+msgstr "Вдишване"
 
 #: data/ui/window.ui:113
 msgid "Out"
-msgstr ""
+msgstr "Издишване"
 
 #: data/ui/window.ui:131
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Клавишни комбинации"
 
 #: data/ui/window.ui:135
 msgid "About Breathing"
-msgstr ""
+msgstr "Относно „Дишане“"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
-msgstr "Основни"
+msgstr "Общи"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr "Отвори меню"
+msgstr "Отваряне на менюто"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Показване на клавишните комбинации"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "Изход"
+msgstr "Спиране на програмата"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Основни контроли"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Превключване на дишането"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr "Victor Keranov"
+msgstr ""
+"Victor Keranov\n"
+"twlvnn kraft_werk <kraft_werk@tutanota.com>"
 
 #: src/main.py:76
-#, fuzzy
 msgid "Donate (Buy Me a Coffee)"
 msgstr "Дарете (купете ми кафе)"
 
@@ -125,7 +130,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:78
-#, fuzzy
 msgid "Translate"
 msgstr "Преведи"
 
