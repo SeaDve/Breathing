@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 09:38+0800\n"
+"POT-Creation-Date: 2024-09-26 20:17+0800\n"
 "PO-Revision-Date: 2024-05-11 05:00+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -38,9 +38,8 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
-"Breathing एक सरल अनुप्रयोग है जो आपके सांस लेने के प्रतिमान को निर्देशित करता"
-" है। यह प्रतिमान विशेषज्ञों द्वारा सुझाया गया है जो आपकी चिंता को कम करने में"
-" मदद करेगा।"
+"Breathing एक सरल अनुप्रयोग है जो आपके सांस लेने के प्रतिमान को निर्देशित करता है। यह "
+"प्रतिमान विशेषज्ञों द्वारा सुझाया गया है जो आपकी चिंता को कम करने में मदद करेगा।"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -62,31 +61,39 @@ msgstr "📱 उपयोग में आसान UI।"
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ उपयोक्ता-अनुकूल कीबोर्ड शॉर्टकट।"
 
-#: data/ui/window.ui:50
+#: data/io.github.seadve.Breathing.metainfo.xml.in:22
+msgid "Start screen with a centered Go button"
+msgstr ""
+
+#: data/io.github.seadve.Breathing.metainfo.xml.in:26
+msgid "On-going breathing guide screen"
+msgstr ""
+
+#: data/ui/window.ui:59
 msgid "Main Menu"
 msgstr "मुख्य मेनू"
 
-#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "गहरा मोड टॉगल करें"
 
-#: data/ui/window.ui:93
+#: data/ui/window.ui:101
 msgid "Go"
 msgstr "शुरू करें"
 
-#: data/ui/window.ui:103
+#: data/ui/window.ui:111
 msgid "In"
 msgstr "अंदर"
 
-#: data/ui/window.ui:113
+#: data/ui/window.ui:121
 msgid "Out"
 msgstr "बाहर"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "कीबोर्ड शॉर्टकट"
 
-#: data/ui/window.ui:135
+#: data/ui/window.ui:143
 msgid "About Breathing"
 msgstr "Breathing के बारे में"
 

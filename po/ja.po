@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 09:38+0800\n"
+"POT-Creation-Date: 2024-09-26 20:17+0800\n"
 "PO-Revision-Date: 2024-04-19 13:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/"
@@ -42,7 +42,8 @@ msgstr "リラックスと瞑想"
 msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
-msgstr "Breathing は、呼吸リズムを練習するためのシンプルなアプリケーションです。専門"
+msgstr ""
+"Breathing は、呼吸リズムを練習するためのシンプルなアプリケーションです。専門"
 "家が推奨するリズムが、あなたの不安を和らげます。"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
@@ -65,31 +66,39 @@ msgstr "📱 使いやすいインターフェース。"
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ ユーザーフレンドリーなキーボードショートカット。"
 
-#: data/ui/window.ui:50
+#: data/io.github.seadve.Breathing.metainfo.xml.in:22
+msgid "Start screen with a centered Go button"
+msgstr ""
+
+#: data/io.github.seadve.Breathing.metainfo.xml.in:26
+msgid "On-going breathing guide screen"
+msgstr ""
+
+#: data/ui/window.ui:59
 msgid "Main Menu"
 msgstr "メインメニュー"
 
-#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "ダークモードを切り替え"
 
-#: data/ui/window.ui:93
+#: data/ui/window.ui:101
 msgid "Go"
 msgstr "開始"
 
-#: data/ui/window.ui:103
+#: data/ui/window.ui:111
 msgid "In"
 msgstr "吸って"
 
-#: data/ui/window.ui:113
+#: data/ui/window.ui:121
 msgid "Out"
 msgstr "吐いて"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
-#: data/ui/window.ui:135
+#: data/ui/window.ui:143
 msgid "About Breathing"
 msgstr "Breathing について"
 

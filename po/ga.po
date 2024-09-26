@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 09:38+0800\n"
+"POT-Creation-Date: 2024-09-26 20:17+0800\n"
 "PO-Revision-Date: 2024-09-23 13:15+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
-"n>6 && n<11) ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
+"(n>6 && n<11) ? 3 : 4;\n"
 "X-Generator: Weblate 5.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
@@ -61,31 +61,39 @@ msgstr "📱 Comhéadan úsáideora atá éasca le húsáid."
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Aicearraí méarchláir atá éasca le húsáid."
 
-#: data/ui/window.ui:50
+#: data/io.github.seadve.Breathing.metainfo.xml.in:22
+msgid "Start screen with a centered Go button"
+msgstr ""
+
+#: data/io.github.seadve.Breathing.metainfo.xml.in:26
+msgid "On-going breathing guide screen"
+msgstr ""
+
+#: data/ui/window.ui:59
 msgid "Main Menu"
 msgstr "Príomh-Roghchlár"
 
-#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "Scoránaigh Mód Dorcha"
 
-#: data/ui/window.ui:93
+#: data/ui/window.ui:101
 msgid "Go"
 msgstr "Téigh"
 
-#: data/ui/window.ui:103
+#: data/ui/window.ui:111
 msgid "In"
 msgstr "I"
 
-#: data/ui/window.ui:113
+#: data/ui/window.ui:121
 msgid "Out"
 msgstr "Amach"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "Aicearraí méarchláir"
 
-#: data/ui/window.ui:135
+#: data/ui/window.ui:143
 msgid "About Breathing"
 msgstr "Maidir le Análaithe"
 

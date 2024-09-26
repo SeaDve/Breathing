@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 09:38+0800\n"
+"POT-Creation-Date: 2024-09-26 20:17+0800\n"
 "PO-Revision-Date: 2024-08-31 22:09+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -61,31 +61,39 @@ msgstr "Interfície d'usuari fàcil d'usar."
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "Dreceres de teclat fàcils d'usar."
 
-#: data/ui/window.ui:50
+#: data/io.github.seadve.Breathing.metainfo.xml.in:22
+msgid "Start screen with a centered Go button"
+msgstr ""
+
+#: data/io.github.seadve.Breathing.metainfo.xml.in:26
+msgid "On-going breathing guide screen"
+msgstr ""
+
+#: data/ui/window.ui:59
 msgid "Main Menu"
 msgstr "Menú principal"
 
-#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "Commutar mode fosc"
 
-#: data/ui/window.ui:93
+#: data/ui/window.ui:101
 msgid "Go"
 msgstr "Inicia"
 
-#: data/ui/window.ui:103
+#: data/ui/window.ui:111
 msgid "In"
 msgstr "Inspira"
 
-#: data/ui/window.ui:113
+#: data/ui/window.ui:121
 msgid "Out"
 msgstr "Expira"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres de teclat"
 
-#: data/ui/window.ui:135
+#: data/ui/window.ui:143
 msgid "About Breathing"
 msgstr "Quant a Respiració"
 

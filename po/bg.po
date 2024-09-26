@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 09:38+0800\n"
+"POT-Creation-Date: 2024-09-26 20:17+0800\n"
 "PO-Revision-Date: 2024-09-04 22:09+0000\n"
 "Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/seadve/"
@@ -62,31 +62,39 @@ msgstr "📱 Лесен за използване потребителски и�
 msgid "⌨️ User-friendly keyboard shortcuts."
 msgstr "⌨️ Лесни за използване клавишни комбинации."
 
-#: data/ui/window.ui:50
+#: data/io.github.seadve.Breathing.metainfo.xml.in:22
+msgid "Start screen with a centered Go button"
+msgstr ""
+
+#: data/io.github.seadve.Breathing.metainfo.xml.in:26
+msgid "On-going breathing guide screen"
+msgstr ""
+
+#: data/ui/window.ui:59
 msgid "Main Menu"
 msgstr "Основно меню"
 
-#: data/ui/window.ui:60 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
 msgstr "Превключване към тъмен режим"
 
-#: data/ui/window.ui:93
+#: data/ui/window.ui:101
 msgid "Go"
 msgstr "Начало"
 
-#: data/ui/window.ui:103
+#: data/ui/window.ui:111
 msgid "In"
 msgstr "Вдишване"
 
-#: data/ui/window.ui:113
+#: data/ui/window.ui:121
 msgid "Out"
 msgstr "Издишване"
 
-#: data/ui/window.ui:131
+#: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "Клавишни комбинации"
 
-#: data/ui/window.ui:135
+#: data/ui/window.ui:143
 msgid "About Breathing"
 msgstr "Относно „Дишане“"
 
