@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-03-24 16:42+0000\n"
+"PO-Revision-Date: 2024-09-30 11:16+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/seadve/breathing/"
 "it/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -69,11 +69,11 @@ msgstr "⌨️ Scorciatoie da tastiera facili da usare."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Schermata iniziale con pulsante Vai al centro"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Schermata guida alla respirazione in corso"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
