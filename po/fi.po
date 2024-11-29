@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2021, 2024.
 # Linus Virtanen <linus.virtanen@protonmail.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-05-28 14:09+0000\n"
-"Last-Translator: Linus Virtanen <linus.virtanen@protonmail.com>\n"
+"PO-Revision-Date: 2024-11-29 09:00+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/seadve/breathing/"
 "fi/>\n"
 "Language: fi\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -64,11 +65,11 @@ msgstr "⌨️ Hyödylliset pikanäppäimet."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Aloitusnäyttö keskellä olevalla Go-painikkeella"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Jatkuva hengitysopasnäyttö"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -116,7 +117,7 @@ msgstr "Lopeta"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr "Ohjaimet"
+msgstr "Pääohjaimet"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
