@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Henri <contact@hen.ee>, 2022.
+# Priit Jõerüüt <hwlate@joeruut.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2022-08-07 01:15+0000\n"
-"Last-Translator: Henri <contact@hen.ee>\n"
+"PO-Revision-Date: 2024-12-04 21:59+0000\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/seadve/"
 "breathing/et/>\n"
 "Language: et\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -37,6 +38,8 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Hinga (Breathing) on lihtne rakendus, mis aitab sul õiget hingamisrütmi "
+"hoida. Näiteks võib ta abiks olla ärevusest ülesaamisel."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -60,11 +63,11 @@ msgstr "⌨️ Kasutajasõbralikud kiirklahvid."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Avaleht, mille keskel on nupp „Alusta“"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Lihtne juhendvaade"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
