@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-05-04 07:07+0000\n"
+"PO-Revision-Date: 2024-12-10 21:10+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/seadve/breathing/"
 "nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -63,11 +63,11 @@ msgstr "⌨️ Gebruiksvriendelijke sneltoetsen."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Start­scherm met een gecentreerde Start­knop"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Lopend Breathing-gids­scherm"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
