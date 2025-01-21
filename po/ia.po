@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2025-01-21 00:37+0000\n"
+"PO-Revision-Date: 2025-01-21 02:50+0000\n"
 "Last-Translator: \"Emilio S.\" <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/seadve/"
 "breathing/ia/>\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Le functionalitates principal de Breathing include le sequente:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
@@ -72,11 +72,11 @@ msgstr "Menu principal"
 
 #: data/ui/window.ui:69 data/ui/shortcuts.ui:43
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Commutar modo obscur"
 
 #: data/ui/window.ui:101
 msgid "Go"
-msgstr ""
+msgstr "Comenciar"
 
 #: data/ui/window.ui:111
 msgid "In"
@@ -88,11 +88,11 @@ msgstr ""
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Commandos curte de claviero"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
-msgstr ""
+msgstr "A proposito de Breathing"
 
 #: data/ui/shortcuts.ui:10
 msgid "General"
@@ -100,19 +100,19 @@ msgstr "General"
 
 #: data/ui/shortcuts.ui:14
 msgid "Open Menu"
-msgstr ""
+msgstr "Aperir menu"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Monstrar commandos curte de claviero"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "Quitar"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
-msgstr ""
+msgstr "Controlos principal"
 
 #: data/ui/shortcuts.ui:37
 msgid "Toggle Breathing"
@@ -129,8 +129,8 @@ msgstr ""
 
 #: src/main.py:77
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: src/main.py:78
 msgid "Translate"
-msgstr ""
+msgstr "Traducer"
