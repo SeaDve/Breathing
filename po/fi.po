@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2025-02-01 00:50+0000\n"
+"PO-Revision-Date: 2025-02-03 13:06+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/seadve/breathing/"
 "fi/>\n"
@@ -126,7 +126,7 @@ msgstr "Hengitys päälle/pois"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr "kääntäjien ansiot"
+msgstr "Jiri Grönroos"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
