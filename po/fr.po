@@ -9,13 +9,14 @@
 # p h <phhens@gmail.com>, 2024.
 # Wedone <cafh62@gmail.com>, 2024.
 # Clyhtsuriva <aimeric@adjutor.xyz>, 2024.
+# Paul Athanase <2paul.athanase@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-06-26 22:09+0000\n"
-"Last-Translator: Clyhtsuriva <aimeric@adjutor.xyz>\n"
+"PO-Revision-Date: 2025-07-06 03:47+0000\n"
+"Last-Translator: Paul Athanase <2paul.athanase@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/seadve/breathing/"
 "fr/>\n"
 "Language: fr\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6-rc\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -70,11 +71,11 @@ msgstr "⌨️ Raccourcis clavier intuitifs."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Écran de démarrage avec un bouton Go centré"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Écran de guide de respiration en cours"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"

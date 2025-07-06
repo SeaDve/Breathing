@@ -5,13 +5,14 @@
 # Muhammad Yasser <iamrokt@gmail.com>, 2021.
 # Ali Aljishi <ahj696@hotmail.com>, 2023.
 # Ali-98 <ahj696@hotmail.com>, 2023.
+# Yassin Amr <justxeez@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2023-12-18 21:08+0000\n"
-"Last-Translator: Ali-98 <ahj696@hotmail.com>\n"
+"PO-Revision-Date: 2025-07-06 03:47+0000\n"
+"Last-Translator: Yassin Amr <justxeez@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/seadve/breathing/"
 "ar/>\n"
 "Language: ar\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -41,6 +42,8 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"تنفُّس هو برنامج بسيط يرشد نمط تنفسك. هذا النمط ينصح به المتخصصون وسيساعدك "
+"لتقليل التوتر."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -64,11 +67,11 @@ msgstr "⌨️ اختصارات لوحة مفاتيح سهلة الاستخدا�
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "شاشة البداية مع زِر ابدأ فالمنتصف"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "شاشة دليل تنفس مستمرة"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -126,9 +129,8 @@ msgstr "بدِّل التنفُّس"
 #: src/main.py:72
 msgid "translator-credits"
 msgstr ""
-"Mehdi Essalehi\n"
-"Muhammad Yasser\n"
-"علي الجشي https://github.com/Ali-x98"
+"Ali Elgashy\n"
+"Yassin Amr"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
