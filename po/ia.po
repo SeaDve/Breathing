@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2025-01-21 02:50+0000\n"
+"PO-Revision-Date: 2025-07-09 15:01+0000\n"
 "Last-Translator: \"Emilio S.\" <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/seadve/"
 "breathing/ia/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -88,7 +88,7 @@ msgstr ""
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr "Commandos curte de claviero"
+msgstr "Vias breve de claviero"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
@@ -104,7 +104,7 @@ msgstr "Aperir menu"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr "Monstrar commandos curte de claviero"
+msgstr "Monstrar vias breve de claviero"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
