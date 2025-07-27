@@ -6,13 +6,14 @@
 # Ali Aljishi <ahj696@hotmail.com>, 2023.
 # Ali-98 <ahj696@hotmail.com>, 2023.
 # Yassin Amr <justxeez@gmail.com>, 2025.
+# Ahmed Najmawi <iramosu@protonmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2025-07-06 03:47+0000\n"
-"Last-Translator: Yassin Amr <justxeez@gmail.com>\n"
+"PO-Revision-Date: 2025-07-27 16:14+0000\n"
+"Last-Translator: Ahmed Najmawi <iramosu@protonmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/seadve/breathing/"
 "ar/>\n"
 "Language: ar\n"
@@ -115,7 +116,7 @@ msgstr "أظهر اختصارات لوحة المفاتيح"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
-msgstr "أنهِ"
+msgstr "اخرُج"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
@@ -128,9 +129,7 @@ msgstr "بدِّل التنفُّس"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:72
 msgid "translator-credits"
-msgstr ""
-"Ali Elgashy\n"
-"Yassin Amr"
+msgstr "علي الجشي، عمرو ياسين، أحمد النجماوي"
 
 #: src/main.py:76
 msgid "Donate (Buy Me a Coffee)"
