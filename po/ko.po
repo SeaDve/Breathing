@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-03-11 02:01+0000\n"
+"PO-Revision-Date: 2025-08-12 21:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/seadve/breathing/"
 "ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -112,7 +112,7 @@ msgstr ""
 #: data/ui/shortcuts.ui:26
 #, fuzzy
 msgid "Quit"
-msgstr "종료"
+msgstr "끝내기"
 
 #: data/ui/shortcuts.ui:33
 msgid "Main Controls"
