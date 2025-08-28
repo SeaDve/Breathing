@@ -7,13 +7,14 @@
 # Daudix UFO <ddaudix@gmail.com>, 2022.
 # Vik <xasertop@gmail.com>, 2022.
 # Сергей <asvmail.as@gmail.com>, 2023, 2024.
+# Yurt Page <yurtpage+weblate@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 20:17+0800\n"
-"PO-Revision-Date: 2024-09-28 14:15+0000\n"
-"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
+"PO-Revision-Date: 2025-08-28 15:01+0000\n"
+"Last-Translator: Yurt Page <yurtpage+weblate@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/seadve/breathing/"
 "ru/>\n"
 "Language: ru\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:3
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -96,7 +97,7 @@ msgstr "Выдох"
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr "Комбинации клавиш"
+msgstr "Сочетания кратких клавиш"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
@@ -112,7 +113,7 @@ msgstr "Открыть меню"
 
 #: data/ui/shortcuts.ui:20
 msgid "Show Keyboard Shortcuts"
-msgstr "Показать комбинации клавиш"
+msgstr "Показать краткие клавиши"
 
 #: data/ui/shortcuts.ui:26
 msgid "Quit"
