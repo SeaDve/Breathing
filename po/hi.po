@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-05-11 05:00+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.5.4\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "उपयोगिता;श्वास;व्यायाम;"
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr "मुख्य मेनू"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "गहरा मोड टॉगल करें"
 
@@ -98,47 +98,84 @@ msgid "About Breathing"
 msgstr "Breathing के बारे में"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "सामान्य"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "मेनू खोलें"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "कीबोर्ड शॉर्टकट दिखाएं"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "बंद करें"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "मुख्य नियंत्रण"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "श्वास टॉगल करें"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "Hemish &lt;hemish04082005@gmail.com&gt;\n"
 "Scrambled777 &lt;weblate.scrambled777@simplelogin.com&gt;"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "दान करें (मेरे लिए कॉफी खरीदें)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "अनुवाद करें"
+
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~ msgid "Open Menu"
+#~ msgstr "मेनू खोलें"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "कीबोर्ड शॉर्टकट दिखाएं"
+
+#~ msgid "Quit"
+#~ msgstr "बंद करें"
+
+#~ msgid "Main Controls"
+#~ msgstr "मुख्य नियंत्रण"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "श्वास टॉगल करें"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "दान करें (मेरे लिए कॉफी खरीदें)"
 
 #, fuzzy
 #~ msgid "Dave Patrick Caberto"

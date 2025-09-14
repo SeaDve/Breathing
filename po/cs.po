@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-09-27 13:15+0000\n"
 "Last-Translator: Fjuro <fjuro@alius.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -22,13 +22,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "X-Generator: Weblate 5.8-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Dýchání"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Pomůcka;Dech;Cvičení;"
 
@@ -76,7 +76,7 @@ msgstr "Probíhající návod na dýchání"
 msgid "Main Menu"
 msgstr "Hlavní nabídka"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "Přepnout tmavý režim"
 
@@ -101,31 +101,47 @@ msgid "About Breathing"
 msgstr "O aplikaci Dýchání"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "Obecné"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "Otevřít menu"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "Zobrazit klávesové zkratky"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Ukončit"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "Hlavní ovládací prvky"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "Zapnout/vypnout řízení dechu"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "Jan Novák\n"
@@ -133,17 +149,38 @@ msgstr ""
 "Jaroslav Svoboda\n"
 "Jonáš Loskot"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "Darovat (kupte mi kávu)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "Překlad"
+
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgid "Open Menu"
+#~ msgstr "Otevřít menu"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "Zobrazit klávesové zkratky"
+
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#~ msgid "Main Controls"
+#~ msgstr "Hlavní ovládací prvky"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "Zapnout/vypnout řízení dechu"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "Darovat (kupte mi kávu)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "Relaxujte, soustřeďte se a zbavte se stresu."

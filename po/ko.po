@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2025-08-12 21:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -20,13 +20,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.13-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr "메인 메뉴"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr ""
 
@@ -97,49 +97,74 @@ msgid "About Breathing"
 msgstr ""
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "일반적인"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
-#, fuzzy
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "메뉴 열기"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
 msgstr ""
 
-#: data/ui/shortcuts.ui:26
-#, fuzzy
-msgid "Quit"
-msgstr "끝내기"
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
 msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
 msgstr ""
 
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
+
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr "번역자-크레딧"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
+#: src/main.py:77
+msgid "Donate"
 msgstr ""
 
-#: src/main.py:77
+#: src/main.py:78
 #, fuzzy
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 #, fuzzy
 msgid "Translate"
 msgstr "번역"
+
+#~ msgid "General"
+#~ msgstr "일반적인"
+
+#, fuzzy
+#~ msgid "Open Menu"
+#~ msgstr "메뉴 열기"
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "끝내기"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "긴장을 풀고 집중하고 스트레스를 해소하세요."

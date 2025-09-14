@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-10-22 21:16+0000\n"
 "Last-Translator: ChefExperte <aaron+git@chefexperte.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -23,13 +23,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8.2-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Atmen"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Dienstprogramm;Atem;Übung;"
 
@@ -78,7 +78,7 @@ msgstr "Anzeige der laufenden Atemübung"
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "Dunklen Modus umschalten"
 
@@ -103,47 +103,84 @@ msgid "About Breathing"
 msgstr "Über das Atmen"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "Allgemeines"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "Menü öffnen"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "Tastaturkürzel anzeigen"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Schließen"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "Hauptbedienelemente"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "Atmung umschalten"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "J. Lavoie, Andy Pillip, Heinrich Heinzer, Nico, Milo Ivir, sal0max, Marlon, "
 "Jörn Weigend, Florian Schaupp, Justin Nogossek"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "Spenden (Kauf mir einen Kaffee)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "Übersetzen"
+
+#~ msgid "General"
+#~ msgstr "Allgemeines"
+
+#~ msgid "Open Menu"
+#~ msgstr "Menü öffnen"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "Tastaturkürzel anzeigen"
+
+#~ msgid "Quit"
+#~ msgstr "Schließen"
+
+#~ msgid "Main Controls"
+#~ msgstr "Hauptbedienelemente"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "Atmung umschalten"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "Spenden (Kauf mir einen Kaffee)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr ""

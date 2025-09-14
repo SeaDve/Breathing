@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-06-21 16:09+0000\n"
 "Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -20,13 +20,13 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 5.6-rc\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "נשימות"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;כלי;עזר;נשימה;אימון;רוגע;"
 
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr "התפריט הראשי"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "הפעלה/כיבוי של מצב הלילה"
 
@@ -99,45 +99,82 @@ msgid "About Breathing"
 msgstr "על אודות „נשימות”"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "כללי"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "פתיחת התפריט"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "הצגת קיצורי המקשים"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "יציאה"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "קיצורי מקשים ראשיים"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "הפעלת/כיבוי Breathing"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr "עומר א״ש <omeritzicschwartz@gmail.com>"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "תרומה (Buy Me a Coffee)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "תרגום"
+
+#~ msgid "General"
+#~ msgstr "כללי"
+
+#~ msgid "Open Menu"
+#~ msgstr "פתיחת התפריט"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "הצגת קיצורי המקשים"
+
+#~ msgid "Quit"
+#~ msgstr "יציאה"
+
+#~ msgid "Main Controls"
+#~ msgstr "קיצורי מקשים ראשיים"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "הפעלת/כיבוי Breathing"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "תרומה (Buy Me a Coffee)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "נרגעים, מתמקדים, ונפטרים מהלחצים."

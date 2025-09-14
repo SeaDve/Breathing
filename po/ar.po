@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2025-09-11 07:42+0000\n"
 "Last-Translator: Ziad El-sayed <ziadelsayed1797@tutamail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -25,13 +25,13 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.14-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "تنفُّس"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "وسيلة;تنفس;تدريب;"
 
@@ -79,7 +79,7 @@ msgstr "شاشة دليل تنفس مستمرة"
 msgid "Main Menu"
 msgstr "القائمة الرئيسة"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "بدِّل السمة الداكنة"
 
@@ -104,45 +104,82 @@ msgid "About Breathing"
 msgstr "عن «تنفُّس»"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "عام"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "افتح القائمة"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "أظهر اختصارات لوحة المفاتيح"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "اخرُج"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "عناصر التحكُّم الرئيسة"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "بدِّل التنفُّس"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr "علي الجشي، عمرو ياسين، أحمد النجماوي, زياد السيد"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "تبرَّع (اشترِ لي كوب قهوة)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "جت‌هب"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "ترجم"
+
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgid "Open Menu"
+#~ msgstr "افتح القائمة"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "أظهر اختصارات لوحة المفاتيح"
+
+#~ msgid "Quit"
+#~ msgstr "اخرُج"
+
+#~ msgid "Main Controls"
+#~ msgstr "عناصر التحكُّم الرئيسة"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "بدِّل التنفُّس"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "تبرَّع (اشترِ لي كوب قهوة)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "استرخ وركِّز وارتح."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-04-17 10:50+0000\n"
 "Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "சுவாசம்"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "உபயோகம்;மூச்சு;உடற்பயிற்சி;"
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr "முதன்மை பட்டியல்"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "டார்க் பயன்முறையை நிலைமாற்று"
 
@@ -98,45 +98,82 @@ msgid "About Breathing"
 msgstr "சுவாசம் பற்றி"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "பொது"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "மெனுவை திறக்கவும்"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "விசைப்பலகை குறுக்குவழிகளைக் காட்டு"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "வெளியேறு"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "முக்கிய கட்டுப்பாடுகள்"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "சுவாசத்தை நிலைமாற்றவும்"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr "தருண் கிருஷ்ணா.க.பா"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "நன்கொடை (எனக்கு ஒரு காபி வாங்கிக் கொடு)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "கிட்ஹப்"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "மொழிபெயர்"
+
+#~ msgid "General"
+#~ msgstr "பொது"
+
+#~ msgid "Open Menu"
+#~ msgstr "மெனுவை திறக்கவும்"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "விசைப்பலகை குறுக்குவழிகளைக் காட்டு"
+
+#~ msgid "Quit"
+#~ msgstr "வெளியேறு"
+
+#~ msgid "Main Controls"
+#~ msgstr "முக்கிய கட்டுப்பாடுகள்"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "சுவாசத்தை நிலைமாற்றவும்"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "நன்கொடை (எனக்கு ஒரு காபி வாங்கிக் கொடு)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "ஓய்வெடுங்கள், கவனம் செலுத்துங்கள் மற்றும் மன அழுத்தமில்லாமல் இருங்கள்."

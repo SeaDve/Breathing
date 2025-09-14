@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-03-26 12:59+0000\n"
 "Last-Translator: Taufiq H <hosterwebplate.prh28@passinbox.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/seadve/"
@@ -23,13 +23,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Utilitas;Nafas;Latihan;"
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr "Menu Utama"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "Toggle Mode Gelap"
 
@@ -100,48 +100,85 @@ msgid "About Breathing"
 msgstr "Tentang Breathing"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "Umum"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "Buka Menu"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "Tampilkan Pintasan Papan Ketik"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Keluar"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "Kendali Utama"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "Beralih ke Breathing"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "@liimee,Hervy Qurrotul Ainur Rozi,Reza Almanda,@mantarimay,@nurihsan_m,"
 "@tmhidayat"
 
-#: src/main.py:76
-#, fuzzy
-msgid "Donate (Buy Me a Coffee)"
-msgstr "Donasi (Traktir Saya Kopi)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "Terjemahkan"
+
+#~ msgid "General"
+#~ msgstr "Umum"
+
+#~ msgid "Open Menu"
+#~ msgstr "Buka Menu"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "Tampilkan Pintasan Papan Ketik"
+
+#~ msgid "Quit"
+#~ msgstr "Keluar"
+
+#~ msgid "Main Controls"
+#~ msgstr "Kendali Utama"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "Beralih ke Breathing"
+
+#, fuzzy
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "Donasi (Traktir Saya Kopi)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "Santai, fokus, dan menjadi bebas dari stres."

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2025-08-28 15:01+0000\n"
 "Last-Translator: Yurt Page <yurtpage+weblate@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/seadve/breathing/"
@@ -25,13 +25,13 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.13.1-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Дыхание"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Утилита;Дышать;Упражнение;"
 
@@ -79,7 +79,7 @@ msgstr "Инструкции по дыханию в процессе выпол�
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "Тёмный режим"
 
@@ -104,46 +104,83 @@ msgid "About Breathing"
 msgstr "О приложении"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "Основное"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "Открыть меню"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "Показать краткие клавиши"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Выход"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "Основные элементы управления"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "Переключить дыхание"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "Ковалев Артем, Давид Лапшин, ViktorOn &lt;https://github.com/viktoron&gt;"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "Пожертвовать (Купите мне кофе)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "Перевести"
+
+#~ msgid "General"
+#~ msgstr "Основное"
+
+#~ msgid "Open Menu"
+#~ msgstr "Открыть меню"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "Показать краткие клавиши"
+
+#~ msgid "Quit"
+#~ msgstr "Выход"
+
+#~ msgid "Main Controls"
+#~ msgstr "Основные элементы управления"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "Переключить дыхание"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "Пожертвовать (Купите мне кофе)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "Расслабьтесь, сосредоточьтесь и избавьтесь от стресса."

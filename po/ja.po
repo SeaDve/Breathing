@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 20:17+0800\n"
+"POT-Creation-Date: 2025-09-14 14:17+0800\n"
 "PO-Revision-Date: 2024-09-28 14:15+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/"
@@ -24,13 +24,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8-dev\n"
 
-#: data/io.github.seadve.Breathing.desktop.in:3
+#: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
 msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/io.github.seadve.Breathing.desktop.in:11
+#: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
 msgstr "Utility;Breath;Exercise;ユーティリティー;呼吸;エクササイズ;"
 
@@ -78,7 +78,7 @@ msgstr "呼吸ガイド中の画面"
 msgid "Main Menu"
 msgstr "メインメニュー"
 
-#: data/ui/window.ui:69 data/ui/shortcuts.ui:43
+#: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
 msgstr "ダークモードを切り替え"
 
@@ -103,31 +103,47 @@ msgid "About Breathing"
 msgstr "Breathing について"
 
 #: data/ui/shortcuts.ui:10
+msgctxt "shortcut window"
 msgid "General"
-msgstr "一般"
+msgstr ""
 
 #: data/ui/shortcuts.ui:14
+msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "メニューを開く"
+msgstr ""
 
 #: data/ui/shortcuts.ui:20
+msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr "キーボードショートカットを表示する"
+msgstr ""
 
-#: data/ui/shortcuts.ui:26
+#: data/ui/shortcuts.ui:25
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr ""
+
+#: data/ui/shortcuts.ui:32
+msgctxt "shortcut window"
 msgid "Quit"
-msgstr "終了"
+msgstr ""
 
-#: data/ui/shortcuts.ui:33
+#: data/ui/shortcuts.ui:39
+msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr "メインコントロール"
+msgstr ""
 
-#: data/ui/shortcuts.ui:37
+#: data/ui/shortcuts.ui:43
+msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "開始と終了"
+msgstr ""
+
+#: data/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Toggle Dark Mode"
+msgstr ""
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/main.py:72
+#: src/main.py:73
 msgid "translator-credits"
 msgstr ""
 "小山田 純\n"
@@ -136,17 +152,38 @@ msgstr ""
 "Kisaragi Hiu\n"
 "kj7kt"
 
-#: src/main.py:76
-msgid "Donate (Buy Me a Coffee)"
-msgstr "寄付 (Buy Me a Coffee)"
-
 #: src/main.py:77
+msgid "Donate"
+msgstr ""
+
+#: src/main.py:78
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/main.py:78
+#: src/main.py:79
 msgid "Translate"
 msgstr "翻訳"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Open Menu"
+#~ msgstr "メニューを開く"
+
+#~ msgid "Show Keyboard Shortcuts"
+#~ msgstr "キーボードショートカットを表示する"
+
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Main Controls"
+#~ msgstr "メインコントロール"
+
+#~ msgid "Toggle Breathing"
+#~ msgstr "開始と終了"
+
+#~ msgid "Donate (Buy Me a Coffee)"
+#~ msgstr "寄付 (Buy Me a Coffee)"
 
 #~ msgid "Relax, focus, and become stress-free."
 #~ msgstr "リラックスして、集中し、ストレスから開放されましょう。"
