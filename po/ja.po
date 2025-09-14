@@ -4,7 +4,7 @@
 # tinaxd <systemd.tinaxd@gmail.com>, 2021.
 # tinaxd <tinaxd@protonmail.com>, 2021.
 # 小山田純 <oyamada.junjun@outlook.jp>, 2021.
-# Ryo Nakano <ryonakaknock3@gmail.com>, 2021, 2022, 2024.
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2021, 2022, 2024, 2025.
 # Kaz Sibuya <sibuyakazokuu@gmail.com>, 2021.
 # Kisaragi Hiu <mail@kisaragi-hiu.com>, 2022.
 # kj7kt <yyhuton@gmail.com>, 2023.
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2024-09-28 14:15+0000\n"
+"PO-Revision-Date: 2025-09-14 12:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/seadve/"
 "breathing/ja/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -105,42 +105,42 @@ msgstr "Breathing について"
 #: data/ui/shortcuts.ui:10
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "メニューを開く"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカットを表示する"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "ウィンドウを閉じる"
 
 #: data/ui/shortcuts.ui:32
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "終了する"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "メインコントロール"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "呼吸する"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "ダークモードを切り替える"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
@@ -154,7 +154,7 @@ msgstr ""
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "寄付"
 
 #: src/main.py:78
 msgid "GitHub"

@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2024-03-12 14:01+0000\n"
-"Last-Translator: Yahor <k1llo2810@protonmail.com>\n"
+"PO-Revision-Date: 2025-09-14 12:07+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/seadve/"
 "breathing/be/>\n"
 "Language: be\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -99,9 +99,10 @@ msgid "About Breathing"
 msgstr "Аб праграме"
 
 #: data/ui/shortcuts.ui:10
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Агульнае"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
@@ -119,9 +120,10 @@ msgid "Close Window"
 msgstr ""
 
 #: data/ui/shortcuts.ui:32
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Выйсці"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"

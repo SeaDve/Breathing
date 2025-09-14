@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-08-12 21:02+0000\n"
+"PO-Revision-Date: 2025-09-14 12:07+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/seadve/breathing/"
 "ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -97,9 +97,10 @@ msgid "About Breathing"
 msgstr ""
 
 #: data/ui/shortcuts.ui:10
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "일반적인"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
@@ -117,9 +118,10 @@ msgid "Close Window"
 msgstr ""
 
 #: data/ui/shortcuts.ui:32
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "끝내기"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"

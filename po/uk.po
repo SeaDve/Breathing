@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # Ihor Hordiichuk <igor_ck@outlook.com>, 2021, 2022, 2023, 2024.
 # Сергій <sergiy.goncharuk.1@gmail.com>, 2024.
+# Максим Горпиніч <gorpinicmaksim0@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2024-10-08 07:55+0000\n"
-"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"PO-Revision-Date: 2025-09-14 12:07+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/seadve/"
 "breathing/uk/>\n"
 "Language: uk\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -101,42 +102,42 @@ msgstr "Про Дихання"
 #: data/ui/shortcuts.ui:10
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Загальне"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Відкрити меню"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Показати комбінації клавіш"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Закрити вікно"
 
 #: data/ui/shortcuts.ui:32
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Вийти"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Основні елементи керування"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Перемикання дихання"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Увімкнути/вимкнути темний режим"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
@@ -145,7 +146,7 @@ msgstr "Ihor Hordiichuk, Serhii Honcharuk"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "Пожертвувати"
 
 #: src/main.py:78
 msgid "GitHub"

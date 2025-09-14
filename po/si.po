@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2023-12-14 10:37+0000\n"
+"PO-Revision-Date: 2025-09-14 12:07+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/seadve/breathing/"
 "si/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -95,9 +95,10 @@ msgid "About Breathing"
 msgstr "හුස්ම ගැනීම පිළිබඳව"
 
 #: data/ui/shortcuts.ui:10
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "ප්‍රධාන"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
@@ -115,9 +116,10 @@ msgid "Close Window"
 msgstr ""
 
 #: data/ui/shortcuts.ui:32
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "ඉවත් වන්න"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
