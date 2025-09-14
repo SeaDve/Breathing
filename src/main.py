@@ -74,7 +74,7 @@ class Application(Adw.Application):
         dialog.set_issue_url("https://github.com/SeaDve/Breathing/issues")
         dialog.set_support_url("https://github.com/SeaDve/Breathing/discussions")
 
-        dialog.add_link(_("Donate (Buy Me a Coffee)"), "https://www.buymeacoffee.com/seadve")
+        dialog.add_link(_("Donate"), "https://seadve.github.io/donate/")
         dialog.add_link(_("GitHub"), "https://github.com/SeaDve/Breathing")
         dialog.add_link(_("Translate"), "https://hosted.weblate.org/projects/seadve/breathing")
 
