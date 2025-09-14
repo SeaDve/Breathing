@@ -7,40 +7,40 @@
         <property name="section-name">shortcuts</property>
         <child>
           <object class="GtkShortcutsGroup">
-            <property name="title" translatable="yes">General</property>
+            <property name="title" translatable="yes" context="shortcut window">General</property>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="accelerator">F10</property>
-                <property name="title" translatable="yes">Open Menu</property>
+                <property name="title" translatable="yes" context="shortcut window">Open Menu</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="action-name">win.show-help-overlay</property>
-                <property name="title" translatable="yes">Show Keyboard Shortcuts</property>
+                <property name="title" translatable="yes" context="shortcut window">Show Keyboard Shortcuts</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="action-name">app.quit</property>
-                <property name="title" translatable="yes">Quit</property>
+                <property name="title" translatable="yes" context="shortcut window">Quit</property>
               </object>
             </child>
           </object>
         </child>
         <child>
           <object class="GtkShortcutsGroup">
-            <property name="title" translatable="yes">Main Controls</property>
+            <property name="title" translatable="yes" context="shortcut window">Main Controls</property>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="action-name">app.toggle-breathing</property>
-                <property name="title" translatable="yes">Toggle Breathing</property>
+                <property name="title" translatable="yes" context="shortcut window">Toggle Breathing</property>
               </object>
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
                 <property name="action-name">app.dark-mode</property>
-                <property name="title" translatable="yes">Toggle Dark Mode</property>
+                <property name="title" translatable="yes" context="shortcut window">Toggle Dark Mode</property>
               </object>
             </child>
           </object>
