@@ -7,19 +7,21 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-18 15:35+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Kabyle <https://hosted.weblate.org/projects/seadve/breathing/"
+"kab/>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Breathing"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:10
@@ -66,7 +68,7 @@ msgstr ""
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
-msgstr ""
+msgstr "Umuɣ agejdan"
 
 #: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
@@ -74,53 +76,53 @@ msgstr ""
 
 #: data/ui/window.ui:101
 msgid "Go"
-msgstr ""
+msgstr "Bdu"
 
 #: data/ui/window.ui:111
 msgid "In"
-msgstr ""
+msgstr "Ger nnefs"
 
 #: data/ui/window.ui:121
 msgid "Out"
-msgstr ""
+msgstr "Suffeɣ nnefs"
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Inegzumen n unasiw"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
-msgstr ""
+msgstr "Ɣef Breathing"
 
 #: data/ui/shortcuts.ui:10
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Amatu"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Ldi umuɣ"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Sken-d inegzumen n unasiw"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Mdel asfaylu"
 
 #: data/ui/shortcuts.ui:32
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Tuffɣa"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Isenqaden imuta"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
@@ -135,16 +137,16 @@ msgstr ""
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr ""
+msgstr "Athmane MOKRAOUI"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "Mudd tawsa"
 
 #: src/main.py:78
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: src/main.py:79
 msgid "Translate"
-msgstr ""
+msgstr "Suqel"
