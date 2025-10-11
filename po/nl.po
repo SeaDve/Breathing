@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Heimen Stoffels <vistausss@fastmail.com>, 2021.
-# Philip Goto <philip.goto@gmail.com>, 2023, 2024.
+# Philip Goto <philip.goto@gmail.com>, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-10-11 09:07+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/seadve/breathing/"
 "nl/>\n"
 "Language: nl\n"
@@ -98,13 +98,11 @@ msgid "About Breathing"
 msgstr "Over Breathing"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Algemeen"
 
 #: data/ui/shortcuts.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Open Menu"
 msgstr "Menu openen"
@@ -112,16 +110,14 @@ msgstr "Menu openen"
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Snel­toetsen tonen"
 
 #: data/ui/shortcuts.ui:25
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Close Window"
 msgstr "Venster sluiten"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Afsluiten"
@@ -129,17 +125,17 @@ msgstr "Afsluiten"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Hoofd­besturing"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Breathing omschakelen"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Donkere modus omschakelen"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
@@ -147,7 +143,6 @@ msgid "translator-credits"
 msgstr "Philip Goto https://flipflop97.github.io/"
 
 #: src/main.py:77
-#, fuzzy
 msgid "Donate"
 msgstr "Doneren"
 
