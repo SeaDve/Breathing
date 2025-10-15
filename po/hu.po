@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Balázs Úr <balazs@urbalazs.hu>, 2021.
+# Rémiás Tamás <remtamas96@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-10-15 15:08+0000\n"
+"Last-Translator: Rémiás Tamás <remtamas96@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/seadve/"
 "breathing/hu/>\n"
 "Language: hu\n"
@@ -21,50 +22,53 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr "Lélegzetvétel"
+msgstr "Lélegzés"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
-msgstr "Segédprogram;Légzés;Lélegzet;Lélegzetvétel;Gyakorlat;"
+msgstr "Utility; Lélegzet; Kifejezés;"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
-msgstr "Lazítson és meditáljon"
+msgstr "Relax és meditáció"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"A lélegzés egy egyszerű alkalmazás, amely irányítja a légzési mintát. Ezt a "
+"mintát olyan szakértők ajánlják, akik segítenek enyhíteni a szorongást."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr "A Lélegzetvétel fő funkciói a következők:"
+msgstr "A lélegzet fő jellemzői a következőket tartalmazza:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
-msgstr "🌬️ A lélegzetvétel irányítása."
+msgstr "🌬️ Útmutassa a légzést."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr "🌑 Könnyedén válthat sötét módra."
+msgstr "🌑 Változtasson egy sötét módra könnyedén."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
+#, fuzzy
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Egyszerűen használható felhasználói felület."
+msgstr "📱 Egyszerű felhasználói felület"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "⌨️ Felhasználóbarát gyorsbillentyűk."
+msgstr "Ó Felhasználóbarát billentyűzet-hirdetések."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Kezdőképernyő központosított Go gomb"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Folyamatos légzési útmutató képernyő"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -72,51 +76,50 @@ msgstr "Főmenü"
 
 #: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
-msgstr "Sötét mód ki- és bekapcsolása"
+msgstr "Sötét mód be-/kikapcsolása"
 
 #: data/ui/window.ui:101
+#, fuzzy
 msgid "Go"
-msgstr "Gyerünk"
+msgstr "Indulás"
 
 #: data/ui/window.ui:111
 msgid "In"
-msgstr "Be"
+msgstr "Inkább"
 
 #: data/ui/window.ui:121
 msgid "Out"
-msgstr "Ki"
+msgstr "Kimenet"
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr "Gyorsbillentyűk"
+msgstr "Billentyűparancsok"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
-msgstr "A Lélegzetvétel névjegye"
+msgstr "A lélegzésről"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Általános"
+msgstr "Általánosság"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Menü megnyitása"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Mutasd meg a Keyboard Shortcuts"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Ablak bezárása?"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Kilépés"
@@ -124,26 +127,28 @@ msgstr "Kilépés"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Fő ellenőrzések"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Toggle Breathing"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Sötét mód be-/kikapcsolása"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr "Úr Balázs &lt;balazs@urbalazs.hu&gt;"
+msgstr ""
+"Fordítók: Cserélje le a \"translator-credits\" szöveget a neveire, minden "
+"név külön sorban"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "Támogasson"
 
 #: src/main.py:78
 msgid "GitHub"
@@ -151,7 +156,7 @@ msgstr "GitHub"
 
 #: src/main.py:79
 msgid "Translate"
-msgstr ""
+msgstr "Fordítás"
 
 #~ msgid "General"
 #~ msgstr "Általános"
