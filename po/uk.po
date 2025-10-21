@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
-# Ihor Hordiichuk <igor_ck@outlook.com>, 2021, 2022, 2023, 2024.
+# Ihor Hordiichuk <igor_ck@outlook.com>, 2021, 2022, 2023, 2024, 2025.
 # Сергій <sergiy.goncharuk.1@gmail.com>, 2024.
 # Максим Горпиніч <gorpinicmaksim0@gmail.com>, 2025.
 msgid ""
@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
+"PO-Revision-Date: 2025-10-21 19:02+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/seadve/"
 "breathing/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
@@ -102,7 +103,7 @@ msgstr "Про Дихання"
 #: data/ui/shortcuts.ui:10
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Загальне"
+msgstr "Загальні"
 
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
