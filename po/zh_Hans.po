@@ -7,13 +7,14 @@
 # WhiredPlanck <fungdaat31@outlook.com>, 2021.
 # lumingzh <lumingzh@qq.com>, 2022.
 # Jianhua Lu <lujianhua000@gmail.com>, 2024.
+# Haoyu Qiu <timothyqiu32@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-10-23 13:02+0000\n"
+"Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/seadve/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -100,7 +101,6 @@ msgid "About Breathing"
 msgstr "关于Breathing"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "通用"
@@ -108,7 +108,7 @@ msgstr "通用"
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "打开菜单"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
@@ -118,10 +118,9 @@ msgstr ""
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "关闭窗口"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "退出"
@@ -149,7 +148,8 @@ msgstr ""
 "Zhou Nan &lt;zhounan@nfschina.com&gt;\n"
 "Zhongrui Cao &lt;zhongrui.cao@suse.com&gt;\n"
 "WhiredPlanck &lt;wplanck@aosc.io&gt;\n"
-"lumingzh &lt;lumingzh@qq.com&gt;"
+"lumingzh &lt;lumingzh@qq.com&gt;\n"
+"Haoyu Qiu &lt;timothyqiu32@gmail.com&gt;"
 
 #: src/main.py:77
 msgid "Donate"
