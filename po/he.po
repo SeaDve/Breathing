@@ -2,23 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Omer I.S. <omeritzicschwartz@gmail.com>, 2021.
-# "Omer I.S." <omeritzicschwartz@gmail.com>, 2024.
+# "Omer I.S." <omeritzicschwartz@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-11-12 17:51+0000\n"
+"Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/seadve/breathing/"
 "he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.14-dev\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : "
+"((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -64,15 +64,15 @@ msgstr "⌨️ קיצורי מקשים ידידותיים למשתמש."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "מסך פתיחה עם כפתור „התחלה” במרכז"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "נשימות מודרכות על גבי המסך"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
-msgstr "התפריט הראשי"
+msgstr "תפריט ראשי"
 
 #: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
@@ -80,7 +80,7 @@ msgstr "הפעלה/כיבוי של מצב הלילה"
 
 #: data/ui/window.ui:101
 msgid "Go"
-msgstr "מעבר"
+msgstr "התחלה"
 
 #: data/ui/window.ui:111
 msgid "In"
@@ -99,7 +99,6 @@ msgid "About Breathing"
 msgstr "על אודות „נשימות”"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "כללי"
@@ -107,20 +106,19 @@ msgstr "כללי"
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "פתיחת תפריט"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "הצגת קיצורי מקשים"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "סגירת החלון"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "יציאה"
@@ -128,26 +126,26 @@ msgstr "יציאה"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "פקדים ראשיים"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "הפעלת/עצירת „נשימות”"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "הפעלת/כיבוי מצב כהה"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr "עומר א״ש <omeritzicschwartz@gmail.com>"
+msgstr "עומר א״ש(@omeritzics)"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "תרומה"
 
 #: src/main.py:78
 msgid "GitHub"
