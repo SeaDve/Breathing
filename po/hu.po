@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-10-15 15:08+0000\n"
+"PO-Revision-Date: 2025-12-04 19:03+0000\n"
 "Last-Translator: Rémiás Tamás <remtamas96@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/seadve/"
 "breathing/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -54,13 +54,12 @@ msgid "🌑 Change to a dark-mode with ease."
 msgstr "🌑 Változtasson egy sötét módra könnyedén."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
-#, fuzzy
 msgid "📱 Easy-to-use user interface."
-msgstr "📱 Egyszerű felhasználói felület"
+msgstr "📱 Egyszerű felhasználói felület."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr "Ó Felhasználóbarát billentyűzet-hirdetések."
+msgstr "⌨️ Felhasználóbarát billentyűzet-hirdetések."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
@@ -79,9 +78,8 @@ msgid "Toggle Dark Mode"
 msgstr "Sötét mód be-/kikapcsolása"
 
 #: data/ui/window.ui:101
-#, fuzzy
 msgid "Go"
-msgstr "Indulás"
+msgstr "Kezdés"
 
 #: data/ui/window.ui:111
 msgid "In"
@@ -117,7 +115,7 @@ msgstr "Mutasd meg a Keyboard Shortcuts"
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr "Ablak bezárása?"
+msgstr "Ablak bezárása"
 
 #: data/ui/shortcuts.ui:32
 msgctxt "shortcut window"
@@ -132,7 +130,7 @@ msgstr "Fő ellenőrzések"
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr "Toggle Breathing"
+msgstr "Légzés váltása"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
