@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Sergio Varela <sergitroll9@gmail.com>, 2021, 2022.
+# Asier Saratsua Garmendia <asier.sarasua@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-09 21:00+0000\n"
+"Last-Translator: Asier Saratsua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/seadve/breathing/"
 "eu/>\n"
 "Language: eu\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -113,13 +114,12 @@ msgstr ""
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Itxi leihoa"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Utzi"
+msgstr "Irten"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
@@ -139,7 +139,7 @@ msgstr ""
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr "Sergio Varela"
+msgstr "Sergio Varela, Asier Saratsua"
 
 #: src/main.py:77
 msgid "Donate"
@@ -150,7 +150,6 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:79
-#, fuzzy
 msgid "Translate"
 msgstr "Itzuli"
 
