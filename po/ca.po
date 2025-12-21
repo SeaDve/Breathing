@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the breathing package.
 # victor dargallo <victordargallo@disroot.org>, 2024.
 # Joan Aymà <joanayma@gmail.com>, 2024.
+# Isard Sabut <weblate@puntnet.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-21 22:00+0000\n"
+"Last-Translator: Isard Sabut <weblate@puntnet.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/seadve/breathing/"
 "ca/>\n"
 "Language: ca\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -111,12 +112,12 @@ msgstr ""
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Mostra les dreceres de teclat"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Tanca la finestra"
 
 #: data/ui/shortcuts.ui:32
 #, fuzzy
@@ -127,7 +128,7 @@ msgstr "Surt"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Controls principals"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
@@ -137,7 +138,7 @@ msgstr ""
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Alterna tema fosc"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
