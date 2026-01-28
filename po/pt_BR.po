@@ -7,13 +7,14 @@
 # André L. Alvares <andrluiz.alvares.alvares84@gmail.com>, 2022.
 # Tiago Lucas Flach <tiagolucas9830@gmail.com>, 2023.
 # John Peter Sa <johnppetersa@gmail.com>, 2025.
+# William Teles <967teles@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-01-28 21:24+0000\n"
+"Last-Translator: William Teles <967teles@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "seadve/breathing/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -100,7 +101,6 @@ msgid "About Breathing"
 msgstr "Sobre o Breathing"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Geral"
@@ -108,7 +108,7 @@ msgstr "Geral"
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Abrir menu"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
@@ -122,7 +122,6 @@ msgid "Close Window"
 msgstr "Fechar janela"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Sair"
