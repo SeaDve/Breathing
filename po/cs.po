@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-03-06 20:05+0000\n"
+"PO-Revision-Date: 2026-03-07 21:09+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/seadve/breathing/"
 "cs/>\n"
@@ -42,8 +42,8 @@ msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
-"Dýchání je jednoduchá aplikace, která povede váš dechový vzor. Takový je "
-"doporučován odborníky jako pomoc pro zmírnění úzkosti."
+"Dýchání je jednoduchá aplikace, která vás povede k dechovému vzorci, který "
+"je doporučován odborníky jako pomoc pro zmírnění úzkosti."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
@@ -55,7 +55,7 @@ msgstr "🌬️ Vedení vaše dýchání."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr "🌑 Snadné přepínání do tmavého režimu (a zpět)."
+msgstr "🌑 Snadné přepínání mezi tmavým a světlým režimem."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
@@ -152,7 +152,7 @@ msgstr ""
 
 #: src/main.py:77
 msgid "Donate"
-msgstr "Darovat"
+msgstr "Podpořit vývoj darem"
 
 #: src/main.py:78
 msgid "GitHub"
@@ -160,7 +160,7 @@ msgstr "GitHub"
 
 #: src/main.py:79
 msgid "Translate"
-msgstr "Překlad"
+msgstr "Překládat do mého jazyka"
 
 #~ msgid "General"
 #~ msgstr "Obecné"
