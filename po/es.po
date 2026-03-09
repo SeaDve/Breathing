@@ -5,13 +5,14 @@
 # Chardinson De la cruz Ventura <chardinsondelacruzventura@gmail.com>, 2021.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2023.
 # gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
+# Francisco Serrador <fserrador@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-03-09 07:09+0000\n"
+"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/seadve/breathing/"
 "es/>\n"
 "Language: es\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -101,7 +102,6 @@ msgid "About Breathing"
 msgstr "Acerca de Respirar"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "General"
@@ -109,20 +109,19 @@ msgstr "General"
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Abrir menú"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Mostrar enlaces del Teclado"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Cerrar Ventana"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Salir"
@@ -130,7 +129,7 @@ msgstr "Salir"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Controles Principales"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
@@ -140,7 +139,7 @@ msgstr ""
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Modo Oscuro"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
