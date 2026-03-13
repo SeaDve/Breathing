@@ -6,13 +6,14 @@
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2023.
 # gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
 # Francisco Serrador <fserrador@gmail.com>, 2026.
+# Deleted User <noreply+48943@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-03-09 07:09+0000\n"
-"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2026-03-13 11:09+0000\n"
+"Last-Translator: Deleted User <noreply+48943@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/seadve/breathing/"
 "es/>\n"
 "Language: es\n"
@@ -71,7 +72,7 @@ msgstr "Pantalla de inicio con el botón «Ir» centrado"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr "Instrucciones de respiración en curso"
+msgstr "Instrucciones de la respiración"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -134,7 +135,7 @@ msgstr "Controles Principales"
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Alternar Respiración"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
@@ -146,10 +147,9 @@ msgstr "Modo Oscuro"
 msgid "translator-credits"
 msgstr ""
 "Óscar Fernández Díaz (oscfdezdz@tuta.io), Adolfo Jayme Barrientos "
-"(fitojb@ubuntu.com)"
+"(fitojb@ubuntu.com), Javier F. Serrador (fserrador@gmail.com)"
 
 #: src/main.py:77
-#, fuzzy
 msgid "Donate"
 msgstr "Donar"
 
