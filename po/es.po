@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-03-13 11:09+0000\n"
+"PO-Revision-Date: 2026-03-20 17:09+0000\n"
 "Last-Translator: Deleted User <noreply+48943@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/seadve/breathing/"
 "es/>\n"
@@ -72,7 +72,7 @@ msgstr "Pantalla de inicio con el botón «Ir» centrado"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr "Instrucciones de la respiración"
+msgstr "Pantalla de la guía de respiración continua"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"

@@ -4,14 +4,14 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Oğuz Ersen <oguz@ersen.moe>, 2023, 2024, 2025.
 # Sabri Ünal <libreajans@gmail.com>, 2024.
-# Sabri Ünal <yakushabb@gmail.com>, 2024.
+# Sabri Ünal <yakushabb@gmail.com>, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-10-11 09:07+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2026-03-20 17:09+0000\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/seadve/breathing/"
 "tr/>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -143,7 +143,9 @@ msgstr "Koyu Modu Aç/Kapat"
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr "Sabri Ünal (yakushabb@gmail.com), Oğuz Ersen"
+msgstr ""
+"Sabri Ünal (yakushabb@gmail.com)\n"
+"Oğuz Ersen"
 
 #: src/main.py:77
 msgid "Donate"
