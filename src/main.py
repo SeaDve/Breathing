@@ -64,7 +64,7 @@ class Application(Adw.Application):
     def show_about_dialog(self, action, param):
         dialog = Adw.AboutDialog()
         dialog.set_application_icon(APPLICATION_ID)
-        dialog.set_application_name("Breathing")
+        dialog.set_application_name(_("Breathing"))
         dialog.set_developer_name("Dave Patrick Caberto")
         dialog.set_version(self.version)
         dialog.set_copyright("© 2024 Dave Patrick Caberto")
