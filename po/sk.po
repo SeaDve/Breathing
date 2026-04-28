@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-04-27 20:28+0000\n"
+"PO-Revision-Date: 2026-04-28 21:09+0000\n"
 "Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/seadve/breathing/"
 "sk/>\n"
@@ -22,105 +22,102 @@ msgstr ""
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr ""
+msgstr "Dýchanie"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:10
 msgid "Utility;Breath;Exercise;"
-msgstr ""
+msgstr "Nástroj;Dych;Cvičenie;"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
-msgstr ""
+msgstr "Uvoľnite sa a meditujte"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
 "Breathing is a simple application that guides your breathing pattern. This "
 "pattern is recommended by experts that will help ease your anxiety."
 msgstr ""
+"Dýchanie je jednoduchá aplikácia, ktorá vás sprevádza pri dýchaní. Tento "
+"vzorec je odporúčaný odborníkmi a pomôže vám zmierniť úzkosť."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:11
 msgid "The main features of Breathing includes the following:"
-msgstr ""
+msgstr "Hlavné funkcie aplikácie Dýchanie zahŕňajú:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
-msgstr ""
+msgstr "🌬️ Sprievodca dýchaním."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
-msgstr ""
+msgstr "🌑 Jednoduché prepínanie na tmavý režim."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:15
 msgid "📱 Easy-to-use user interface."
-msgstr ""
+msgstr "📱 Jednoduché používateľské rozhranie."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:16
 msgid "⌨️ User-friendly keyboard shortcuts."
-msgstr ""
+msgstr "⌨️ Klávesové skratky prispôsobené používateľovi."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Úvodná obrazovka so stredovým tlačidlom Spustiť"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Obrazovka prebiehajúceho sprievodcu dýchaním"
 
 #: data/ui/window.ui:59
-#, fuzzy
 msgid "Main Menu"
-msgstr "Hlavné menu"
+msgstr "Hlavná ponuka"
 
 #: data/ui/window.ui:69
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Prepnúť tmavý režim"
 
 #: data/ui/window.ui:101
 msgid "Go"
-msgstr ""
+msgstr "Spustiť"
 
 #: data/ui/window.ui:111
 msgid "In"
-msgstr ""
+msgstr "Nadýchnuť"
 
 #: data/ui/window.ui:121
 msgid "Out"
-msgstr ""
+msgstr "Vydýchnuť"
 
 #: data/ui/window.ui:139
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klávesové skratky"
 
 #: data/ui/window.ui:143
 msgid "About Breathing"
-msgstr ""
+msgstr "O aplikácii Dýchanie"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Všeobecné"
 
 #: data/ui/shortcuts.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr "Otvoriť menu"
+msgstr "Otvoriť ponuku"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Zobraziť klávesové skratky"
 
 #: data/ui/shortcuts.ui:25
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Close Window"
 msgstr "Zavrieť okno"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Ukončiť"
@@ -128,35 +125,31 @@ msgstr "Ukončiť"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Hlavné ovládanie"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Prepnúť dýchanie"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Prepnúť tmavý režim"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
-#, fuzzy
 msgid "translator-credits"
 msgstr "Prekladatelia"
 
 #: src/main.py:77
-#, fuzzy
 msgid "Donate"
 msgstr "Darovať"
 
 #: src/main.py:78
-#, fuzzy
 msgid "GitHub"
 msgstr "GitHub"
 
 #: src/main.py:79
-#, fuzzy
 msgid "Translate"
 msgstr "Preložiť"
