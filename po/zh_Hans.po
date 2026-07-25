@@ -8,13 +8,15 @@
 # lumingzh <lumingzh@qq.com>, 2022.
 # Jianhua Lu <lujianhua000@gmail.com>, 2024.
 # Haoyu Qiu <timothyqiu32@gmail.com>, 2025.
+# reducedradius <137701630+flytothehighest@users.noreply.github.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-10-23 13:02+0000\n"
-"Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
+"PO-Revision-Date: 2026-07-25 14:01+0000\n"
+"Last-Translator: reducedradius "
+"<137701630+flytothehighest@users.noreply.github.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/seadve/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -22,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -138,7 +140,7 @@ msgstr ""
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "切换为深色模式"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
@@ -149,11 +151,12 @@ msgstr ""
 "Zhongrui Cao &lt;zhongrui.cao@suse.com&gt;\n"
 "WhiredPlanck &lt;wplanck@aosc.io&gt;\n"
 "lumingzh &lt;lumingzh@qq.com&gt;\n"
-"Haoyu Qiu &lt;timothyqiu32@gmail.com&gt;"
+"Haoyu Qiu &lt;timothyqiu32@gmail.com&gt;\n"
+"ReducedRadius &lt;feixiang512@outlook.com&gt;"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "捐献"
 
 #: src/main.py:78
 msgid "GitHub"
