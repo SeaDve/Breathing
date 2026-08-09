@@ -47,16 +47,9 @@ class Application(Adw.Application):
         simple_action.connect("activate", lambda *_: self.quit())
         self.add_action(simple_action)
 
-        settings_action = self.settings.create_action('dark-mode')
-        self.add_action(settings_action)
-
         self.set_accels_for_action("window.close", ("<Control>w",))
         self.set_accels_for_action("app.toggle-breathing", ("<Control>s",))
-        self.set_accels_for_action("app.dark-mode", ("<Control>d",))
         self.set_accels_for_action("app.quit", ("<Control>q",))
-
-    def window_toggle_dark_mode(self, action, param):
-        self.settings.set_boolean("dark-mode", False)
 
     def window_toggle_breathing(self, action, param):
         self.get_active_window().toggle_breathing()

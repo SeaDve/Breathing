@@ -1,9 +1,16 @@
 # SPDX-FileCopyrightText: Copyright 2021 SeaDve
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-from gi.repository import Adw, Gtk, Gio, GObject
+from gi.repository import Adw, Gtk, Gio, GLib
 
 from breathing.timer import Timer
+
+
+COLOR_SCHEMES = {
+    "follow": Adw.ColorScheme.DEFAULT,
+    "light": Adw.ColorScheme.FORCE_LIGHT,
+    "dark": Adw.ColorScheme.FORCE_DARK,
+}
 
 
 @Gtk.Template(resource_path='/io/github/seadve/Breathing/ui/window.ui')
@@ -16,36 +23,85 @@ class BreathingWindow(Adw.ApplicationWindow):
     circle2 = Gtk.Template.Child()
     circle3 = Gtk.Template.Child()
     time_label = Gtk.Template.Child()
-
-    _dark_mode = True
+    menu_button = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
         self.timer = Timer()
+        self.settings = Gio.Settings.new("io.github.seadve.Breathing")
+        self.style_manager = Adw.StyleManager.get_default()
 
-        self.settings = Gio.Settings("io.github.seadve.Breathing")
-        self.settings.bind("dark-mode", self, "dark-mode", Gio.SettingsBindFlags.DEFAULT)
-
+        self._setup_style_action()
+        self._setup_theme_selector()
         self.connect_signals()
 
-    @GObject.Property(type=bool, default=_dark_mode)
-    def dark_mode(self):
-        return self._dark_mode
+    def _setup_style_action(self):
+        saved = self.settings.get_string("style-variant")
+        action = Gio.SimpleAction.new_stateful(
+            "style-variant",
+            GLib.VariantType("s"),
+            GLib.Variant("s", saved),
+        )
+        action.connect("activate", self._on_style_variant_activate)
+        self.add_action(action)
+        self._apply_color_scheme(saved)
 
-    @dark_mode.setter  # type: ignore
-    def dark_mode(self, dark_mode):
-        self._dark_mode = dark_mode
+    def _apply_color_scheme(self, variant):
+        self.style_manager.set_color_scheme(
+            COLOR_SCHEMES.get(variant, Adw.ColorScheme.DEFAULT)
+        )
 
-        adw_style_manager = Adw.StyleManager.get_default()
-        if dark_mode:
-            adw_style_manager.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
-        else:
-            adw_style_manager.set_color_scheme(Adw.ColorScheme.FORCE_LIGHT)
+    def _on_style_variant_activate(self, action, param):
+        variant = param.get_string()
+        action.set_state(param)
+        self.settings.set_string("style-variant", variant)
+        self._apply_color_scheme(variant)
 
-    @Gtk.Template.Callback()
-    def get_dark_mode_icon(self, window, dark_mode):
-        return "dark-mode-symbolic" if dark_mode else "light-mode-symbolic"
+    def _setup_theme_selector(self):
+        follow_btn = Gtk.CheckButton(
+            tooltip_text=_("Follow System Style"),
+            hexpand=True,
+            halign=Gtk.Align.CENTER,
+            focus_on_click=False,
+        )
+        follow_btn.set_action_name("win.style-variant")
+        follow_btn.set_action_target_value(GLib.Variant("s", "follow"))
+        follow_btn.add_css_class("follow")
+
+        light_btn = Gtk.CheckButton(
+            tooltip_text=_("Light Style"),
+            hexpand=True,
+            halign=Gtk.Align.CENTER,
+            focus_on_click=False,
+            group=follow_btn,
+        )
+        light_btn.set_action_name("win.style-variant")
+        light_btn.set_action_target_value(GLib.Variant("s", "light"))
+        light_btn.add_css_class("light")
+
+        dark_btn = Gtk.CheckButton(
+            tooltip_text=_("Dark Style"),
+            hexpand=True,
+            halign=Gtk.Align.CENTER,
+            focus_on_click=False,
+            group=follow_btn,
+        )
+        dark_btn.set_action_name("win.style-variant")
+        dark_btn.set_action_target_value(GLib.Variant("s", "dark"))
+        dark_btn.add_css_class("dark")
+
+        box = Gtk.Box(
+            orientation=Gtk.Orientation.HORIZONTAL,
+            spacing=12,
+            hexpand=True,
+        )
+        box.add_css_class("themeselector")
+        box.append(follow_btn)
+        box.append(light_btn)
+        box.append(dark_btn)
+
+        self.menu_button.get_popover().add_child(box, "theme-selector")
 
     def connect_signals(self):
         self.timer.connect('inhale', self.on_inhale)

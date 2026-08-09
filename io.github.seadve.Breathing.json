@@ -1,16 +1,16 @@
 {
-    "id": "io.github.seadve.Breathing",
-    "runtime": "org.gnome.Platform",
-    "runtime-version": "master",
-    "sdk": "org.gnome.Sdk",
-    "command": "breathing",
-    "finish-args": [
+    "id" : "io.github.seadve.Breathing",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "master",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "breathing",
+    "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri"
     ],
-    "cleanup": [
+    "cleanup" : [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -21,17 +21,23 @@
         "*.la",
         "*.a"
     ],
-    "modules": [
+    "modules" : [
         {
-            "name": "breathing",
-            "builddir": true,
-            "buildsystem": "meson",
-            "sources": [
+            "name" : "breathing",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
                 {
-                    "type": "dir",
-                    "path": "."
+                    "type" : "dir",
+                    "path" : "."
                 }
+            ],
+            "config-opts" : [
+                "--libdir=lib"
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {        }
+    }
 }
