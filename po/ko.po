@@ -4,13 +4,15 @@
 # Overdue - <kaameo12@gmail.com>, 2023.
 # 정지우 <jgw1010@ajou.ac.kr>, 2023.
 # sarami <ppp821203@gmail.com>, 2023.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-03-14 23:09+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-09-12 20:51+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/seadve/breathing/"
 "ko/>\n"
 "Language: ko\n"
@@ -18,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -121,7 +123,7 @@ msgstr ""
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "끝내기"
+msgstr "종료"
 
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
