@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="breathing">
   <schema id="io.github.seadve.Breathing" path="/io/github/seadve/Breathing/">
-    <key type="b" name="dark-mode">
-      <default>false</default>
+    <key type="s" name="style-variant">
+      <default>"follow"</default>
+      <choices>
+        <choice value="follow"/>
+        <choice value="light"/>
+        <choice value="dark"/>
+      </choices>
     </key>
   </schema>
 </schemalist>
