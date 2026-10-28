@@ -9,14 +9,14 @@
 # Jianhua Lu <lujianhua000@gmail.com>, 2024.
 # Haoyu Qiu <timothyqiu32@gmail.com>, 2025.
 # reducedradius <137701630+flytothehighest@users.noreply.github.com>, 2026.
+# Galaxy-rio <galaxyrio.h@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2026-09-05 09:51+0000\n"
-"Last-Translator: reducedradius "
-"<137701630+flytothehighest@users.noreply.github.com>\n"
+"PO-Revision-Date: 2026-10-28 07:51+0000\n"
+"Last-Translator: Galaxy-rio <galaxyrio.h@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/seadve/breathing/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.1.dev0\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
@@ -70,11 +70,11 @@ msgstr "⌨️ 用户友好的键盘快捷键。"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "有一个居中的开始按钮的开始页面"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "前往 breathing 的教程页面"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -137,7 +137,7 @@ msgstr "主要控制"
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "开启 Breathing"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
