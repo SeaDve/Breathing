@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the breathing package.
 # Gabriel Cozma <me@gabs.eu.org>, 2024.
+# A D <load.txt@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: breathing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 14:17+0800\n"
-"PO-Revision-Date: 2025-09-14 12:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-11-06 08:51+0000\n"
+"Last-Translator: A D <load.txt@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/seadve/"
 "breathing/ro/>\n"
 "Language: ro\n"
@@ -17,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 2026.11.2.dev0\n"
 
 #: data/io.github.seadve.Breathing.desktop.in:2
 #: data/io.github.seadve.Breathing.metainfo.xml.in:7
 msgid "Breathing"
-msgstr "Respiraţie"
+msgstr "Respirație"
 
 #. Translators: These are search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #: data/io.github.seadve.Breathing.desktop.in:10
@@ -31,7 +32,7 @@ msgstr "Utilitate; Respirație; Exercițiu;"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:8
 msgid "Relax and meditate"
-msgstr "Relaxează-te și meditează"
+msgstr "Relaxați-vă și meditați"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:10
 msgid ""
@@ -48,7 +49,7 @@ msgstr "Principalele caracteristici ale Respirație includ următoarele:"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:13
 msgid "🌬️ Guide your breathing."
-msgstr "🌬️ Ghidează-ți respirația."
+msgstr "🌬️ Ghidați-vă respirația."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:14
 msgid "🌑 Change to a dark-mode with ease."
@@ -64,11 +65,11 @@ msgstr "⌨️ Comenzi rapide de la tastatură ușor de utilizat."
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:22
 msgid "Start screen with a centered Go button"
-msgstr ""
+msgstr "Ecranul de start, cu butonul de pornire centrat"
 
 #: data/io.github.seadve.Breathing.metainfo.xml.in:26
 msgid "On-going breathing guide screen"
-msgstr ""
+msgstr "Ecranul ghidului de respirație în curs"
 
 #: data/ui/window.ui:59
 msgid "Main Menu"
@@ -99,7 +100,6 @@ msgid "About Breathing"
 msgstr "Despre Respirație"
 
 #: data/ui/shortcuts.ui:10
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "General"
@@ -107,20 +107,19 @@ msgstr "General"
 #: data/ui/shortcuts.ui:14
 msgctxt "shortcut window"
 msgid "Open Menu"
-msgstr ""
+msgstr "Deschideți meniul"
 
 #: data/ui/shortcuts.ui:20
 msgctxt "shortcut window"
 msgid "Show Keyboard Shortcuts"
-msgstr ""
+msgstr "Afișați comenzile rapide de tastatură"
 
 #: data/ui/shortcuts.ui:25
 msgctxt "shortcut window"
 msgid "Close Window"
-msgstr ""
+msgstr "Închideți fereastra"
 
 #: data/ui/shortcuts.ui:32
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Închide programul"
@@ -128,28 +127,26 @@ msgstr "Închide programul"
 #: data/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Main Controls"
-msgstr ""
+msgstr "Controale principale"
 
 #: data/ui/shortcuts.ui:43
 msgctxt "shortcut window"
 msgid "Toggle Breathing"
-msgstr ""
+msgstr "Comutați respirația"
 
 #: data/ui/shortcuts.ui:49
 msgctxt "shortcut window"
 msgid "Toggle Dark Mode"
-msgstr ""
+msgstr "Comutați modul întunecat"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/main.py:73
 msgid "translator-credits"
-msgstr ""
-"Gabriel Cozma\n"
-"Danny3"
+msgstr "Gabriel Cozma, Danny3"
 
 #: src/main.py:77
 msgid "Donate"
-msgstr ""
+msgstr "Donați"
 
 #: src/main.py:78
 msgid "GitHub"
